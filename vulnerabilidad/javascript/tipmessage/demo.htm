@@ -1,0 +1,244 @@
+
+<HTML>
+<HEAD>
+<TITLE>DHTML Tip Message version 1.5.4</TITLE>
+<SCRIPT language="JavaScript1.2" src="main15.js"type="text/javascript"></SCRIPT>
+</HEAD>
+<BODY link="#FF0000" vlink="#FF0000" alink="#FF0000">
+
+<H2>DHTML Tip Message version 1.5.4</H2>
+<DIV id="Migoicons" style="visibility:hidden;position:absolute;z-index:1000;top:-100"></DIV>
+<SCRIPT language="JavaScript1.2"  type="text/javascript">
+// Use the generator to create your codes
+Text[0]=["The Title","This Tip has a title or caption"]
+Text[1]=["","This Tip has no title"]
+Text[2]=["","Some Lists <ol><li>list one<li>list two<li>list three<li>list four</ol>"]
+Text[3]=["Right Positioned","This tip Is right positioned"]
+Text[4]=["Center Positioned","This tip is center positioned"]
+Text[5]=["Left Positioned","This tip Is left positioned"]
+Text[6]=["Float Positioned","This tip Is float positioned at a (10,10) coordinate, It also floats with the scrollbars so it is always static"]
+Text[7]=["Fixed Positioned","This tip Is fixed positioned at a (200,200) coordinate"]
+Text[8]=["Left coordinate control","This tip is right positioned with a 40 X coordinate "]
+Text[9]=["Top coordinate control","This tip is right positioned with a 50 Y coordinate"]
+Text[10]=["static style","you see the tip does not move with the mouse "]
+Text[11]=["visible style","you see the tip does not move with the mouse and it dose not hide when your mouse goes off the link "]
+Text[12]=["sticky style","This tip will sticky around<BR>This is useful when you want to insert a link like this <A href='http://migoicons.tripod.com'>Home Page</A>"]
+Text[13]=["keep style","This sticks around the mouse"]
+Text[14]=["Transparency effects","Wow you can see right through me"]
+Text[15]=["Simple shadow ","I have a gray simple shadow around me"]
+Text[16]=["Complex shadow ","I have a gray complex shadow around me"]
+Text[17]=["Visual effects","Wow this tip has a random transition very cool!"]
+Text[18]=["Visual effects","This tip has a Shadow and is Transparent a little and also has a random Transition applied to it "]
+Text[19]=["different style","Wow this is a new style and position!"]
+Text[20]=["","A superb clone of the default HTML title attribute provided in the links"]
+Text[21]=["Default Style","All style entries were left empty"]
+Text[22]=["Border color","Cool in this version the title background color and the border color may have different colors"]
+Text[23]=["Image demo","Background Image demo"]
+
+Style[0]=["white","#000099","","","",,"black","#e8e8ff","","","",,,,2,"#000099",2,,,,,"",,,,]
+Style[1]=["white","#000099","","","",,"black","#e8e8ff","","","",,,,2,"#000099",2,,,,,"",,2,,]
+Style[2]=["white","#000099","","","",,"black","#e8e8ff","","","",,,,2,"#000099",2,,,,,"",,1,,]
+Style[3]=["white","#000099","","","",,"black","#e8e8ff","","","",,,,2,"#000099",2,,,,,"",,3,10,10]
+Style[4]=["white","#000099","","","",,"black","#e8e8ff","","","",,,,2,"#000099",2,,,,,"",,4,200,200]
+Style[5]=["white","#000099","","","",,"black","#e8e8ff","","","",,,,2,"#000099",2,,,,,"",,,40,]
+Style[6]=["white","#000099","","","",,"black","#e8e8ff","","","",,,,2,"#000099",2,,,,,"",,,,50]
+Style[7]=["white","#000099","","","",,"black","#e8e8ff","","","",,,,2,"#000099",2,,,,,"",1,,,]
+Style[8]=["white","#000099","","","",,"black","#e8e8ff","","","",,,,2,"#000099",2,,,,,"",2,,,]
+Style[9]=["white","#000099","","","",,"black","#e8e8ff","","","",,,,2,"#000099",2,,,,,"",3,,,]
+Style[10]=["white","#000099","","","",,"black","#e8e8ff","","","",,,,2,"#000099",2,,,,,"",4,,,]
+Style[11]=["white","#000099","","","",,"black","#e8e8ff","","","",,,,2,"#000099",2,,,60,,"",,,,]
+Style[12]=["white","#000099","","","",,"black","#e8e8ff","","","",,,,2,"#000099",2,,,,1,"gray",,,,]
+Style[13]=["white","#000099","","","",,"black","#e8e8ff","","","",,,,2,"#000099",2,,,,2,"gray",,,,]
+Style[14]=["white","#000099","","","",,"black","#e8e8ff","","","",,,,2,"#000099",2,51,1,,,"",,,,]
+Style[15]=["white","#000099","","","",,"black","#e8e8ff","","","",,,,2,"#000099",2,51,1,80,1,"gray",,,,]
+Style[16]=["white","black","","center","impact",3,"black","white","","center","cursive",5,,150,4,"black",15,51,1,80,2,"gray",,2,,]
+Style[17]=["","","","","",,"black","#ffffe1","","","",,,,1,"black",2,24,0.3,,2,"gray",1,,-2,19]
+Style[18]=["","","","","",,"","","","","",,,,,"",,,,,,"",,,,]
+Style[19]=["white","#000099","","","",,"black","#e8e8ff","","","",,,,2,"red",2,,,,,"",,,,]
+Style[20]=["white","","img1.gif","center","",4,"white","","img2.jpg","center","",4,,150,2,"black",,50,1.0,,2,"gray",,,,]
+var TipId="Migoicons" 
+var FiltersEnabled = 1 
+mig_clay()
+</SCRIPT>
+<P>Their are so many things you can do with this dhtml tip message it all depends on the way you design, here are the
+main features that will give you a general idea of what this cool script is capable of .</P>
+	<OL>
+		<LI><B>Hover over the view demo link to see the demo</B></LI>
+		<LI><B>The new features are marked in <FONT color="yellow">light yellow</FONT></B></LI>
+	</OL>
+	<TABLE border="2" cellspacing="3" cellpadding="5" bordercolorlight="#000080" bordercolordark="#000000">
+		<TR>
+			<TH colspan="2" bgcolor="#E8E8FF">	Text and title settings: implemented from the Text Array
+			</TH>
+		</TR>
+		<TR>
+			<TD>	Tip with a title or caption
+			</TD>
+			<TD><A href="#" onMouseOver="stm(Text[0],Style[0])" onMouseOut="htm()">view demo</A>
+			</TD>
+		</TR>
+		<TR>
+			<TD>	Tip with out a title, just text
+			</TD>
+			<TD><A href="#" onMouseOver="stm(Text[1],Style[0])" onMouseOut="htm()">view demo</A>
+			</TD>
+		</TR>
+		<TR>
+			<TD>	Tip with out a title, just text and HTML tags!
+			</TD>
+			<TD><A href="#" onMouseOver="stm(Text[2],Style[0])" onMouseOut="htm()">view demo</A>
+			</TD>
+		</TR>
+		<TR>
+			<TH colspan="2" bgcolor="#E8E8FF">	Positioning settings: implemented from the Style Array
+			</TH>
+		</TR>
+		<TR>
+			<TD>	Tip is right positioned which is the default
+			</TD>
+			<TD><A href="#" onMouseOver="stm(Text[3],Style[0])" onMouseOut="htm()">view demo</A>
+			</TD>
+		</TR>
+		<TR>
+			<TD>	Tip is center positioned
+			</TD>
+			<TD><A href="#" onMouseOut="htm()" onMouseOver="stm(Text[4],Style[1])">view demo</A>
+			</TD>
+		</TR>
+		<TR>
+			<TD>	Tip is left positioned
+			</TD>
+			<TD><A href="#" onMouseOver="stm(Text[5],Style[2])" onMouseOut="htm()">view demo</A>
+			</TD>
+		</TR>
+		<TR>
+			<TD>	Tip is float positioned at a (10,10) coordinate [Scroll down and view this demo again]
+			</TD>
+			<TD><A href="#" onMouseOver="stm(Text[6],Style[3])" onMouseOut="htm()">view demo</A>
+			</TD>
+		</TR>
+		<TR>
+			<TD>	Tip is fixed positioned at a (200,200) coordinate [You may need to scroll up to see this]
+			</TD>
+			<TD><A href="#" onMouseOver="stm(Text[7],Style[4])" onMouseOut="htm()">view demo</A>
+			</TD>
+		</TR>
+		<TR>
+			<TH colspan="2">	the x and y coordinates setting
+			</TH>
+		</TR>
+		<TR>
+			<TD>	Tip is right positioned with a 40 X coordinate
+			</TD>
+			<TD><A href="#" onMouseOut="htm()" onMouseOver="stm(Text[8],Style[5])">view demo</A>
+			</TD>
+		</TR>
+		<TR>
+			<TD>	Tip is right positioned with a 50 Y coordinate
+			</TD>
+			<TD><A onMouseOver="stm(Text[9],Style[6])" href="#" onMouseOut="htm()">view demo</A>
+			</TD>
+		</TR>
+		<TR>
+			<TH colspan="2" bgcolor="#E8E8FF">	Appearance Behavior settings: implemented from the Style Array
+			</TH>
+		</TR>
+		<TR>
+			<TD bgcolor="#ffff99">	Appearance Behavior is set to static. The tip will not move with the mouse [new]
+			</TD>
+			<TD><A href="#" onMouseOver="stm(Text[10],Style[7])" onMouseOut="htm()">view demo</A>
+			</TD>
+		</TR>
+		<TR>
+			<TD bgcolor="#ffff99">	Appearance Behavior is set to visible. This tip will always stay visible. [new]
+			</TD>
+			<TD><A href="#" onMouseOver="stm(Text[11],Style[8])" onMouseOut="htm()">view demo</A>
+			</TD>
+		</TR>
+		<TR>
+			<TD>	Appearance Behavior  is set to sticky. The tip will stay visible and has a close link
+			</TD>
+			<TD><A href="#" onMouseOver="stm(Text[12],Style[9])" onMouseOut="htm()">view demo</A>
+			</TD>
+		</TR>
+		<TR>
+			<TD>	Appearance Behavior  set to keep. The tip will move with the mouse around the page
+			</TD>
+			<TD><A href="#" onMouseOver="stm(Text[13],Style[10])" onMouseOut="htm()">view demo</A>
+			</TD>
+		</TR>
+		<TR>
+			<TH colspan="2" bgcolor="#E8E8FF">	Filters and Transitions settings IE 5.5 + only : implemented from the Style Array
+			</TH>
+		</TR>
+		<TR>
+			<TD>	Tip's transparency level is set to 60
+			</TD>
+			<TD><A href="#" onMouseOver="stm(Text[14],Style[11])" onMouseOut="htm()">view demo</A>
+			</TD>
+		</TR>
+		<TR>
+			<TD>	Tip's shadow is set to simple gray
+			</TD>
+			<TD><A href="#" onMouseOver="stm(Text[15],Style[12])" onMouseOut="htm()">view demo</A>
+			</TD>
+		</TR>
+		<TR>
+			<TD>	Tip's shadow is set to complex gray
+			</TD>
+			<TD><A href="#" onMouseOver="stm(Text[16],Style[13])" onMouseOut="htm()">view demo</A>
+			</TD>
+		</TR>
+		<TR>
+			<TD>	Tip's Transition is set to 51 which is random for all 49 effects
+			</TD>
+			<TD><A href="#" onMouseOver="stm(Text[17],Style[14])" onMouseOut="htm()">view demo</A>
+			</TD>
+		</TR>
+		<TR>
+			<TD>	All demo of them all together with a simple shadow
+			</TD>
+			<TD><A href="#" onMouseOver="stm(Text[18],Style[15])" onMouseOut="htm()">view demo</A>
+			</TD>
+		</TR>
+		<TR>
+			<TH colspan="2" bgcolor="#E8E8FF">	General style settings [font size, coloring, width... ect] : implemented from  the Style Array
+			</TH>
+		</TR>
+		<TR>
+			<TD>	A complete new style and look
+			</TD>
+			<TD><A href="#" onMouseOver="stm(Text[19],Style[16])" onMouseOut="htm()">view demo</A>
+			</TD>
+		</TR>
+		<TR>
+			<TD>	A superb clone of the default HTML title attribute provided in the &lt;A&gt; (href) tags
+			</TD>
+			<TD><A href="#" onMouseOver="stm(Text[20],Style[17])" onMouseOut="htm()">view demo</A>
+			</TD>
+		</TR>
+		<TR>
+			<TD>	Default style, This is how the tip will look if you left all the entries in the Style array empty
+			</TD>
+			<TD><A href="#" onMouseOver="stm(Text[21],Style[18])" onMouseOut="htm()">view demo</A>
+			</TD>
+		</TR>
+		<TR>
+			<TD bgcolor="#ffff99">	Border color may have  a different color then the title bgcolor [new]
+			</TD>
+			<TD><A href="#" onMouseOver="stm(Text[22],Style[19])" onMouseOut="htm()">view demo</A>
+			</TD>
+		</TR>
+		<TR>
+			<TH colspan="2" bgcolor="#E8E8FF">	Background image sample [please wait for image to cash once ]: implemented from  the Style Array
+			</TH>
+		</TR>
+		<TR>
+			<TD>	You may set a background image for both title and text cool!!
+			</TD>
+			<TD><A href="#" onMouseOver="stm(Text[23],Style[20])" onMouseOut="htm()">view demo</A>
+			</TD>
+		</TR>
+	</TABLE><BR>DHTML TIP MESSAGE &copy; Migoicons 2003........ Enjoy!!
+</BODY>
+</HTML>

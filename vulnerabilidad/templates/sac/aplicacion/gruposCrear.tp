@@ -1,0 +1,62 @@
+<!-- OK  -->
+<div id="main">
+
+
+<form class="basica" action="{url.grupos}&alta" method="post" name="forma">
+<fieldset>
+<legend>Forma para crear Grupo</legend>
+
+
+
+<div class="required"><label>
+<img onMouseOver="stm(Text[10],Style[2])" href="#" onMouseOut="htm()" src="imagenes/help_icon.gif" width="11" height="11"> 
+Clave del Grupo: </label>
+<input name="clave" type="text" id="clave2" maxlength="8" tabindex="1">
+</div>
+
+<div class="required"><label><img onMouseOver="stm(Text[11],Style[2])" href="#" onMouseOut="htm()" src="imagenes/help_icon.gif" width="11" height="11">
+Nombre del Grupo:</label>
+<input name="nombre" type="text" id="nombre" maxlength="30" tabindex="1">
+</div>
+
+<div class="required"><label><img onMouseOver="stm(Text[12],Style[2])" href="#" onMouseOut="htm()" src="imagenes/help_icon.gif" width="11" height="11">
+Numero del Grupo:</label>
+<input name="grupo" type="text" id="grupo2" maxlength="3" tabindex="1">
+</div>
+
+<div class="required"><label><img onMouseOver="stm(Text[13],Style[2])" href="#" onMouseOut="htm()" src="imagenes/help_icon.gif" width="11" height="11">
+Periodo:</label>{forma.periodo}
+</div>
+
+</fieldset> 
+
+<fieldset><div class="submit"><div>
+<input onClick="location.href='usuario.php?grupos'" class="inputSubmit" value="Cancelar" type="button">     
+<input class="inputSubmit" value="Enviar »" type="submit"> 
+</div></div></fieldset> 
+
+
+ 
+</form>  
+
+
+<script language="JavaScript" type="text/javascript">
+//You should create the validator only after the definition of the HTML form
+  var frmvalidator  = new Validator("forma");
+  frmvalidator.addValidation("clave","req","Este campo es requerido");
+  frmvalidator.addValidation("nombre","req","Este campo es requerido");
+  frmvalidator.addValidation("grupo","req","Este campo es requerido");
+
+  frmvalidator.addValidation("clave","maxlen=8","Debe contener un maximo de 8 caracteres");
+  frmvalidator.addValidation("nombre","maxlen=30","Debe contener un maximo de 30 caracteres");
+
+
+  
+  frmvalidator.addValidation("grupo","num","Ingrese solo numeros");
+  
+
+  frmvalidator.addValidation("periodo","dontselect=0","Este campo es requerido");
+  
+</script>
+
+</div>

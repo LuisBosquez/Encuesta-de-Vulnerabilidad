@@ -1,0 +1,53 @@
+<!-- ok -->
+<div id="main">
+<h1>Datos del Grupo</h1>
+{mensaje.error}
+
+
+<table class="basica">
+<thead>
+  <tr> 
+    <th width="28%" >Nombre grupo:</th><td width="72%">{grupo.nombre}</td>
+  </tr>
+  <tr> 
+    <th>Grupo:</th><td>{grupo.grupo}</td>
+  </tr>
+  <tr> 
+    <th>Clave:</th><td>{grupo.clave}</td>
+  </tr>
+  <tr> 
+    <th>Periodo:</th><td>{grupo.periodo}</td>
+  </tr>
+    <tr> 
+    <th>Acciones:</th>
+    <td>	
+	<a href={url.grupos}&asignar&id={grupo.id}>{imagen.asignarcuestionario}[Asignar Nuevo Cuestionario]</a>
+	<a href="{url.grupos}&altaIntgs&id={grupo.id}" >{imagen.agregar}[Agregar Alumnos]</a>	</td>		
+  </tr>
+    </thead>
+</table>
+
+
+ <table class="basica">
+ <caption>Cuestionarios Asignados al grupo</caption>
+   <thead> <tr>      
+    <th width="%">Nombre de Cuestionario </th>
+    <th width="%">Descripción </th>      
+    <th width="%">Fecha Aplicación</th>
+	</tr></thead>
+	<tbody>{tabla.cuestionariosasignados}</tbody>
+</table>
+
+<table class="basica">
+<caption>Alumnos</caption>
+<thead><tr>
+    <th width="10%">Usuario</th>
+    <th width="%">Nombre</th>
+    <th width="15%">Fecha Nacimiento</th>
+    <th width="15%">Acciones
+	<img onMouseOver="stm(Text[5],Style[2])" href="#" onMouseOut="htm()" src="imagenes/help_icon.gif" border="0" width="11" height="11">
+	</th>
+</tr></thead>
+<tbody>{tabla.alumnos}</tbody>
+  </table>
+</div>

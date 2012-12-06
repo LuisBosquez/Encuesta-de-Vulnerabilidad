@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cuestionario> 
+<id>07recurso</id>
+<titulos>2</titulos>
+<calificar>2</calificar>
+<numeracion>3</numeracion>
+<tipoidentificador>2</tipoidentificador> 
+<categorias>  
+		<catego id="0">	 	
+			<nombre>Recurso General</nombre>
+			<title>Evaluación del recurso</title>
+			<keyPregunta>0</keyPregunta>			
+		</catego>
+		<catego id="1">	 	
+			<nombre>Recurso Video</nombre>
+			<title>Evaluación del recurso tipo Video </title>
+			<keyPregunta>11</keyPregunta>			
+		</catego>
+		<catego id="2">	 	
+			<nombre>Evaluación</nombre>
+			<title>Evaluación</title>
+			<keyPregunta>24</keyPregunta>			
+		</catego>				
+</categorias>
+
+<preguntas>
+
+
+		<pregunta>
+			<id>pr1</id>
+			<clave>pr1</clave>	
+			<nombre>¿Están llenos todos los campos  de los metadatos?</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>
+			<eval>req</eval>	
+		</pregunta>
+		<pregunta>
+			<id>pr2</id>
+			<clave>pr2</clave>	
+			<nombre>¿El título del recurso es congruente con el contenido?</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>
+			<eval>req</eval>	
+		</pregunta>
+		<pregunta>
+			<id>pr3</id>
+			<clave>pr3</clave>	
+			<nombre>¿La descripción del recurso es consistente con su contenido y con el objetivo de aprendizaje que facilita el contenido?</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>
+			<eval>req</eval>	
+		</pregunta>
+		<pregunta>
+			<id>pr4</id>
+			<clave>pr4</clave>	
+			<nombre>¿Los tags describen adecuadamente el contenido del recurso?</nombre>
+			<respuesta>Si (Cinco o mas  palabras que mejor pueden describir el contenido)=1</respuesta>
+			<respuesta>No (Menos de 5 palabras o  no son las adecuadas)=0</respuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>
+			<eval>req</eval>	
+		</pregunta>
+		<pregunta>
+			<id>pr5</id>
+			<clave>pr5</clave>	
+			<nombre>¿Se selecciona adecuadamente el tipo de contenido que privilegia el recurso?</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>
+			<eval>req</eval>	
+		</pregunta>				
+		
+		<pregunta>
+			<id>pr6</id>
+			<clave>pr6</clave>	
+			<nombre>¿La estrategia declarada es consistente con el contenido del recurso?</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>
+			<eval>req</eval>	
+		</pregunta>		
+		<pregunta>
+			<id>pr7</id>
+			<clave>pr7</clave>	
+			<nombre>¿Se declara correctamente el estilo de aprendizaje privilegiado por el recurso?</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>
+			<respuesta>NA=-1</respuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>
+			<eval>req</eval>	
+		</pregunta>		
+		<pregunta>
+			<id>pr8</id>
+			<clave>pr8</clave>	
+			<nombre>¿El valor pedagógico declarado permite a otro profesor apreciar en su justa dimensión la intención o valor que el autor da al recurso?</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>
+			<eval>req</eval>	
+		</pregunta>		
+		<pregunta>
+			<id>pr9</id>
+			<clave>pr9</clave>	
+			<nombre>¿Del análisis de los metadatos se pueden identificar orientaciones para el uso del recurso en el contexto de un curso?</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>
+			<eval>req</eval>	
+		</pregunta>		
+		<pregunta>
+			<id>pr10</id>
+			<clave>pr10</clave>	
+			<nombre>¿Se observa que la estructura del recurso permite distinguir claramente: Introducción, desarrollo y conclusión?</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>
+			<eval>req</eval>	
+		</pregunta>		
+		<pregunta>
+			<id>pr11</id>
+			<clave>pr11</clave>	
+			<nombre>¿El recurso enfoca el aprendizaje de un concepto o proceso o la reflexión sobre una actitud de forma clara e identificable?</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>
+			<eval>req</eval>	
+		</pregunta>		
+
+		 
+		<pregunta>
+			<id>prv1</id>
+			<clave>prv1</clave>	
+			<nombre>La evaluación del documento fuente ha sido liberada habiendo cumplido con los parámetros de calidad</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>1</categoria>
+			<eval>req</eval>	
+		</pregunta>		
+		
+		<pregunta>
+			<id>prv2</id>
+			<clave>prv2</clave>	
+			<nombre>La limpieza del audio es buena (sin ruido de fondo, pausas inesperadas, suspiros)</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>1</categoria>
+			<eval>req</eval>	
+		</pregunta>		
+		
+		<pregunta>
+			<id>prv3</id>
+			<clave>prv3</clave>	
+			<nombre>La pronunciación de las palabras es correcta</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>1</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		
+		<pregunta>
+			<id>prv4</id>
+			<clave>prv4</clave>	
+			<nombre>El volumen del audio es suficiente para escucharlo sin problema mediante el dispositivo móvil	</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>1</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		
+		<pregunta>
+			<id>prv5</id>
+			<clave>prv5</clave>	
+			<nombre>La voz es manejada de forma tal que es claro el énfasis en puntos importantes</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>1</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		
+		<pregunta>
+			<id>prv6</id>
+			<clave>prv6</clave>	
+			<nombre>Se alterna la locución de tal forma que exista variación en el estímulo	</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>1</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		
+		<pregunta>
+			<id>prv7</id>
+			<clave>prv7</clave>	
+			<nombre>El discurso se escucha fluido</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>1</categoria>
+			<eval>req</eval>	
+		</pregunta>		
+												
+		<pregunta>
+			<id>prv8</id>
+			<clave>prv8</clave>	
+			<nombre>El audio se cumple con la especificación de no hacer evidente el uso de muletillas</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>1</categoria>
+			<eval>req</eval>	
+		</pregunta>																	
+		
+																
+		<pregunta>
+			<id>prv9</id>
+			<clave>prv9</clave>	
+			<nombre>El recurso incluye una cortinilla de entrada con el nombre del recurso</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>1</categoria>
+			<eval>req</eval>	
+		</pregunta>																	
+	
+											
+		<pregunta>
+			<id>prv10</id>
+			<clave>prv10</clave>	
+			<nombre>El recurso incluye una cortinilla de salida que informa sobre la autoría del recurso	</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>1</categoria>
+			<eval>req</eval>	
+		</pregunta>																	
+	
+													
+		<pregunta>
+			<id>prv11</id>
+			<clave>prv11</clave>	
+			<nombre>El color y luminosidad de la imagen es correcto	</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>1</categoria>
+			<eval>req</eval>	
+		</pregunta>																	
+	
+											
+		<pregunta>
+			<id>prv12</id>
+			<clave>prv12</clave>	
+			<nombre>La imagen es suficientemente nítida (sin distorsión)</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>1</categoria>
+			<eval>req</eval>	
+		</pregunta>																	
+	
+											
+		<pregunta>
+			<id>prv13</id>
+			<clave>prv13</clave>	
+			<nombre>Los actores a cuadro se desenvuelven con naturalidad frente a la cámara		</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>
+			<respuesta>NA=-1</respuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>1</categoria>
+			<eval>req</eval>	
+		</pregunta>																	
+						
+
+		<pregunta>
+			<id>eval1</id>
+			<clave>eval1</clave>	
+			<nombre>¿Se deben reeditar los recursos?</nombre>
+			<respuesta>Producción=1</respuesta>
+			<respuesta>Metadatos=2</respuesta>
+			<respuesta>Tipo de recurtso=3</respuesta>
+			<respuesta>No=0</respuesta>
+			<tipo>CB_Array</tipo>
+			<categoria>2</categoria>
+			<eval>req</eval>	
+		</pregunta>																	
+		<pregunta>
+			<id>eval2</id>
+			<clave>eval2</clave>	
+			<nombre>Notas</nombre>
+			<tipo>AB</tipo>
+			<categoria>2</categoria>
+			<eval>req</eval>	
+		</pregunta>																	
+													
+			
+</preguntas>
+
+</cuestionario>

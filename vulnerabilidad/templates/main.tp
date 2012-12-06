@@ -1,0 +1,4 @@
+{template.header}
+{template.menu}
+{template.body}
+{template.footer}

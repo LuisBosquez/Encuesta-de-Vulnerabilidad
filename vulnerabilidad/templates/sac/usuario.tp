@@ -1,0 +1,15 @@
+<div id="main">
+{mensaje.error}
+<table class="basica">
+<caption>Datos del usuario </caption>
+<thead>
+<tr><th>Nombre:</th><td>{usuario.nombre} {usuario.apellido}</td></tr>
+
+<tr>
+<th>Acciones:</th>
+<td>
+<a href="{url.usuario}?usuario&editar"> [Editar] </a>
+<a href="{url.usuario}?usuario&password">[Cambiar Password]</a></td>
+</tr>
+</thead></table>
+</div>

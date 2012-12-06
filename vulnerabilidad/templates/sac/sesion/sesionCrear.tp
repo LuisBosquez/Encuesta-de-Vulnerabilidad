@@ -1,0 +1,94 @@
+<!-- OK  -->
+<div id="main">
+
+<form class="basica" action="{url.sesion}&crear" method="post" name="forma">
+
+
+<fieldset>
+<legend>Crear Sesion</legend>
+
+<div class="notes"><h4>Asignar</h4><p class="last">Recuerde que la contraseña es necesaria para la aplicacion del cuestionario.</p></div>
+
+<div class="required"><label>
+Nombre: </label>
+<input name="nombre" type="text" id="nombre" maxlength="8" tabindex="1">
+</div>
+
+<div class="required"><label>
+Contraseña: </label>
+<input name="password" type="text" id="password" maxlength="8" tabindex="1">
+</div>
+
+<div class="required"><label><img onMouseOver="stm(Text[13],Style[2])" href="#" onMouseOut="htm()" src="imagenes/help_icon.gif" width="11" height="11">
+Periodo:</label>{forma.periodo}
+</div>
+
+
+<div class="required"><label>
+<img onMouseOver="stm(Text[21],Style[2])" href="#" onMouseOut="htm()" src="imagenes/help_icon.gif" width="11" height="11">
+Cuestionario</label>
+{forma.cuestionario}
+</div>
+
+<div class="required"><label>
+<img onMouseOver="stm(Text[22],Style[2])" href="#" onMouseOut="htm()" src="imagenes/help_icon.gif" width="11" height="11">
+Fecha Aplicaci&oacute;n</label>
+<input class="date" type=text name='datevalue' size=20 maxlength=20 value='{forma.fechaInicio}' readonly onclick='showCalendar(this, document.forma.datevalue, "yyyy-mm-dd",null,0,-1,-1)'>
+<img id='calgif' src='imagenes/b_calendar.png' onclick='showCalendar(this, document.forma.datevalue, "yyyy-mm-dd",null,0,-1,-1)' >
+<br>Hora: {forma.horai}:{forma.minutosi}
+</div>
+
+<div class="required"><label>
+<img onMouseOver="stm(Text[23],Style[2])" href="#" onMouseOut="htm()" src="imagenes/help_icon.gif" width="11" height="11">
+Fecha Límite</label>
+<input class="date" type=text name='datevalue2' size=20 maxlength=20 value='{forma.fechaFin}' readonly onclick='showCalendar(this, document.forma.datevalue2, "yyyy-mm-dd",null,0,-1,-1)'>
+<img id='calgif' src='imagenes/b_calendar.png' onclick='showCalendar(this, document.forma.datevalue2, "yyyy-mm-dd",null,0,-1,-1)' >
+<br>Hora: {forma.horaf}:{forma.minutosf}
+</div>
+
+
+<div class="required"><label>
+<img onMouseOver="stm(Text[24],Style[2])" href="#" onMouseOut="htm()" src="imagenes/help_icon.gif" width="11" height="11">
+Tiempo para responder</label>
+{forma.hora}:{forma.minutos}
+</div>
+
+</fieldset>
+
+
+<fieldset><div class="submit"><div>
+<input onClick="location.href='usuario.php?grupos&id={grupo.id}'" class="inputSubmit" value="Cancelar" type="button">     
+<input class="inputSubmit" value="Enviar »" type="submit"> 
+</div></div></fieldset> 
+
+
+</form>
+
+
+ 
+</p>
+
+<script language="JavaScript" type="text/javascript">
+//You should create the validator only after the definition of the HTML form
+  var frmvalidator  = new Validator("forma");
+
+
+  frmvalidator.addValidation("nombre","req","Debe tener un nombre");
+  frmvalidator.addValidation("password","req","Debe tener un nombre");
+  
+  frmvalidator.addValidation("id_cuestionario","dontselect=0","Debe tener seleccionado un elemento");
+  frmvalidator.addValidation("datevalue","req","Debe tener seleccionado un elemento");
+  frmvalidator.addValidation("datevalue2","req","Debe tener seleccionado un elemento");
+
+  frmvalidator.addValidation("hora_i","dontselect=0","Debe tener seleccionado un elemento");
+  frmvalidator.addValidation("minutos_i","dontselect=0","Debe tener seleccionado un elemento");  
+  frmvalidator.addValidation("hora_f","dontselect=0","Debe tener seleccionado un elemento");
+  frmvalidator.addValidation("minutos_f","dontselect=0","Debe tener seleccionado un elemento");  
+
+
+
+  frmvalidator.addValidation("minutos","dontselect=0","Debe tener seleccionado un elemento");  
+  
+
+ </script>
+ </div>

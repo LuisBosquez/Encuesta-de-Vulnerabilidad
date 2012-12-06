@@ -1,0 +1,26 @@
+<!-- OK  -->
+<div id="main">
+
+<div id="submenu">
+<div id="elemento">
+<h1>Opciones</h1>
+<p><a href="{url.grupos}&alta">Crear Grupo</a></p>
+</div>
+</div>
+
+<table class="basica">
+<caption>Grupos Dados de Alta por el Usuario</caption>
+<thead>
+<tr>
+	<th width="15%">Clave</th>        
+	<th width="%">Nombre</th>
+	<th width="60">Grupo</th>
+	<th width="100">Periodo</th>
+	<th width="100">Acciones</th>
+</tr>
+</thead>
+<tbody>
+    {tabla.resultados}
+</tbody>    
+</table>       
+</div>    

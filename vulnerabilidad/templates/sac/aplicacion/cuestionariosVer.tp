@@ -1,0 +1,39 @@
+<div id="main">
+
+<table  class="basica panel">
+<caption>Datos del Cuestionario</caption>
+<thead><tr> 
+<th width="28%">Cuestionario:</th><td width="72%">{cuestionario.nombre}</td>
+</tr><tr> 
+<th>Descripci?n:</th><td>{cuestionario.descripcion}</td>
+</tr><tr> 
+<th>Grupo:</td><td>{grupo.nombre}</td>
+</tr><tr> 
+<th>Periodo:</th><td>{cuestionario.periodo}</td>
+</tr><tr> 
+<th>Fecha de aplicaci?n:</th><td>{cuestionario.fechaInicio} Hora inicio:{cuestionario.horaInicio}</td>
+</tr><tr> 
+<th>Tiempo para contestar:</th><td>{cuestionario.contestar}</td>
+</tr><tr> 
+<th>Estado</th><td>{cuestionario.estado}</td>
+</tr><tr> 
+<th>Acciones</th><td>{cuestionario.acciones}</td>
+</tr></thead>  
+</table>
+
+
+<table class="basica">
+<caption>Resultados</caption>
+
+<thead><tr>
+    <th>Usuario</th>     
+    <th>Nombre</th>     	
+    <th>Estatus</th>     
+    <th>Fecha de Aplicaci&oacute;n</th>	    
+    <th>Tiempo</th>
+    <th>Acciones</th>
+</tr></thead>
+{forma.asignados}
+</table>
+ 
+</div>

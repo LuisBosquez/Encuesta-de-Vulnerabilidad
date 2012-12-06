@@ -1,0 +1,65 @@
+<!-- 21 AGO 07  -->
+<div id="main">
+
+{mensaje.error}{mensaje.nota}
+
+
+<form class="basica" action="{url.inicio}?registro" method="post" name="forma">
+
+<fieldset>
+<legend>Forma de registro para Alumnos</legend>
+
+<div class="notes"><h4>Usuario</h4><p class="last">Llena todos tus datos para configurar tu cuenta. Todos los datos son necesarios. </p></div>
+
+<div class="required"><label>Matrícula</label><input class="inputText" name="matricula" type="text" id="correo" value="{usuario.usuario}"  tabindex="1"  ><small>8 digitos. Por ejemplo 00998877 ó 10112233</small></div>
+<div class="required"><label>Correo</label><input class="inputText"name="correo" type="text" id="correo" value="{usuario.correo}"  tabindex="1"  ></div>
+<div class="required"><label>Contraseña</label><input class="inputText" name="password" type="password" id="password" maxlength="15"  tabindex="1" ></div>
+<div class="required"><label>Confirmar Contraseña</label><input name="password2" type="password" id="password2" maxlength="15"  tabindex="1" ></div>
+<div class="required"><label>Nombre</label><input name="nombre" type="text" id="nombre" value="{usuario.nombre}" maxlength="30"  tabindex="1" ></div>
+<div class="required"><label>Apellido</label><input name="apellido" type="text" id="apellido" value="{usuario.apellido}" maxlength="60"  tabindex="1"></div>
+<div class="required"><label>Carrera</label>{forma.carrera}</div>
+<div class="required"><label>Sexo</label>
+<label class="labelRadio compact"><input name="sexo" class="inputRadio" value="h" type="radio"> Hombre</label>
+<label class="labelRadio compact"><input name="sexo" class="inputRadio" value="m" type="radio"> Mujer</label>
+<div class="required"><label>Fecha Nacimiento</label>
+{forma.day}-{forma.month}-{forma.year}
+</div>
+</fieldset>
+<fieldset><div class="submit"><div>
+<input onClick="location.href='index.php'" class="inputSubmit" value="Cancelar" type="button">     
+<input class="inputSubmit" value="Enviar »" type="submit"> 
+</div></div></fieldset>   
+</form>
+<script language="JavaScript" type="text/javascript">
+//You should create the validator only after the definition of the HTML form
+  var frmvalidator  = new Validator("forma");
+
+	frmvalidator.addValidation("matricula","req","Campo requerido");
+	frmvalidator.addValidation("matricula","numeric","Solo números");	
+	frmvalidator.addValidation("matricula","len=8","8 números ie. 00998877");	
+	frmvalidator.addValidation("correo","maxlen=50","");	
+	frmvalidator.addValidation("correo","req","");		
+	
+	frmvalidator.addValidation("password","req","Campo requerido");
+	frmvalidator.addValidation("password","maxlen=15","El maximo de caracteres es 15");
+	frmvalidator.addValidation("password2","req","Campo requerido");
+	frmvalidator.addValidation("password","maxlen=15","El maximo de caracteres es 15");
+	frmvalidator.addValidation("password2","maxlen=15","El maximo de caracteres es 15");
+
+	frmvalidator.addValidation("nombre","req","Campo requerido");
+	frmvalidator.addValidation("apellido","req","Campo requerido");
+	frmvalidator.addValidation("nombre","maxlen=30","El maximo de caracteres es 30");
+	frmvalidator.addValidation("apellido","maxlen=60","El maximo de caracteres es 60");
+
+	frmvalidator.addValidation("dateDay","dontselect=0","Campo requerido");
+	frmvalidator.addValidation("dateMonth","dontselect=0","Campo requerido");
+	frmvalidator.addValidation("dateYear","dontselect=0","Campo requerido");
+
+	frmvalidator.addValidation("carrera","dontselect=0","Campo requerido");	
+
+
+
+
+</script>
+
+</div>

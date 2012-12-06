@@ -1,0 +1,326 @@
+* {
+	margin : 0;
+	padding : 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+body {
+	background: #ebeeff ;
+}
+#page {		
+		width: 98%;
+		margin: 0 auto;
+		padding: 0px 0px;
+		border-left: 1px solid #555;  
+		border-right: 1px solid #555;  
+		border-bottom: 1px solid #555;  
+		border-top: 1px solid #555;  
+		background: #fff; 
+}
+#head {
+		background: #003366 ;
+		color: #fff;
+		padding: 5px;
+		height: 74px;
+}
+#menu {
+		/*background: #70B0D4  #efefef  #EBEEFF;*/
+		background: #EBEEFF;
+		
+		color: #fff;
+		padding:1px;
+		height:2em;
+		font-size: 0.8em;
+		border-bottom: 1px solid #003366;
+}
+
+#menu .location
+{
+	margin-top:6px;
+	margin-left: 10px;
+	float: left;
+	font-weight: bold;
+	color: #003366;
+	vertical-align: bottom;	
+}
+
+
+#menu .menuoptions
+{
+	margin-top:6px;
+	float: right;	
+	color: #003366;
+	font-weight: bold;
+}
+#menu .menuoptions a
+{
+	
+	color: #003366;
+	
+}
+			
+#head h1 {	
+		padding-left:5px;
+		padding-top:0px;
+		padding-bottom:0px;
+		font-size: 1em;
+}
+		
+	#head p
+	{
+		margin: 0 auto;
+		padding: 0px 0px;	
+		font-size: 0.8em;
+		
+	}		
+
+	#footer {
+	margin: 0px auto;
+		background: #003366 ;
+		color: #fff;
+
+		padding: 0px;
+				padding-bottom:5px;
+				padding-top: 5px; 
+		text-align: center;
+		font-size: 0.6em;
+	
+	}
+
+
+#main{
+	min-height: 450px;
+	padding: 5px;
+	padding-top: 10px;
+}	
+
+#main h1
+{
+ 	color: #003366;
+	font-size: 1.3em;
+	margin: 10px;
+	
+	
+}
+#main h3
+{
+ 	color: #003366;
+	font-size: 1.1em;
+	margin: 10px;
+	
+	
+}
+#loginFormDiv{
+	text-align: center;
+	
+
+}
+
+#loginFormDiv .forma{
+	text-align: left;
+	margin: 0 auto;
+	background: #EEEEEE;
+	width: 500px;
+	height: 300px;
+	margin-top: 50px;
+
+}
+
+#loginFormDiv .forma h1{
+ text-align: center;
+ font-size: 1em;
+ color: #181863;
+ margin: 0px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ 
+
+}
+#loginFormDiv .forma h3{
+ font-size: 0.6em;
+ text-align: center;
+ margin: 5px;
+ margin-left: 0px;
+ margin-right: 0px;
+ padding-bottom: 20px; 
+ font-weight: normal; 
+  margin: 0px;
+  margin-bottom: 50px;
+ padding-top: 0px;
+ padding-bottom: 20px;
+border-bottom: 1px solid #555;  
+}
+#loginFormDiv p{
+font-size: 0.8em;
+text-align: center;
+
+}
+
+
+#loginFormDiv .forma fieldset {
+  clear: both;
+  font-size: 1em;
+
+  border-color: #000000;
+  border-width: 0;
+  border-style: none;	
+	  margin: 0px;
+padding: 5px;
+  width: 100%;  
+}
+#loginFormDiv label {
+  display: block;
+  float: left;
+  width:100px;
+  
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+  padding-right: 10px;
+
+  font-size: 0.8em;
+}
+
+#loginFormDiv .forma .Formelement
+{
+	padding-left: 50px;
+	
+}
+#loginFormDiv .forma .FormaSubmit
+{
+ 
+ margin: 10px;
+ text-align: center;
+	
+}
+
+
+
+#loginFormDiv .forma input, select, textarea {
+
+  font-size: 0.8em;
+  color: #000000;
+ 
+ 
+ 
+}
+
+
+
+#submenu{
+	width:  150px;
+	float: right; 
+	clear: right;
+}
+
+	#submenu #elemento
+	{
+	
+		border: 1px solid #A1B2C6;		
+		font-weight: normal;
+			width: 120px;
+
+			margin: 0px;
+
+			margin-bottom: 20px;		
+
+			
+	}
+	
+	#submenu #elemento h1{
+			padding: 2px;
+			margin: 0px;
+			background-color: #a1b2c6;
+			font-family: Arial,Helvetica,sans-serif;
+			
+			color: #ffffff;	
+			font-weight: normal;
+			font-size: 0.9em;
+			
+ 	}
+	#submenu #elemento p,	#submenu #elemento a{
+		padding: 2px;
+		font-size: 0.9em;
+		color: #3366cc;
+		text-decoration: underline;
+	}	
+	#submenu #elemento a:hover{
+		color: #6699cc;
+		font-weight: bold;
+
+	text-decoration: underline;
+	}	
+
+
+.alert {
+    background: #fff6bf url(../imagenes/iconos/exclamation.png) center no-repeat;
+    background-position: 15px 50%; /* x-pos y-pos */
+
+    border-top: 2px solid #ffd324;
+    border-bottom: 2px solid #ffd324;
+	 
+	 margin-bottom: 10px;
+	 
+    }
+.info {
+	background: #f8fafc url(../imagenes/iconos/information.png) center no-repeat;
+	background-position: 15px 50%; /* x-pos y-pos */
+
+	border-top: 2px solid #b5d4fe;
+	border-bottom: 2px solid #b5d4fe;
+	}
+	 
+.info,.alert	
+{
+    text-align: left;
+    padding: 5px 20px 5px 45px;
+	font-size: 0.8em;
+	font-weight: bolder;
+} 
+
+.info a,.alert a
+{
+	color: #003366;
+	
+}
+	
+.center
+{
+	
+	text-align: center;
+}
+
+
+#main ul{
+margin-left: 50px;
+padding: 10px;
+}
+
+
+div.pregunta p img{
+margin: 15px 10px;
+
+}
+
+.b500{
+margin: auto;
+width: 500px;
+margin-top: 20px;
+}
+
+
+table.tablaAreasVuln 
+{
+	margin: 0px auto;	
+	margin-top: 10px;
+	margin-bottom: 10px;	
+	width: 700px;
+	font-size: small;
+	
+	
+}
+
+table.tablaAreasVuln td{
+border: 1px #6699CC solid;
+padding: 3px;
+}
+

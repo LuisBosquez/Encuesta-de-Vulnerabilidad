@@ -1,0 +1,178 @@
+<HTML>
+  <HEAD>
+    <TITLE>
+      Color chooser 1.2 by SysCo.ch
+    </TITLE>
+    <SCRIPT LANGUAGE="JavaScript">
+    <!-- ;
+
+    // Color Chooser 1.2 - 2003-01-10
+    //
+    // Free JavaScript code provided by SysCo.ch
+    //
+    // javascript@sysco.ch
+
+    cellsize = 4;
+    colorstep = 16; // Perfect square please !
+
+    substep = Math.ceil(Math.sqrt(colorstep));
+    corrector = 255/(colorstep-1);
+
+    red   = 0
+    green = 0
+    blue  = 0
+
+    redH   = '00'
+    greenH = '00'
+    blueH  = '00'
+
+
+    function HexToDec(Code)
+    {
+      result = 0
+      refDec='0123456789ABCDEF'
+      for (var posCode = 0; posCode < Code.length; posCode++)
+      {
+        currentCode = Code.substring(posCode,posCode+1).toUpperCase();
+        posDec = refDec.indexOf(currentCode);
+        if (posDec < 0)
+        {
+          posDec=0;
+        }
+        result = result * 16 + posDec;
+      }
+      return result;
+    }
+
+
+    function Calculate()
+    {
+      red=HexToDec(document.SelectColor.red.value);
+      green=HexToDec(document.SelectColor.green.value);
+      blue=HexToDec(document.SelectColor.blue.value);
+      calculateColor();
+    }
+
+    function SetColor(cell)
+    {
+      selectColor = cell.bgColor.substring(1,7).toUpperCase();
+
+      redH = selectColor.substring(0,2);
+      greenH = selectColor.substring(2,4);
+      blueH = selectColor.substring(4,6);
+
+      red = HexToDec(redH);
+      green = HexToDec(greenH);
+      blue = HexToDec(blueH);
+      calculateColor();
+    }
+
+
+    function OverColor(cell)
+    {
+      actualColor = cell.bgColor.toUpperCase();
+
+      redH = actualColor.substring(1,3);
+      greenH = actualColor.substring(3,5);
+      blueH = actualColor.substring(5,7);
+
+      document.all.sampleO.bgColor = cell.bgColor;
+      document.SelectColor.actualcolor.value = redH + greenH + blueH;
+    }
+
+    function CreateColorTable()
+    {
+
+      document.write('<TABLE CELLSPACING="0" CELLPADDING="0" BORDER="0">');
+
+      for (var l0 = 0; l0 <= (colorstep-1); l0++)
+      {
+        for (var l1 = 0; l1 <= (substep-1); l1++)
+        {
+          document.write('<TR>');
+          for (var l2 = 0; l2 <= (colorstep-1); l2++)
+          {
+            for (var l3 = 0; l3 <= (substep-1); l3++)
+            {
+              red = Math.round(l0 * corrector);
+              green = Math.round(l2 * corrector);
+
+              if (((l0/2)-Math.round(l0/2)) != 0)
+              {
+                nicel1 = ((substep-1)-l1)
+              }
+              else
+              {
+                nicel1 = l1
+              }
+
+              if (((l2/2)-Math.round(l2/2)) != 0)
+              {
+                nicel3 = ((substep-1)-l3)
+              }
+              else
+              {
+                nicel3 = l3
+              }
+
+              blue = Math.round((nicel1+nicel3*substep) * corrector);
+
+              color = (((red * 256) + green) * 256) + blue;
+
+              colorHex = '000000' + color.toString(16).toUpperCase();
+              colorHex = colorHex.substring(colorHex.length-6,colorHex.length);
+
+              cellCode = ' onMouseDown="SetColor(this);" onMouseOver="OverColor(this)"'
+              document.write('<TD bgcolor="' + colorHex + '" width="' + cellsize + '" height="' + cellsize + '"' + cellCode + '></TD>');
+            }
+          }
+          document.write('</TR>');
+        }
+      }
+
+      document.write('</TABLE>');
+
+    }
+
+    // -->
+    </SCRIPT>
+  </HEAD>
+  <BODY>
+
+  <FORM NAME="SelectColor" ACTION="" ENCTYPE="POST">
+
+  <TABLE>
+    <COLGROUP>
+      <COL ALIGN="RIGHT">
+      <COL ALIGN="LEFT">
+      <COL ALIGN="RIGHT">
+      <COL ALIGN="LEFT">
+    </COLGROUP>
+    <TR HEIGHT="30" VALIGN="CENTER">
+      <TD ROWSPAN="4" VALIGN="CENTER">
+        &nbsp;&nbsp;&nbsp;Actual position:&nbsp;
+      </TD>
+      <TD ID="sampleO" ROWSPAN="4" WIDTH="120" bgcolor="#e0e0e0">
+      </TD>
+    </TR>
+    <TR>
+      <TD COLSPAN="2">
+        Actual color code:
+        <INPUT TYPE="TEXT" NAME="actualcolor" MAXLENGTH="6" SIZE="6">
+      </TD>
+    </TR>
+  </TABLE>
+
+  <BR>
+
+  <SCRIPT LANGUAGE="Javascript">
+  <!-- ;
+    CreateColorTable();
+    Calculate();
+  // -->
+  </SCRIPT>
+
+  </FORM>
+
+  </BODY>
+</HTML>

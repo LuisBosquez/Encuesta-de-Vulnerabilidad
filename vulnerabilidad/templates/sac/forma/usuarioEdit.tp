@@ -1,0 +1,42 @@
+  <p class="error" >{mensaje.error}</p>
+
+<div class="title">Cambiar datos de la cuenta</div>
+<form name="edit" action="{url.usuario}?usuario&editar" method="POST">
+<table width="55%"  border="1" align="center" cellpadding="0" cellspacing="0" class="usuarios">
+
+  <tr> 
+    <td class="servHD">Nombre:</td>
+    <td> <input name="nombre" type="text" id="nombre" value="{usuario.nombre}" size="30" maxlength="30"></td>
+  </tr>
+  <tr> 
+      <td  class="servHD">Apellido</td>
+    <td><input name="apellido" type="text" id="apellido" value="{usuario.apellido} " size="30" maxlength="30"></td>
+  </tr>
+
+  <tr> 
+      <td  class="servHD">Fecha Nac</td>
+    <td><input name="fecha_nac" type="text" id="fecha_nac" value="{usuario.nacimiento}" size="30" maxlength="10"></td>
+  </tr>
+ 
+  <tr> 
+    <td height="26"  class="servHD">Acciones:</td>
+    <td> 
+      <input name="boton" type="submit" id="boton" value="Cambiar">
+        <input name="boton" type="submit" id="boton" value="Cancelar"></td>
+  </tr>
+</table>
+</form>
+<script language="JavaScript" type="text/javascript">
+//You should create the validator only after the definition of the HTML form
+  var frmvalidator  = new Validator("edit");
+
+	frmvalidator.addValidation("nombre","req","Campo requerido");
+	frmvalidator.addValidation("apellido","req","Campo requerido");
+	frmvalidator.addValidation("fecha_nac","req","Campo requerido");
+	frmvalidator.addValidation("nombre","maxlen=15","El maximo de caracteres es 50");
+	frmvalidator.addValidation("apellido","maxlen=15","El maximo de caracteres es 50");
+	frmvalidator.addValidation("fecha_nac","date","Debe contener solo numeros y -");
+
+
+</script>
+

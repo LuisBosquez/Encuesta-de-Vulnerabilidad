@@ -1,0 +1,25 @@
+<div id="main">
+
+<div id="submenu">
+<div id="elemento">
+<h1>Sesion</h1>
+<p><a href="{url.sesion}&crear">Crear Sesion</a></p>
+</div>
+</div>
+
+<table class="basica">
+<caption>Sesiones Asignados por el Usuario</caption>
+    <thead><tr>
+	<th width="%">Nombre</th>
+      <th width="100">Cuestionario</th>
+      <th width="100">Periodo</th>
+	  <th width="150">Aplicación</th>
+	  <th width="80">Tiempo</th>
+      <th width="80">Contraseña</th>
+      <th width="80">Acciones</th>
+    </tr></thead>
+	{tabla.cuestionarios}
+  </table>
+  <p>&nbsp;</p>
+</div>
+

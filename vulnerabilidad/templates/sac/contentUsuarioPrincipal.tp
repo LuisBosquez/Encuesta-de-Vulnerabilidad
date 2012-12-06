@@ -1,0 +1,35 @@
+<!-- 11/07/2007 -->
+<div id="main">
+  <table class="basica grande">
+  <caption>Cuestionarios Disponibles</caption>
+  <thead><tr>
+      <th width="20%">Curso</th>
+      <th width="10%">Periodo</th>
+      <th width="20%">Cuestionario</th>
+      <th width="15%">Fecha<br>inicio</th>
+      <th width="15%">Fecha<br>fin</th>
+      <th width="10%">Acciones</th>
+    </tr></thead>
+
+	{tabla.cuestionarios}
+
+ </table>
+
+
+  <table class="basica grande">
+  
+  <caption>Resultados Anteriores</caption>
+    <thead><tr>
+		<th width="20%">Curso</th>
+  		<th width="15%">Periodo</th>
+	   	<th width="30%">Cuestionario</th>
+     	<th width="15%">Fecha</th>
+      	<th width="20%">Acciones</th>
+    </tr></thead>
+	
+	{tabla.resultados}
+
+
+  </table>
+
+</div>

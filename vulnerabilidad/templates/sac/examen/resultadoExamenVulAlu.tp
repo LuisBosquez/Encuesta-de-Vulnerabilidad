@@ -1,0 +1,19 @@
+<div id="main">
+a
+<SCRIPT language="JavaScript1.2" >
+	{resultado.tooltips}
+	var TipId="tiplayer";
+	var FiltersEnabled = 1; 
+	mig_clay();
+</SCRIPT>	
+
+<h3 class="center">Cuestionario Finalizado</h3>	
+<p class="center">{cuestionario.nombre}</p>
+<p class="center">Tiempo:{cuestionario.tiempo}<br></p>
+
+<table class="basica grande">
+<thead>{resultado.tabla}</thead>
+</table>
+{resultado.retroalimentacion}
+{resultado.fin}		
+</div>	

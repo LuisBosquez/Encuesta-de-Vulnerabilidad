@@ -1,0 +1,628 @@
+<?xml version="1.0"  encoding="UTF-8" ?>
+<!DOCTYPE cuestionario SYSTEM "sac_cuestionario-config_2_0.dtd">
+<cuestionario> 
+<nombre>Cuestionario de Habilidades para el Estudio</nombre>
+<modo>1</modo>
+<numeracion>1</numeracion>
+<tipoidentificador>1</tipoidentificador>
+<titulos>1</titulos>
+<calificar>1</calificar>
+<textos>
+	<instrucciones>Conteste las preguntas que se le presentan con Si o No</instrucciones>
+</textos>
+
+
+  
+	<reglas>		
+		<regla>2'2'6+/7g</regla>	
+		<regla>2'7'8+/7g</regla>			
+		<regla>2'0'1+/7g</regla>		
+		<regla>1'3/7g</regla>					
+		<regla>2'4'5+/7g</regla>
+	</reglas>	
+	  
+	<categorias>
+		<catego id="0">
+			<nombre>A</nombre>
+			<color>CC99FF</color>
+			<title>Actitud ante el estudio.</title>
+			<data>Se refiere a la representación que hace el alumno de la escuela y sus aprendizajes como una estrategia para proyectarse hacia el futuro, en el que intervienen tanto los agentes que lo rodean en la escuela, en la familia y la propia necesidad e interés de aprender, para alcanzar otras metas. </data>			
+		</catego>
+		<catego id="1">
+			<nombre>B</nombre>
+			<color>ff6600</color>
+			<title>Relación alumno maestro.</title>
+			<data>La buena percepción del alumno, respecto a la carga afectiva que da a sus profesores, propicia una motivación inconsciente para la realización de tareas fuera y dentro del aula, así como acercamientos académicos o personales, con sus diferentes profesores. Representa también los esquemas de autoridad que de acuerdo a su propia historia pueden ser aceptados o retados; impidiendo una equilibrada relación que facilite los aprendizajes en el alumno y los procesos de enseñanza en el docente.</data>	
+		</catego>
+		<catego id="2">
+			<nombre>C</nombre>
+			<color>99CCFF</color>
+			<title>Organización ante el estudio.</title>
+			<data>Ninguna actividad que carezca de orden, organización y planeación, puede asegurar el éxito continuo, en éste caso, la organización propicia la formulación de planes de acción que vinculen las cuatro áreas fundamentales para la formación integral de las personas; en la que es importante planear para cada día actividades que satisfagan elementos de índole intelectual, emocional, social y física. Cuando alguna de las cuatro áreas no es atendida o se da mayor peso que a las otras, tarde o temprano surgen desequilibrios en el actuar cotidiano y conflictos en los que en ocasiones se tiene la imposibilidad de percibir y buscar soluciones optimas.</data>	
+		</catego>
+		<catego id="3">
+			<nombre>D</nombre>
+			<color>FF6699</color>
+			<title>Atención- concentración.</title>
+			<data>La atención y la concentración son dos habilidades que se desarrollan durante toda la vida, sin embargo, es en la etapa de escolaridad básica en la que alcanzan su máxima desarrollo a través de las actividades académicas y sobre todo del juego. En la educación superior los estudiantes,  adquieren múltiples intereses minimizando su atención y sobre todo la concentración en las actividades escolares, no así, en otras de tipo social o emocional, por lo que es importante que identifiquen prioridades y pongan en orden sus intereses y necesidades para fortalecer las diferentes habilidades indispensables para el aprendizaje.</data>	
+		</catego>
+		<catego id="4">
+			<nombre>E</nombre>
+			<color>FFCC00</color>
+			<title>Memoria</title>
+			<data>En el sistema escolar el uso de la memoria se privilegia desde tempranas edades sin tomar en cuenta la conveniencia de potenciar más  el tipo de memoria racional que el mecánico, al respecto es importante que el estudiante adquiera habilidades que le permitan aprender estrategias que potencien el uso de la memoria a través del análisis y síntesis de la información para su mejor conservación y aplicación en forma práctica.</data>	
+		</catego>
+		<catego id="5">
+			<nombre>F</nombre>
+			<color>FFCC00</color>
+			<title>Toma de apuntes.</title>
+			<data>La toma de apuntes representa gráficamente el ejercicio de la atención, la concentración y el análisis de la información que el estudiante realiza al estar en clase, además expresa el interés y la motivación hacia el estudio, si estos son consultados posteriormente, en lo que radica la importancia del tomar apuntes claros, precisos y legibles. Los apuntes bien tomados, pueden ser una excelente guía de estudio para los exámenes, además de una fuente consulta para otros cursos de temas similares. La carencia de ellos impide un orden en la habilidad de concretar y analizar los diferentes contenidos de las materias. Se vincula la toma de apuntes con la relación maestro- alumno y la actitud ante el estudio, por la motivación que el estudiante tenga con la materia y el uso de  la habilidad de atención ? concentración y memoria, ya que dicha motivación proviene de planes concretos de vida y carrera.</data>				
+		</catego>
+		<catego id="6">
+			<nombre>G</nombre>
+			<color>00FF00</color>
+			<title>Lectura de libros de texto.</title>
+			<data>Aún cuando existen materias consideradas más de tipo práctico que teórico es importante que el estudiante consulte de manera constante libros de texto que potencien sus aprendizajes, es recomendable que todas las materias definan previamente a los primeros trabajos escolares las diferentes fuentes que el estudiante puede utilizar para la mejor comprensión de los contenidos del área. Los estudiantes que hacen uso de materiales complementarios carecen de la práctica de aprender a aprender por sí mismos, es importante en estos casos, que el profesor motive el uso de diferentes textos para ampliar la visión de la materia.</data>	
+		</catego>
+
+		<catego id="7">
+			<nombre>H</nombre>
+			<color>99CCFF</color>
+			<title>Trabajos escritos. </title>
+			<data>Generalmente nos referimos por trabajos escritos a la entrega de reportes de lectura o investigación que los estudiantes deberán realizar como base complementaría de sus aprendizajes, sin embargo, en este punto se incluyen los apuntes y notas que permitan optimizar los contenidos de un curso o materia. Se involucran la motivación, el orden de la información, el auto estudio y la  actitud persuasiva de adquirir nuevos aprendizajes a partir de intereses individuales y grupales.</data>	
+		</catego>
+		<catego id="8">
+			<nombre>I</nombre>
+			<color>00FF00</color>
+			<title>Exámenes.</title>
+			<data>Incluye la habilidad para aprender los diferentes contenidos de un curso, así como la percepción de facilidad o dificultad para presentarlos, no todos estudiantes asumen ser buenos en la presentación de exámenes, sobre todo por tratarse de procesos de evaluación en los que no siempre se tiene el habito de prepararse con anticipación.Existen diferentes técnicas de relajación y concentración de la información  que posibilitan aprendizajes más asertivos para aquellos alumnos que entran en  crisis en cada  proceso de evaluación.</data>	
+		</catego>
+	</categorias>
+	
+	
+	 
+	<preguntas>
+		<pregunta id="0">
+			<nombre>1. Me gusta leer libros de texto porque son muy importantes.</nombre>
+			<tipo>1</tipo>
+			<valor>1</valor>
+			<categoria>0</categoria>
+		</pregunta>
+		<pregunta id="1">
+			<nombre>2. Los maestros comprenden las necesidades de los estudiantes. 	</nombre>
+			<tipo>1</tipo>
+			<valor>1</valor>
+			<categoria>1</categoria>
+		</pregunta>
+		<pregunta id="2">
+			<nombre>3. Con frecuencia me retraso en una materia debido a que tengo que preparar otras.</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>2</categoria>
+		</pregunta>
+		<pregunta id="3">
+			<nombre>4. Prefiero estudiar sin ver o escuchar la T.V., el radio o el CD.</nombre>
+			<tipo>1</tipo>
+			<valor>1</valor>
+			<categoria>3</categoria>
+		</pregunta>
+		<pregunta id="4">
+			<nombre> 5. El recitar para mi mismo es un procedimiento eficaz en el aprendizaje de nombres y lugares. </nombre>
+			<tipo>1</tipo>
+			<valor>1</valor>
+			<categoria>4</categoria>
+		</pregunta>
+		<pregunta id="5">
+			<nombre>6. El utilizar un sistema de signos propios me facilita la toma de apuntes. </nombre>
+			<tipo>1</tipo>
+			<valor>1</valor>
+			<categoria>5</categoria>
+		</pregunta>
+		<pregunta id="6">
+			<nombre>7. Se me dificulta seleccionar los puntos más importantes al leer un tema. </nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>6</categoria>
+		</pregunta>
+		<pregunta id="7">
+			<nombre>8. Por lo general dejo para el último momento la preparación de mis trabajos escritos porque tengo dificultades para hacerlos.</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>7</categoria>
+		</pregunta>
+		<pregunta id="8">
+			<nombre>9. Es sencillo prepararme para estudiar exámenes de opción múltiple. </nombre>
+			<tipo>1</tipo>
+			<valor>1</valor>
+			<categoria>8</categoria>
+		</pregunta>
+		<pregunta id="9">
+			<nombre>10. Normalmente me cuesta trabajo concentrarme en mis estudios.</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>0</categoria>
+		</pregunta>
+		<pregunta id="10">
+			<nombre>11. Dudo en pedir ayuda a mis maestros en las materias que se me dificultan. </nombre>
+			<tipo>1</tipo>
+			<valor>1</valor>
+			<categoria>1</categoria>
+		</pregunta>
+		<pregunta id="11">
+			<nombre>12. Los estudiantes destacados son los que han renunciado a las actividades recreativas.</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>2</categoria>
+		</pregunta>
+		<pregunta id="12">
+			<nombre>13. El lugar en donde estudio está lleno de distractores (cuadros, fotos, etc...)</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>3</categoria>
+		</pregunta>
+		<pregunta id="13">
+			<nombre>14. Memorizar mis apuntes poco antes del examen me asegura el éxito. </nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>4</categoria>
+		</pregunta>
+		<pregunta id="14">
+			<nombre>15. Por lo general dejo pasar un día o más para revisar mis apuntes tomados en clase. 	</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>5</categoria>
+		</pregunta>
+		<pregunta id="15">
+			<nombre>16. Se me dificulta organizar en secciones lógicas el material que debo aprender al consultar el texto de una materia. </nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>6</categoria>
+		</pregunta>
+		<pregunta id="16">
+			<nombre>17. Es un problema para mi hacer trabajos escritos. </nombre>
+			<tipo>1</tipo>
+			<valor>1</valor>
+			<categoria>7</categoria>
+		</pregunta>
+		<pregunta id="17">
+			<nombre>18. Cuando contesto los exámenes, me tardo tanto al principio, que al final tengo que apurarme para terminar. </nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>8</categoria>
+		</pregunta>
+		<pregunta id="18">
+			<nombre>19. Al ponerme a estudiar, normalmente me encuentro muy cansado, aburrido o con sueño para hacerlo eficazmente. </nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>0</categoria>
+		</pregunta>
+		<pregunta id="19">
+			<nombre>20. Me gusta discutir futuros programas vocacionales con mis maestros. 	</nombre>
+			<tipo>1</tipo>
+			<valor>1</valor>
+			<categoria>1</categoria>
+		</pregunta>
+		<pregunta id="20">
+			<nombre>21. El tiempo que emplearía en elaborar un horario de actividades diarias, es mejor aprovecharlo en estudiar. </nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>2</categoria>
+		</pregunta>
+		<pregunta id="21">
+			<nombre>22. Mi estudio se ve perturbado con frecuencia por actividades o ruidos que provienen del exterior. </nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>3</categoria>
+		</pregunta>
+		<pregunta id="22">
+			<nombre>23. Cuando se está estudiando para un examen por temas, uno debe prepararse para reconocer hechos específicos en lugar de recordar conceptos generales.</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>4</categoria>
+		</pregunta>
+		<pregunta id="23">
+			<nombre>24. Me atraso al tomar notas debido a que no puedo escribir con la suficiente rapidez. </nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>5</categoria>
+		</pregunta>
+		<pregunta id="24">
+			<nombre>25. Detenerse o consultar palabras desconocidas mientras se estudia en el texto es una pérdida de tiempo porque reduce la velocidad de la lectura. </nombre>
+			<tipo>1</tipo>
+			<valor>1</valor>
+			<categoria>6</categoria>
+		</pregunta>
+		<pregunta id="25">
+			<nombre>26. La calificación que se obtiene en un trabajo escrito depende principalmente de la extensión del trabajo. </nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>7</categoria>
+		</pregunta>
+		<pregunta id="26">
+			<nombre>27. Las pruebas son situaciones molestas de las cuales uno no se puede escapar. </nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>8</categoria>
+		</pregunta>
+		<pregunta id="27">
+			<nombre>28. Cuando me retraso en el estudio por alguna razón ajena a mi voluntad, me pongo al corriente sin que se me indique. 	</nombre>
+			<tipo>1</tipo>
+			<valor>1</valor>
+			<categoria>0</categoria>
+		</pregunta>
+		<pregunta id="28">
+			<nombre>29. Durante discusiones acaloradas con mis compañeros nunca critico a mis maestros.</nombre>
+			<tipo>1</tipo>
+			<valor>1</valor>
+			<categoria>1</categoria>
+		</pregunta>
+		<pregunta id="29">
+			<nombre>30. Si fuera posible, uno debería concentrar todas sus clases en tres días a la semana para tener tiempo para otras actividades.</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>2</categoria>
+		</pregunta>
+		<pregunta id="30">
+			<nombre>31. Con frecuencia pienso en algo totalmente diferente a lo que estoy leyendo. </nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>3</categoria>
+		</pregunta>
+		<pregunta id="31">
+			<nombre>32. Cuando estudio para un examen dispongo los diferentes conceptos que tengo que aprender en un orden lógico. </nombre>
+			<tipo>1</tipo>
+			<valor>1</valor>
+			<categoria>4</categoria>
+		</pregunta>
+		<pregunta id="32">
+			<nombre>33. Una carpeta de argollas es más apropiada que un cuaderno para tomar apuntes. </nombre>
+			<tipo>1</tipo>
+			<valor>1</valor>
+			<categoria>5</categoria>
+		</pregunta>
+		<pregunta id="33">
+			<nombre>34. Tanto las novelas como los libros de texto deben ser leídos en la misma forma. </nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>6</categoria>
+		</pregunta>
+		<pregunta id="34">
+			<nombre>35. La originalidad del pensamiento es ignorado en la calificación de los trabajos escritos. </nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>7</categoria>
+		</pregunta>
+		<pregunta id="35">
+			<nombre>36. La angustia ante el examen es una consecuencia del estudio insuficiente. </nombre>
+			<tipo>1</tipo>
+			<valor>1</valor>
+			<categoria>8</categoria>
+		</pregunta>
+		<pregunta id="36">
+			<nombre>37. Me desconcentro porque me pongo inquieto, malhumorado o nostálgico. </nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>0</categoria>
+		</pregunta>
+		<pregunta id="37">
+			<nombre>38. El modo más eficaz de relacionarse con los maestros es estar de acuerdo con ellos en todo lo  que dicen. </nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>1</categoria>
+		</pregunta>
+		<pregunta id="38">
+			<nombre>39. Al preparar el horario de estudio debe dársele preferencia a los temas que a uno más le gustan. </nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>2</categoria>
+		</pregunta>
+		<pregunta id="39">
+			<nombre>40. Se deben tener fotografías y recuerdos en el escritorio para reducir el aburrimiento. </nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>3</categoria>
+		</pregunta>
+		<pregunta id="40">
+			<nombre>41. Al terminar de leer varias páginas de un texto, no puedo recordar su contenido.</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>4</categoria>
+		</pregunta>
+		<pregunta id="41">
+			<nombre>42. Cuando se toman apuntes en clase se deben tratar de escribir las palabras exactas del maestro. </nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>5</categoria>
+		</pregunta>
+		<pregunta id="42">
+			<nombre>43. Se debe detener la lectura del texto a intervalos frecuentes e intentar prever las preguntas que podría utilizar el maestro. </nombre>
+			<tipo>1</tipo>
+			<valor>1</valor>
+			<categoria>6</categoria>
+		</pregunta>
+		<pregunta id="43">
+			<nombre>44. La falta de fluidez para expresarme por escrito me dificulta la presentación de exámenes por temas. </nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>7</categoria>
+		</pregunta>
+		<pregunta id="44">
+			<nombre>45. Las instrucciones de "enumerar", "ilustrar" o "comparar", en un examen por temas requieren de la misma técnica para resolverlo. </nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>8</categoria>
+		</pregunta>
+		<pregunta id="45">
+			<nombre>46. Me siento confuso e indeciso acerca de lo que deberían ser mis metas educativas y vocacionales. </nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>0</categoria>
+		</pregunta>
+		<pregunta id="46">
+			<nombre>47. A los maestros les gusta ejercer demasiado su autoridad.</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>1</categoria>
+		</pregunta>
+		<pregunta id="47">
+			<nombre>48. Normalmente termino a tiempo los trabajos que tengo que hacer.</nombre>
+			<tipo>1</tipo>
+			<valor>1</valor>
+			<categoria>2</categoria>
+		</pregunta>
+		<pregunta id="48">
+			<nombre>49. El escritorio donde se estudia debe estar colocado de manera que permita una buena vista desde la ventana.</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>3</categoria>
+		</pregunta>
+		<pregunta id="49">
+			<nombre>50. En los exámenes olvido nombres, fechas, fórmulas y otros detalles que había estudiado.</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>4</categoria>
+		</pregunta>
+		<pregunta id="50">
+			<nombre>51. Las definiciones y los términos técnicos vistos en clase se deben copiar con las palabras exactas del maestro.</nombre>
+			<tipo>1</tipo>
+			<valor>1</valor>
+			<categoria>5</categoria>
+		</pregunta>
+		<pregunta id="51">
+			<nombre>52. Me concentro poco tiempo al leer, porque las palabras dejan de tener sentido y al poco tiempo me da sueño.</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>6</categoria>
+		</pregunta>
+		<pregunta id="52">
+			<nombre>53. Tengo dificultad para expresarme por escrito.</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>7</categoria>
+		</pregunta>
+		<pregunta id="53">
+			<nombre>54. Analizar o modificar palabras o frases es una pérdida de tiempo en un examen de selección múltiple.</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>8</categoria>
+		</pregunta>
+		<pregunta id="54">
+			<nombre>55. Después de los primero días de clase pierdo interés en mis estudios. </nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>0</categoria>
+		</pregunta>
+		<pregunta id="55">
+			<nombre>56. Los maestros fijan las fechas de examen sin tomar en cuenta otros exámenes. 	</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>1</categoria>
+		</pregunta>
+		<pregunta id="56">
+			<nombre>57. Estudio entre 12 y 15 horas a la semana afuera de clases.</nombre>
+			<tipo>1</tipo>
+			<valor>1</valor>
+			<categoria>2</categoria>
+		</pregunta>
+		<pregunta id="57">
+			<nombre>58. Los alumnos estudian con mayor efectividad escuchando música.</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>3</categoria>
+		</pregunta>
+		<pregunta id="58">
+			<nombre>59. Para memorizar es mejor leer varias veces un capítulo en vez de elaborar un resumen o cuadro sinóptico de él.</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>4</categoria>
+		</pregunta>
+		<pregunta id="59">
+			<nombre>60. Es preferible utilizar un estilo narrativo en vez de cuadros sinópticos para tomar los apuntes de clase.</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>5</categoria>
+		</pregunta>
+		<pregunta id="60">
+			<nombre>61. Me es difícil reconocer los puntos importantes del libro de texto que posteriormente vienen en los exámenes.</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>6</categoria>
+		</pregunta>
+		<pregunta id="61">
+			<nombre>62. Al terminar de leer un tema se me facilita escribir una síntesis.</nombre>
+			<tipo>1</tipo>
+			<valor>1</valor>
+			<categoria>7</categoria>
+		</pregunta>
+		<pregunta id="62">
+			<nombre>63. En los exámenes por temas se cometen menos errores que en las pruebas de selección múltiple.</nombre>
+			<tipo>1</tipo>
+			<valor>1</valor>
+			<categoria>8</categoria>
+		</pregunta>
+		<pregunta id="63">
+			<nombre>64. Aun cuando  no me gusta una materia, la estudio mucho para sacar buenas calificaciones.</nombre>
+			<tipo>1</tipo>
+			<valor>1</valor>
+			<categoria>0</categoria>
+		</pregunta>
+		<pregunta id="64">
+			<nombre>65. Los maestros tienden a ridiculizar a los estudiantes de más bajo rendimiento.</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>1</categoria>
+		</pregunta>
+		<pregunta id="65">
+			<nombre>66. Para la mayoría de los estudiantes es casi imposible cumplir con todas las obligaciones escolares.</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>2</categoria>
+		</pregunta>
+		<pregunta id="66">
+			<nombre>67. Para evitar el resplandor y la irritación de los ojos mientras se estudia, se debe cuidar la iluminación del área de estudio. 				</nombre>
+			<tipo>1</tipo>
+			<valor>1</valor>
+			<categoria>3</categoria>
+		</pregunta>
+		<pregunta id="67">
+			<nombre>68. Es más fácil recordar un tema con las palabras del autor del texto que el resumen que uno pueda hacer con sus propias palabras. 				</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>4</categoria>
+		</pregunta>
+		<pregunta id="68">
+			<nombre>69. Al tomar apuntes tiendo a escribir una serie de notas que más tarde resultan innecesarias.</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>5</categoria>
+		</pregunta>
+		<pregunta id="69">
+			<nombre>70. La falta de interés por la materia me dificulta el mantenerme atento cuando estoy leyendo el texto.</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>6</categoria>
+		</pregunta>
+		<pregunta id="70">
+			<nombre>71. Al empezar a escribir un trabajo se debe escribir todo lo que se piensa no importando el orden.</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>7</categoria>
+		</pregunta>
+		<pregunta id="71">
+			<nombre>72. En un examen es mejor insistir en la respuesta de una pregunta problemática que saltársela y volver a ella más tarde.</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>8</categoria>
+		</pregunta>
+		<pregunta id="72">
+			<nombre>73. Estudiaría más si tuviera mayor libertad para escoger las materias que me gustan.</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>0</categoria>
+		</pregunta>
+		<pregunta id="73">
+			<nombre>74. Los maestros son lo suficientemente flexibles para comprender a los jóvenes.</nombre>
+			<tipo>1</tipo>
+			<valor>1</valor>
+			<categoria>1</categoria>
+		</pregunta>
+		<pregunta id="74">
+			<nombre>75. Estudio en el último momento, de manera improvisada y desorganizada.</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>2</categoria>
+		</pregunta>
+		<pregunta id="75">
+			<nombre>76. La lámpara del escritorio debe estar colocada de tal manera que la luz se concentre directamente sobre el material al estudiar.</nombre>
+			<tipo>1</tipo>
+			<valor>1</valor>
+			<categoria>3</categoria>
+		</pregunta>
+		<pregunta id="76">
+			<nombre>77. Los conocimientos que se adquieren memorizando son los que más perduran.</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>4</categoria>
+		</pregunta>
+		<pregunta id="77">
+			<nombre>78. Los maestros exponen lo más importante del tema al inicio de la clase.</nombre>
+			<tipo>1</tipo>
+			<valor>1</valor>
+			<categoria>5</categoria>
+		</pregunta>
+		<pregunta id="78">
+			<nombre>79. El estudiante universitario debe evitar subrayar el texto porque deja de tener buen aspecto.</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>6</categoria>
+		</pregunta>
+		<pregunta id="79">
+			<nombre>80. Las palabras con que debe escribirse un trabajo tiene que ser cuidadosamente seleccionadas.</nombre>
+			<tipo>1</tipo>
+			<valor>1</valor>
+			<categoria>7</categoria>
+		</pregunta>
+		<pregunta id="80">
+			<nombre>81. Salgo mal en los exámenes porque me es difícil pensar claramente y planear mi trabajo a corto plazo.</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>8</categoria>
+		</pregunta>
+		<pregunta id="81">
+			<nombre>82. Divertirse y disfrutar de la vida lo mejor posible no se opone al estudio. </nombre>
+			<tipo>1</tipo>
+			<valor>1</valor>
+			<categoria>0</categoria>
+		</pregunta>
+		<pregunta id="82">
+			<nombre>83. Los maestros tienden a hablar en un tono de superioridad que impide al estudiante establecer buenas relaciones con ellos.</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>1</categoria>
+		</pregunta>
+		<pregunta id="83">
+			<nombre>84. Me lleva mucho tiempo prepararme para ponerme a estudiar. 	</nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>2</categoria>
+		</pregunta>
+		<pregunta id="84">
+			<nombre>85. El "soñar despierto" me distrae mientras estudio. </nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>3</categoria>
+		</pregunta>
+		<pregunta id="85">
+			<nombre>86. La memoria no es lo más importante para el buen estudiante. 	</nombre>
+			<tipo>1</tipo>
+			<valor>1</valor>
+			<categoria>4</categoria>
+		</pregunta>
+		<pregunta id="86">
+			<nombre>87. La habilidad para tomar apuntes es un aspecto personal que no se puede mejorar. </nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>5</categoria>
+		</pregunta>
+		<pregunta id="87">
+			<nombre>88. Cuando los puntos importantes han sido vistos en clase no es necesario leer el libro de texto. </nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>6</categoria>
+		</pregunta>
+		<pregunta id="88">
+			<nombre>89. Al consultar un libro para elaborar un trabajo escrito se deben sintetizar las ideas principales con las palabras propias. 	</nombre>
+			<tipo>1</tipo>
+			<valor>1</valor>
+			<categoria>7</categoria>
+		</pregunta>
+		<pregunta id="89">
+			<nombre>90. Las calificaciones se basan más en la habilidad para memorizar, que en la habilidad para pensar y analizar las cosas. </nombre>
+			<tipo>1</tipo>
+			<valor>0</valor>
+			<categoria>8</categoria>
+		</pregunta>
+	</preguntas>
+	
+	
+</cuestionario>

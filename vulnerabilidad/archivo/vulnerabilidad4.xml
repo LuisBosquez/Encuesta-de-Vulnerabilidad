@@ -1,0 +1,2908 @@
+<?xml version="1.0"  encoding="UTF-8" ?>
+<!DOCTYPE cuestionario SYSTEM "sac_cuestionario-config_2_0.dtd">
+<cuestionario> 
+<nombre>Encuesta de vulnerabilidad</nombre>
+<modo>2</modo>
+<numeracion>3</numeracion>
+<botonAnterior>false</botonAnterior>
+<tipoidentificador>2</tipoidentificador> 
+<titulos>2</titulos>
+<calificar>2</calificar>
+	
+	<textos>
+	<instrucciones>EOPVNEWP</instrucciones>
+	<inicio>Instrucciones: Lee con cuidado cada pregunta y elije la respuesta que mejor refleje tu situación con la mayor honestidad. Si tienes duda, pregúntale a la persona encargada de aplicar  esta encuesta.</inicio>
+	<final>FIN DE CUESTIONARIO. DA CLIC EN TERMINAR</final>
+	</textos>
+     
+	<categorias>  
+		<catego id="0">	 	
+			<nombre>SECCIÓN I</nombre>
+			<title>SECCIÓN I</title>
+			<keyPregunta>0</keyPregunta>			
+		</catego>
+		<catego id="1">  		
+			<nombre>SECCIÓN II. Contesta según lo que acostumbras</nombre>
+			<title>SECCIÓN II. Contesta según lo que acostumbras</title>
+			<keyPregunta>47</keyPregunta>			
+		</catego>	  
+		<catego id="2">
+			<nombre>SECCIÓN III. Las personas establecen diferentes tipos de relaciones, marca la opción que más se acerque a tu situación</nombre>
+			<title>SECCIÓN III. Las personas establecen diferentes tipos de relaciones, marca la opción que más se acerque a tu situación</title>
+			<keyPregunta>66</keyPregunta>			
+		</catego>	
+		<catego id="3">
+			<nombre>SECCIÓN IV. Contesta de acuerdo con tu situación</nombre>
+			<title>SECCIÓN IV. Contesta de acuerdo con tu situación</title>
+			<keyPregunta>71</keyPregunta>			
+		</catego>	
+		<catego id="4">
+			<nombre>SECCIÓN V. Las personas experimentan diferentes estados físicos y anímicos, así como distintas formas de actuar. Responde según te hayas sentido últimamente:</nombre>
+			<title>SECCIÓN V. Las personas experimentan diferentes estados físicos y anímicos, así como distintas formas de actuar. Responde según te hayas sentido últimamente:</title>
+			<keyPregunta>78</keyPregunta>
+		</catego>
+		<catego id="5">
+			<nombre>SECCIÓN VI. Marca como te sientes física y emocionalmente</nombre>
+			<title>SECCIÓN VI. Marca como te sientes física y emocionalmente</title>
+			<keyPregunta>96</keyPregunta>
+		</catego>
+		<catego id="6">
+			<nombre>SECCIÓN VII. Existen diferentes maneras para pedir o solicitar cosas. Marca con qué frecuencia te expresas de la siguiente manera ante los demás.</nombre>
+			<title>SECCIÓN VII. Existen diferentes maneras para pedir o solicitar cosas. Marca con qué frecuencia te expresas de la siguiente manera ante los demás.</title>
+			<keyPregunta>114</keyPregunta>
+		</catego>		
+		<catego id="7">
+			<nombre>SECCIÓN VIII. Ahora se te preguntan diferentes cosas relacionadas con tu casa.</nombre>
+			<title>SECCIÓN VIII. Ahora se te preguntan diferentes cosas relacionadas con tu casa.</title>
+			<keyPregunta>119</keyPregunta>
+		</catego>	
+		<catego id="8">			
+			<nombre>SECCIÓN IX. En la vida se tienen eventos difíciles como cambios, muertes, separaciones o pérdidas en diversas áreas (individual, económica, escolar o de amistad), marca la opción que mejor refleje tu situación.</nombre>
+			<title>SECCIÓN IX. En la vida se tienen eventos difíciles como cambios, muertes, separaciones o pérdidas en diversas áreas (individual, económica, escolar o de amistad), marca la opción que mejor refleje tu situación.</title>
+			<keyPregunta>130</keyPregunta>
+		</catego>	
+		<catego id="9"> 
+			<nombre>SECCIÓN X. Contesta de acuerdo a lo que tú haces.</nombre>
+			<title>SECCIÓN X. Contesta de acuerdo a lo que tú haces.</title>
+			<keyPregunta>136</keyPregunta>
+		</catego>	
+		<catego id="10">
+			<nombre>SECCIÓN XI. ¿Cómo te has sentido en tu desempeño escolar?</nombre>
+			<title>SECCIÓN XI. ¿Cómo te has sentido en tu desempeño escolar?</title>
+			<keyPregunta>141</keyPregunta>
+		</catego>	
+		<catego id="11">
+			<nombre>SECCIÓN XII. ¿Qué haces cuando no estás realizando alguna actividad académica?</nombre>
+			<title>SECCIÓN XII. ¿Qué haces cuando no estás realizando alguna actividad académica?</title>
+			<keyPregunta>149</keyPregunta>
+		</catego>	
+		<catego id="12">
+			<nombre>SECCIÓN XIII. Contesta de acuerdo con lo que haces y piensas</nombre>
+			<title>SECCIÓN XIII. Contesta de acuerdo con lo que haces y piensas</title>
+			<keyPregunta>169</keyPregunta>
+		</catego>	
+		<catego id="13">
+			<nombre>SECCIÓN XIV. Marca la opción que mejor describa tu situación</nombre>
+			<title>SECCIÓN XIV. Marca la opción que mejor describa tu situación</title>
+			<keyPregunta>185</keyPregunta>
+		</catego>	
+		<catego id="14">
+			<nombre>SECCIÓN XV. En caso de que desearas conseguir drogas EN TU ESCUELA ¿Qué tan fácil o difícil sería para ti obtenerlas? </nombre>
+			<title>SECCIÓN XV. En caso de que desearas conseguir drogas EN TU ESCUELA ¿Qué tan fácil o difícil sería para ti obtenerlas? </title>
+			<keyPregunta>198</keyPregunta>
+		</catego>	
+		<catego id="15">
+			<nombre>SECCIÓN XVI.</nombre>
+			<title>SECCIÓN XVI.  </title>
+			<keyPregunta>212</keyPregunta>
+		</catego>				
+	</categorias>
+	<preguntas>
+	 
+	 
+		<pregunta>
+			<id>p1</id>
+			<clave>p1Sexo</clave>			
+			<nombre>Sexo</nombre>
+			<respuesta>Masculino=1|Femenino=2|9</respuesta>						
+			<tipo>OM</tipo>			
+			<categoria>0</categoria>
+			<eval>req</eval>
+		</pregunta> 
+		<pregunta> 
+			<id>p2</id>
+			<clave>P2Edad</clave>	
+			 <nombre>Edad</nombre>			
+			 <tipo>AB</tipo>
+			 <respuesta>999</respuesta>
+			 <categoria>0</categoria>
+			 <eval>reqnum</eval>
+		</pregunta>	
+		<pregunta>
+			<id>p3</id>
+			<clave>p3_EDOCIV</clave>
+			<nombre>Estado Civil</nombre>
+			<respuesta>Soltero=1|Casado=2|9</respuesta>			
+			<tipo>OM</tipo>			
+			<categoria>0</categoria>
+			<eval>req</eval>
+		</pregunta> 		
+		
+		<pregunta>
+			<id>p4</id>
+			<clave>P4nivac</clave>
+			<nombre>¿Estás estudiando?</nombre>
+			<respuesta>Preparatoria=1|Profesional=2|9</respuesta>		
+			<tipo>OM</tipo>
+			<categoria>0</categoria>
+			<eval>req</eval>
+		</pregunta>
+
+ 
+		<pregunta>
+			<id>p5</id>
+			<clave>p5deTEC</clave>		
+			<nombre>Si estás estudiando profesional, ¿vienes de preparatoria TEC?</nombre>
+			<respuesta>No=1|Si=2|9</respuesta>			
+			<tipo>OM</tipo>
+			<valor>1</valor>
+			<categoria>0</categoria>
+			<eval>req</eval>
+		</pregunta>	
+		<pregunta>
+			<id>p6</id>
+			<clave>p6carrera</clave>		
+			<nombre>¿Qué carrera estudias o en qué programa de preparatoria estás? </nombre>
+			<respuesta>PTB Preparatoria Tradicional Bilingüe|PBB Preparatoria Bicultural|PBI Preparatoria Internacional|ARQ Arquitectura|IIS Ing. Industrial y Sistemas|IMA Ing. Mecánica Administrativa|IME Ing. Mecánica y Eléctrica|IMT Ing. Mecatrónica|IQA Ing. Química Administrativa|IQS Ing. Química y de Sistemas|LDI Lic. en Diseño Industrial|LAE Lic. en Administración de Empresas|LAF Lic. en Administración Financiera|CPF Lic. en Contaduría Pública y Finanzas|LEC Lic. en Economía|LEM Lic. en Mercadotecnia|LIN Lic. en Negocios Internacionales|LED Lic. en Derecho|LMI Lic. en Periodismo y Medios de Información|LPL Lic. en Ciencia Política|LPO Lic. en Psicología Organizacional|LRI Lic. en Relaciones Internacionales|MC Médico Cirujano|ITC Ing. en Tecnologías Computacionales|LNB Lic. en Nutrición y Bienestar Integral|IMD Ing. en Biomédica|LAD Lic. en Animación y Arte Digital|LAC Lic. en Administración del Capital Humano y del Conocimiento|LDC Lic. en Derecho y Economía|LHCS Lic. en Humanidades y Ciencias Sociales|LCDE Lic. en Creación y Desarrollo de Empresas|IFI Ing. en Física|IIA Ing. en Industrias Alimentarias|IA Ing. en Agronomía|IBT Ing. en Biotecnologías|IC Ing. Civil|LEP Lic. en Economía y Ciencia Política|BFI Bachelor in Financial Management|LDP Lic. en Derecho y Ciencia Política|LDF Lic. en Derecho y Finanzas|BIE Bachelor in Industrial and Systems Engineering|INT Ing. en Negocios y Tecnologías de Información|BIB Bachelor in International Business|BM Bachelor in Marketing|LEF Lic. en Economía y Finanzas|ITE Ing. en Telecomunicaciones y Sistemas Electrónicos|LCD Lic. en Comunicación y Medios Digitales|IMI Ing. en Producción Musical Digital|IDS Ing. en Desarrollo Sustentable|99</respuesta>
+			<tipo>OM</tipo>
+			<categoria>0</categoria>
+			<eval>req</eval>
+		</pregunta>		
+		  
+		<pregunta>
+			<id>p7</id>
+			<clave>p7vivepa</clave>			
+			<nombre>¿Vive tu padre?</nombre>
+			<respuesta>No=1|Si=2|9</respuesta>						
+			<subtitulo>Contesta de acuerdo a tu situación familiar</subtitulo>			
+			<tipo>OM</tipo>
+			<categoria>0</categoria>
+			<eval>req</eval>		
+		</pregunta>	
+		<pregunta>
+			<id>p8</id>
+			<clave>p8vivema</clave>		
+			<nombre>¿Vive tu madre?</nombre>
+			<respuesta>No=1|Si=2|9</respuesta>				
+			<tipo>OM</tipo>
+			<categoria>0</categoria>
+			<eval>req</eval>		
+		</pregunta>
+
+		<pregunta>
+			<id>p9</id>
+			<clave>p9edocpad</clave>		
+			<nombre>¿Tus padres viven?</nombre>
+			<respuesta>Juntos=1|Separados=2|Divorciados=3|No Procede=8|9</respuesta>
+			<tipo>OM</tipo>
+			<categoria>0</categoria>
+			<eval>req</eval>
+		</pregunta>			
+		<pregunta>
+			<id>p10</id>
+			<clave>p10relpas</clave>		
+			<nombre>La relación entre tus padres es:</nombre>
+			<respuesta>No hay relación=1|Mala=2|Regular=3|Buena=4|Excelente=5|No procede=8|9</respuesta>				
+			<tipo>OM</tipo>
+			<categoria>0</categoria>
+			<eval>req</eval>
+		</pregunta>		
+		<pregunta>
+			<id>p11</id>
+			<clave>p11vivecon</clave>		
+			<nombre>¿Con quién vives?</nombre>
+			<respuesta>Madre y padre=1|Madre, padre y  hermanos=2|Madre, padre y otro familiar (tíos, abuelos, etc.)=3|Madre, padre, hermanos y otro familiar (tíos, abuelos, etc.)=4|Esposo (a) o Pareja=5|Madre=6|Madre y hermanos=7|Padre=8|Padre y Hermanos=9|Madre o padre y  otro familiar (tíos, abuelo (a), etc.)=10|Otro familiar (tíos, abuelos, etc.)=11|Hermanos=12|Amigos o compañeros=13|Solo=14|'Padrastro y madre=15|Madrastra y padre=14|Otro=17|99</respuesta>	
+			<tipo>OM</tipo>
+			<categoria>0</categoria>
+			<eval>req</eval>
+		</pregunta>		 
+		  
+		<pregunta> 
+			<id>p12</id>
+			<clave>p12relpa</clave>		
+			<nombre>Consideras que la relación con tu papá o sustituto es:</nombre>
+			<respuesta>Excelente=1|Buena=2|Regular=3|Mala=4|No hay relación=5|No procede=8|=9</respuesta>			
+			<subtitulo>Contesta en relación con tu papá o sustituto:  </subtitulo>		
+			<tipo>OM</tipo>			
+			<categoria>0</categoria>
+			<eval>req</eval>
+		</pregunta>			
+		
+		<pregunta> 
+			<id>p13</id>
+			<clave>p13paafec</clave>		
+			<nombre>¿Te demuestra afecto o cariño?</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>						
+			<subtitulo>Tu papá o sustituto...</subtitulo>	
+			<noRespuesta>9</noRespuesta>		
+			<tipo>OM_Array</tipo>			
+			<categoria>0</categoria>
+		</pregunta>			 
+		<pregunta>
+			<id>p14</id>
+			<clave>p14paacts</clave>		
+			<nombre>¿Realiza algunas actividades agradables contigo?</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>			
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>
+			<noRespuesta>9</noRespuesta>		
+		</pregunta>		
+		
+		<pregunta>
+			<id>p15</id>
+			<clave>p15pahabla</clave>		
+			<nombre>¿Habla contigo de tu vida (planes, amigos, actividades)?</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>		
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>
+			<noRespuesta>9</noRespuesta>		
+		</pregunta>									
+		<pregunta>
+			<id>p16</id>
+			<clave>p16painteres</clave>			
+			<nombre>¿Se muestra interesado en ayudarte?</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>		
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>					
+		</pregunta>				
+		
+		<pregunta>
+			<id>p17</id>
+			<clave>p17papreocupa</clave>			
+			<nombre>¿Muestra que se preocupa por ti?</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>		
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>					
+		</pregunta>				
+		
+		<pregunta>
+			<id>p18</id>
+			<clave>p18pada</clave>			
+			<nombre>¿Trata de darte lo que necesitas? </nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>		
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>						
+		</pregunta>				
+		
+		<pregunta>
+			<id>p19</id>
+			<clave>p19pajusta</clave>			
+			<nombre>¿Es justo contigo?</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>		
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>						
+		</pregunta>						
+		<pregunta>
+			<id>p20</id>
+			<clave>p20pasales</clave>		
+			<nombre>¿Sabe a dónde vas cuando sales?</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>		
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>
+			<noRespuesta>9</noRespuesta>
+		</pregunta>				
+		
+		<pregunta>
+			<id>p21</id>
+			<clave>p21pacon_quien</clave>		
+			<nombre>¿Sabe con quién estás cuando sales?</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>		
+			<tipo>OM_Array</tipo>			
+			<categoria>0</categoria>	
+		</pregunta>				
+		<pregunta>
+			<id>p22</id>
+			<clave>p22pallegar</clave>		
+			<nombre>¿Te obliga a llegar a casa a la hora fijada?</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>		
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>	
+		</pregunta>	
+		<pregunta>
+			<id>p23</id>
+			<clave>p23painqs</clave>			
+			<nombre>¿Habla contigo de tus inquietudes sexuales?</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>		
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>	
+		</pregunta>	
+		<pregunta>
+			<id>p24</id>
+			<clave>p24paplanes</clave>			
+			<nombre>¿Te comunica sus planes?</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>		
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>	
+		</pregunta>	
+		<pregunta>
+			<id>p25</id>
+			<clave>p25pamotiva</clave>			
+			<nombre>¿Te motiva a salir adelante cuando tienes problemas?</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>		
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>		
+		</pregunta>	
+		<pregunta>
+			<id>p26</id>
+			<clave>p26paopinon</clave>			
+			<nombre>¿Toma en cuenta tu opinión para las decisiones familiares?</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>		
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>			
+		</pregunta>			
+		
+		<pregunta>
+			<id>p27</id>
+			<clave>p27parend</clave>			
+			<nombre>Tu papá o sustituto esta satisfecho con tu rendimiento académico?</nombre>
+			<respuesta>Nada satisfecho=1</respuesta>
+			<respuesta>Poco satisfecho=2</respuesta>
+			<respuesta>Regularmente satisfecho=3</respuesta>
+			<respuesta>Muy satisfecho=4</respuesta>
+			<respuesta>No sé=5</respuesta>	
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>		
+			<eval>req</eval>
+		</pregunta>	
+		<pregunta>
+			<id>p28</id>
+			<clave>p28pasatisfecho</clave>			
+			<nombre>¿Qué tan satisfecho (a) estás de cómo te llevas con tu papá o sustituto?</nombre>
+			<respuesta>Nada satisfecho=1</respuesta>
+			<respuesta>Poco satisfecho=2</respuesta>
+			<respuesta>Regularmente satisfecho=3</respuesta>
+			<respuesta>Muy satisfecho=4</respuesta>				
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>
+			<eval>req</eval>						
+		</pregunta>
+		
+		<pregunta>
+			<id>p29</id>
+			<clave>p29marel</clave>			
+			<nombre>Consideras que la relación con tu mamá o sustituta es:</nombre>
+			<respuesta>Excelente=1</respuesta>
+			<respuesta>Buena=2</respuesta>
+			<respuesta>Regular=3</respuesta>
+			<respuesta>Mala=4</respuesta>			
+			<respuesta>No hay relación=5</respuesta>
+			<respuesta>No Procede=8</respuesta>					
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>			
+			<subtitulo>Contesta en relación con tu mamá o sustituta:</subtitulo>									
+			<categoria>0</categoria>				
+			<eval>req</eval>			
+		</pregunta>		
+				
+		<pregunta>
+			<id>p30</id>
+			<clave>p30maafecto</clave>			
+			<nombre>¿Te demuestra afecto o cariño?</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>		
+			<tipo>OM_Array</tipo>	
+			<subtitulo>Tu mamá o sustituta...</subtitulo>				
+			<categoria>0</categoria>		
+		</pregunta>			
+
+
+		<pregunta>
+			<id>p31</id>
+			<clave>p31maacts</clave>			
+			<nombre>¿Realiza algunas actividades agradables contigo?</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>		
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>					
+		</pregunta>		
+		
+		<pregunta>
+			<id>p32</id>
+			<clave>p32mahabla</clave>			
+			<nombre>¿Habla contigo de tu vida (planes, amigos, actividades)?</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>		
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>						
+		</pregunta>				
+		
+		<pregunta>
+			<id>p33</id>
+			<clave>p33mainteres</clave>			
+			<nombre>¿Se muestra interesada en ayudarte?</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>		
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>					
+		</pregunta>				
+		
+		<pregunta>
+			<id>p34</id>
+			<clave>p34mapreocupa</clave>			
+			<nombre>¿Muestra que se preocupa por ti?</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>		
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>							
+		</pregunta>				
+		
+		<pregunta>
+			<id>p35</id>
+			<clave>p35mada</clave>			
+			<nombre>¿Trata de darte lo que necesitas? </nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>		
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>						
+		</pregunta>				
+		
+		<pregunta>
+			<id>p36</id>
+			<clave>p36majusta</clave>			
+			<nombre>¿Es justa contigo?</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>		
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>					
+		</pregunta>				
+				
+		<pregunta>
+			<id>p37</id>
+			<clave>p37masabe</clave>			
+			<nombre>¿Sabe a dónde vas cuando sales?</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>		
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>				
+		</pregunta>	
+		<pregunta>
+			<id>p38</id>
+			<clave>p38maconquien</clave>			
+			<nombre>¿Sabe con quién estás cuando sales?</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>		
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>>							
+		</pregunta>	
+		<pregunta>
+			<id>p39</id>
+			<clave>p39mallegar</clave>			
+			<nombre>¿Te obliga a llegar a casa a la hora fijada?</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>		
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>					
+		</pregunta>	
+		<pregunta>
+			<id>p40</id>
+			<clave>p40mainqs</clave>			
+			<nombre>¿Habla contigo de tus inquietudes sexuales?</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>		
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>						
+		</pregunta>	
+		<pregunta>
+			<id>p41</id>
+			<clave>p41maplanes</clave>			
+			<nombre>¿Te comunica sus planes?</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>		
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>						
+		</pregunta>	
+		<pregunta>
+			<id>p42</id>
+			<clave>p42mamotiva</clave>			
+			<nombre>¿Te motiva a salir adelante cuando tienes problemas?</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>		
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>							
+		</pregunta>	
+		<pregunta>
+			<id>p43</id>
+			<clave>p43maopinion</clave>			
+			<nombre>¿Toma en cuenta tu opinión para las decisiones familiares?</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>		
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>					
+		</pregunta>			
+		
+		<pregunta>
+			<id>p44</id>
+			<clave>p44macadem</clave>			
+			<nombre>¿Tu mamá o sustituta esta satisfecha con tu rendimiento académico?</nombre>
+			<respuesta>Nada satisfecha=1</respuesta>
+			<respuesta>Poco satisfecha=2</respuesta>
+			<respuesta>Regularmente satisfecha=3</respuesta>
+			<respuesta>Muy satisfecha=4</respuesta>	
+			<respuesta>No sé=5</respuesta>	
+			<noRespuesta>9</noRespuesta>		
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>		
+			<eval>req</eval>
+		</pregunta>	
+		<pregunta>
+			<id>p45</id>
+			<clave>p45mallevas</clave>			
+			<nombre>¿Qué tan satisfecho (a) estás de cómo te llevas con tu mamá o sustituta?</nombre>
+			<respuesta>Nada satisfecho=1</respuesta>
+			<respuesta>Poco satisfecho=2</respuesta>
+			<respuesta>Regularmente satisfecho=3</respuesta>
+			<respuesta>Muy satisfecho=4</respuesta>	
+			<noRespuesta>9</noRespuesta>		
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>	
+			<eval>req</eval>		
+		</pregunta>	
+		<pregunta>
+			<id>p46</id>
+			<clave>p46compfam</clave>			
+			<nombre>El comportamiento que con mayor frecuencia tienes en tu familia es:</nombre>
+			<respuesta>Huída=1</respuesta>
+			<respuesta>Enfrentamiento=2</respuesta>
+			<respuesta>Indiferencia=3</respuesta>
+			<respuesta>Negociación=4</respuesta>
+			<respuesta>Apoyo=5</respuesta>
+			<noRespuesta>9</noRespuesta>		
+			<subtitulo>En tu familia...</subtitulo>
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>
+			<eval>req</eval>				
+		</pregunta>	
+		<pregunta>
+			<id>p47</id>
+			<clave>p47actfam</clave>			
+			<nombre>¿Cuál es la actitud más frecuente que tienes en tu familia?</nombre>
+			<respuesta>Exigir=1</respuesta>
+			<respuesta>Pedir=2</respuesta>
+			<respuesta>Recibir=3</respuesta>
+			<respuesta>Autosuficiencia=4</respuesta>
+			<respuesta>Dar=5</respuesta>
+			<noRespuesta>9</noRespuesta>		
+			<tipo>OM_Array</tipo>
+			<categoria>0</categoria>	
+			<eval>req</eval>					
+		</pregunta>
+		<pregunta>
+			<id>p48</id>
+			<clave>p48tabacoav</clave>
+			<nombre>¿Has fumado tabaco alguna vez en tu vida? </nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=2</respuesta>
+			<noRespuesta>9</noRespuesta>	
+			<tipo>OM_Array</tipo>
+			<categoria>1</categoria>
+			<eval>req</eval>		
+		</pregunta>	  
+		
+		<pregunta>
+			<id>p49</id>
+			<clave>p49tabacoua</clave>
+			<nombre>En los últimos 12 meses, ¿has fumado tabaco?</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=2</respuesta>
+			<noRespuesta>9</noRespuesta>				
+			<tipo>OM_Array</tipo>
+			<categoria>1</categoria>
+			<eval>req</eval>					
+		</pregunta>				
+		<pregunta>
+			<id>p50</id>
+			<clave>p50tabacoum</clave>
+			<nombre>En los últimos 30 días, ¿has fumado tabaco?</nombre>
+			<respuesta>Diario=1</respuesta>
+			<respuesta>Semanalmente=2</respuesta>
+			<respuesta>Quincenalmente=3</respuesta>
+			<respuesta>Una sola vez=4</respuesta>
+			<respuesta>Ningún día=5</respuesta>												
+			<noRespuesta>9</noRespuesta>				
+			<tipo>OM_Array</tipo>
+			<categoria>1</categoria>
+			<eval>req</eval>	
+			<candadoDepende>48.!2</candadoDepende>			
+		</pregunta>			
+		<pregunta>
+			<id>p51</id>
+			<clave>p51tabcuan</clave>		
+			<nombre>¿Cuántos cigarros de tabaco fumas al día?</nombre>
+			<respuesta>Más de 10 cigarros=1</respuesta>
+			<respuesta>7 a 9=2</respuesta>
+			<respuesta>4 a 6=3</respuesta>
+			<respuesta>1 a 3 cigarros=4</respuesta>					
+			<noRespuesta>9</noRespuesta>				
+			<tipo>OM_Array</tipo>				
+			<categoria>1</categoria>
+			<eval>req</eval>					
+		</pregunta>				
+		<pregunta>
+			<id>p52</id>
+			<clave>p52tabacotiemp</clave>		
+			<nombre>¿Cuánto tiempo después de despertarte fumas tu primer cigarro?</nombre>
+			<respuesta>En los primeros 30 minutos=1</respuesta>
+			<respuesta>Entre 31 y 60 minutos=2</respuesta>
+			<respuesta>Más de 60 minutos=3</respuesta>
+			<noRespuesta>9</noRespuesta>				
+			<tipo>OM_Array</tipo>		
+			<categoria>1</categoria>
+			<eval>req</eval>					
+		</pregunta>						
+
+		<pregunta>
+			<id>p53</id>
+			<clave>p53tabacoregul</clave>		
+			<nombre>Regularmente fumas tabaco...</nombre>
+			<respuesta>Solo=1</respuesta>
+			<respuesta>Solo y Acompañado=2</respuesta>
+			<respuesta>Acompañado=3</respuesta>
+			<noRespuesta>9</noRespuesta>				
+			<tipo>OM_Array</tipo>		
+			<categoria>1</categoria>
+			<eval>req</eval>									
+		</pregunta>		
+		
+		<pregunta>
+			<id>p54</id>
+			<clave>p54tabacoen</clave>		
+			<nombre>Las ocasiones que fumas tabaco es en: </nombre>
+			<respuesta>Casa, escuela y lugares públicos (antros, fiestas, restaurantes, etc.)=1</respuesta>
+			<respuesta>Casa y lugares públicos=2</respuesta>
+			<respuesta>Escuela y lugares públicos=3</respuesta>
+			<respuesta>Casa=4</respuesta>
+			<respuesta>Escuela=5</respuesta>	
+			<respuesta>Lugares públicos=6</respuesta>
+			<noRespuesta>9</noRespuesta>				
+			<tipo>OM_Array</tipo>		
+			<categoria>1</categoria>
+			<eval>req</eval>					
+
+		</pregunta>		
+		
+		<pregunta>
+			<id>p55</id>
+			<clave>p55tacovalor</clave>		
+			<nombre>En casa el uso de tabaco es valorado como:</nombre>
+			 <respuesta>Bueno=1</respuesta>
+			 <respuesta>Normal=2</respuesta>
+			 <respuesta>Indiferente=3</respuesta>			 
+			 <respuesta>Malo=4</respuesta>
+			<noRespuesta>9</noRespuesta>				
+			<tipo>OM_Array</tipo>		
+			<categoria>1</categoria>
+			<eval>req</eval>					
+
+		</pregunta>		
+		
+		<pregunta>
+			<id>p56</id>
+			<clave>p56tabacocasa</clave>		
+			<nombre>En casa hay tabaco</nombre>
+			 <respuesta>Siempre=1</respuesta>
+			 <respuesta>Casi siempre=2</respuesta>
+			 <respuesta>Casi nunca=3</respuesta>
+			 <respuesta>Nunca=4</respuesta>
+			<noRespuesta>9</noRespuesta>				
+			<tipo>OM_Array</tipo>		
+			<categoria>1</categoria>
+			<eval>req</eval>
+		</pregunta>		
+		
+		
+		<pregunta>
+			<id>p57</id>
+			<clave>p57ohav</clave>		
+			<nombre>¿Alguna vez en la vida has tomado una copa completa de alguna bebida alcohólica? (ver cuadro)</nombre>
+			<imagen>alcohol.jpg</imagen>
+			 <respuesta>Si=1</respuesta>
+			 <respuesta>No=2</respuesta>
+			<noRespuesta>9</noRespuesta>				
+			<tipo>OM_Array</tipo>		
+			<categoria>1</categoria>
+			<eval>req</eval>	
+		</pregunta>			
+		
+		<pregunta>
+			<id>p58</id>
+			<clave>p58ohua</clave>		
+			<nombre>En los últimos 12 meses, ¿has tomado una copa completa de alguna bebida alcohólica?</nombre>
+			 <respuesta>Si=1</respuesta>
+			 <respuesta>No=2</respuesta>
+			<tipo>OM_Array</tipo>		
+			<categoria>1</categoria>
+			<eval>req</eval>	
+			<categoria>1</categoria>
+	
+		</pregunta>					
+			
+		<pregunta>
+			<id>p59</id>
+			<clave>p59alcoholfrec</clave>		
+			<nombre>¿Qué tan frecuentemente tomas bebidas alcohólicas en un mes?</nombre>
+			 <respuesta>Cuatro o más veces por semana=4</respuesta>
+			 <respuesta>Dos o tres veces por semana=3</respuesta>
+			 <respuesta>Dos o cuatro veces al mes=2</respuesta>
+			 <respuesta>Una vez al mes=1</respuesta>
+			 <respuesta>Nunca=0</respuesta>
+			<tipo>OM_Array</tipo>		
+			<categoria>1</categoria>
+			<eval>req</eval>												
+		</pregunta>		
+		  
+		<pregunta>
+			<id>p60</id>
+			<clave>p60alcoholcopas</clave>		
+			<nombre>¿Cuántas copas tomas en un día típico o común de los que bebes? (cubas o equivalentes como cervezas, tequila,  vodka, cócteles, coolers o cualquier otra bebida que contenga alcohol) (ver cuadro 1)</nombre>
+			 <respuesta>10 ó más=4</respuesta>
+			 <respuesta>7 ó 9=3</respuesta>
+			 <respuesta>5 ó 6=2</respuesta>
+			 <respuesta>3 ó 4=1</respuesta>
+			 <respuesta>1 ó 2 copas=0</respuesta>
+			<tipo>OM_Array</tipo>		
+			<categoria>1</categoria>
+			<eval>req</eval>							 		
+			<candadoDepende>57.!2</candadoDepende>								
+		</pregunta>
+
+		<pregunta>
+			<id>p61</id>
+			<clave>p61alcohol6copas</clave>		
+			<nombre>¿Qué tan frecuentemente tomas 6 ó más copas en la misma ocasión? (En un mismo día, evento o reunión)</nombre>
+			<respuesta>Diario o casi diario=4</respuesta>
+			<respuesta>Semanalmente=3</respuesta>
+			<respuesta>Mensualmente=2</respuesta>
+			<respuesta>Menos de una vez al mes=1</respuesta>
+			<respuesta>Nunca=0</respuesta>
+			<tipo>OM_Array</tipo>		
+			<categoria>1</categoria>
+			<eval>req</eval>
+			<candadoDepende>57.!2</candadoDepende>								
+		</pregunta>
+		<pregunta>
+			<id>p62</id>
+			<clave>p62alcoholen</clave>		
+			<nombre>Las ocasiones que consumes bebidas alcohólicas es en: </nombre>
+			<respuesta>Casa, escuela y lugares públicos (antros, fiestas, restaurantes, etc.)=1</respuesta>
+			<respuesta>Casa y lugares públicos=2</respuesta>
+			<respuesta>Escuela y lugares públicos=3</respuesta>
+			<respuesta>Casa=4</respuesta>
+			<respuesta>Escuela=5</respuesta>						
+			<respuesta>Lugares públicos=7</respuesta>				
+			<tipo>OM_Array</tipo>		
+			<categoria>1</categoria>
+			<eval>req</eval>
+			<candadoDepende>57.!2</candadoDepende>								
+		</pregunta>
+		<pregunta>
+			<id>p63</id>
+			<clave>p63alcoholvalor</clave>		
+			<nombre>En casa el uso de alcohol es valorado como:</nombre>
+			<respuesta>Bueno=1</respuesta>
+			<respuesta>Normal=2</respuesta>
+			<respuesta>Indiferente=3</respuesta>			
+			<respuesta>Malo=4</respuesta>
+			<noRespuesta>9</noRespuesta>	
+			<tipo>OM_Array</tipo>		
+			<categoria>1</categoria>
+			<eval>req</eval>
+		</pregunta>
+		<pregunta>
+			<id>p64</id>
+			<clave>p64alcoholencasa</clave>		
+			<nombre>¿En casa hay bebidas alcohólicas?</nombre>
+			<respuesta>Siempre=1</respuesta>
+			<respuesta>Casi siempre=2</respuesta>
+			<respuesta>Casi nunca=3</respuesta>
+			<respuesta>Nunca=4</respuesta>
+			<noRespuesta>9</noRespuesta>	
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>
+			<categoria>1</categoria>
+
+		</pregunta>
+		<pregunta>
+			<id>p65</id>
+			<clave>p65probpaoh</clave>		
+			<nombre>Tu papá o sustituto, ¿tiene problemas por consumir en exceso alguna sustancia (como alcohol, tabaco, marihuana, medicamentos u otra droga)?</nombre>
+			<respuesta>Sí, específica=on</respuesta>	
+			<respuesta>No=2</respuesta>			
+			<categoria>1</categoria>		
+			<tipo>ESPECIFICA</tipo>			
+			<eval>req</eval>	
+		</pregunta>		
+		<pregunta>
+			<id>p66</id>
+			<clave>p66promaoh</clave>		
+			<nombre>Tu mamá o sustituto, ¿tiene problemas por consumir en exceso alguna sustancia (como alcohol, tabaco, marihuana, medicamentos u otra droga)?</nombre>			
+			<respuesta>Sí, específica=on</respuesta>	
+			<respuesta>No=2</respuesta>					
+			<categoria>1</categoria>
+			<tipo>ESPECIFICA</tipo>			
+			<eval>req</eval>	
+		</pregunta>				
+				
+	 
+		<pregunta>
+			<id>p67</id>
+			<clave>p67amigos</clave>			
+			<nombre>¿Cuántos amigos tienes?</nombre>
+			<respuesta>7 o más=1</respuesta>
+			<respuesta>5 - 6=2</respuesta>
+			<respuesta>3 - 4=3</respuesta>
+			<respuesta>1 - 2=4</respuesta>
+			<respuesta>Ninguno=5</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>
+			<categoria>2</categoria>	
+		</pregunta>			
+		<pregunta>
+			<id>p68</id>
+			<clave>p68mejorami</clave>					
+			<nombre>¿Tienes un mejor amigo?</nombre>
+			<respuesta>Sí=1</respuesta>
+			<respuesta>No=2</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>
+			<categoria>2</categoria>		
+		</pregunta>	
+
+		<pregunta>
+			<id>p69</id>
+			<clave>p69duación</clave>					
+			<nombre>En promedio, tus relaciones de amistad duran:</nombre>
+			<respuesta>0 - 	6 meses=1</respuesta>
+			<respuesta>6 meses - 1 año=2</respuesta>
+			<respuesta>1 año - 2 años=3</respuesta>
+			<respuesta>2 - 3 años=4</respuesta>
+			<respuesta>5 ó más años=5</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<categoria>2</categoria>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>
+		</pregunta>	
+		<pregunta>
+			<id>p70</id>
+			<clave>p70grupo</clave>					
+			<nombre>¿Perteneces a algún grupo o asociación?</nombre>
+			<respuesta>Sí, específica=on</respuesta>
+			<respuesta>No=2</respuesta>			
+			<tipo>ESPECIFICA</tipo>			
+			<eval>req</eval>	
+			<categoria>2</categoria>			
+		</pregunta>			
+		<pregunta>
+			<id>p71</id>
+			<clave>p71club</clave>					
+			<nombre>¿Perteneces a algún club?</nombre>
+			<respuesta>Sí, específica=on</respuesta>
+			<respuesta>No=2</respuesta>			
+			<tipo>ESPECIFICA</tipo>			
+			<eval>req</eval>	
+			<categoria>2</categoria>			
+		</pregunta>		
+
+				
+		
+		<pregunta>
+			<id>p72</id>
+			<clave>p72novio</clave>			
+			<nombre>¿Tienes novio o pareja?</nombre>
+			<respuesta>Sí=1</respuesta>
+			<respuesta>No=2</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>
+			<categoria>3</categoria>
+		</pregunta>	
+		<pregunta>
+			<id>p73</id>
+			<clave>p73free</clave>			
+			<nombre>¿Alguna vez has tenido relaciones 'FREE'?</nombre>
+			<respuesta>Sí=1</respuesta>
+			<respuesta>No=2</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>			
+			<categoria>3</categoria>
+		</pregunta>			
+		<pregunta>
+			<id>p74</id>
+			<clave>p74promrel</clave>			
+			<nombre>¿En promedio, cuánto duran tus relaciones de noviazgo o pareja?</nombre>
+			<respuesta>0 - 6 meses=1</respuesta>
+			<respuesta>6 meses - 1 año=2</respuesta>
+			<respuesta>1 año - 2 años=3</respuesta>
+			<respuesta>2 - 3 años=4</respuesta>
+			<respuesta>5 ó más años=5</respuesta>
+			<respuesta>No he tenido=6</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>
+			<categoria>3</categoria>							
+		</pregunta>	
+		<pregunta>
+			<id>p75</id>
+			<clave>p75relsex</clave>			
+			<nombre>¿Actualmente tienes relaciones sexuales?</nombre>
+			<respuesta>Sí=1</respuesta>
+			<respuesta>No=2</respuesta>			
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>
+			<categoria>3</categoria>	
+		</pregunta>	
+		
+		
+		<pregunta>
+			<id>p76</id>
+			<clave>p76parejassex</clave>			
+			<nombre>¿Cuántas parejas sexuales tienes actualmente?</nombre>
+			<respuesta>Dos o más=1</respuesta>
+			<respuesta>Una=2</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>
+			<categoria>3</categoria>	
+			<candadoDepende>74.!2</candadoDepende>				
+		</pregunta>	
+		<pregunta>
+			<id>p77</id>
+			<clave>p77metant</clave>			
+			<nombre>¿Qué método anticonceptivo y/o preventivo usas o has usado?</nombre>
+			<respuesta>Ninguno=1</respuesta>
+			<respuesta>Ritmo=2</respuesta>
+			<respuesta>Óvulos=3</respuesta>
+			<respuesta>Pastillas=4</respuesta>
+			<respuesta>Condón=5</respuesta>
+			<respuesta>Pastillas/Condón=6</respuesta>			
+			<respuesta>Óvulos/Condón=7</respuesta>
+			<respuesta>No he tenido relaciones sexuales=8</respuesta>							
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>
+			<categoria>3</categoria>	
+			<candadoDepende>74.!2</candadoDepende>				
+		</pregunta>	
+		<pregunta>
+			<id>p78</id>
+			<clave>p78edadrels</clave>			
+			<nombre>¿A qué edad empezaste a tener relaciones sexuales?</nombre>
+			<respuesta>15 ó menos=1</respuesta>
+			<respuesta>16 a 18 años=2</respuesta>
+			<respuesta>19 a 21 años=3</respuesta>
+			<respuesta>22 ó más=4</respuesta>
+			<respuesta>No he tenido=5</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>
+			<categoria>3</categoria>	
+		</pregunta>			
+
+		
+		<pregunta>
+			<id>p79</id>
+			<clave>p79cansas</clave>			
+			<nombre>¿Te cansas con frecuencia?</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>			
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>
+			<categoria>4</categoria>
+		</pregunta>	
+		<pregunta>
+			<id>p80</id>
+			<clave>p80asustas</clave>		
+			<nombre>¿Te asustas con facilidad?</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>			
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>
+			<categoria>4</categoria>
+		</pregunta>	
+		<pregunta>
+			<id>p81</id>
+			<clave>p81frustrado</clave>		
+			<nombre>¿Te sientes frustrado (a)  con facilidad?</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>			
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>
+			<categoria>4</categoria>
+		</pregunta>	
+		<pregunta>
+			<id>p82</id>
+			<clave>p82solo</clave>		
+			<nombre>¿Te sientes solo (a) la mayor parte del tiempo?</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>			
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>
+			<categoria>4</categoria>	
+		</pregunta>	
+		<pregunta>
+			<id>p83</id>
+			<clave>p83impulsiva</clave>		
+			<nombre>¿Actúas impulsivamente y sin pensar en las consecuencias que tendrán tus actos?</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>			
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>
+			<categoria>4</categoria>
+		</pregunta>	
+		<pregunta>
+			<id>p84</id>
+			<clave>p84nervioso</clave>		
+			<nombre>¿Te sientes nervioso (a) la mayor parte del tiempo?</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>			
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>
+			<categoria>4</categoria>	
+		</pregunta>	
+		<pregunta>
+			<id>p85</id>
+			<clave>p85genteenc</clave>		
+			<nombre>¿Sientes que la gente está en contra tuya?</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>			
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>
+			<categoria>4</categoria>	
+		</pregunta>	
+		<pregunta>
+			<id>p86</id>
+			<clave>p86imsomnio</clave>		
+			<nombre>¿Tienes dificultades para dormir?</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>			
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>
+			<categoria>4</categoria>
+		</pregunta>	
+		<pregunta>
+			<id>p87</id>
+			<clave>p87control</clave>		
+			<nombre>¿Sientes que a veces pierdes el control de ti mismo (a) y terminas peleando?</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>			
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>
+			<categoria>4</categoria>	
+		</pregunta>	
+		<pregunta>
+			<id>p88</id>
+			<clave>p88instruc</clave>		
+			<nombre>¿Tienes dificultad en seguir instrucciones?</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>			
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>
+			<categoria>4</categoria>
+		</pregunta>	
+		<pregunta>
+			<id>p89</id>
+			<clave>p89llorar</clave>		
+			<nombre>¿Sientes deseos de llorar frecuentemente?</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>			
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>
+			<categoria>4</categoria>	
+		</pregunta>	
+		<pregunta>
+			<id>p90</id>
+			<clave>p90miedo</clave>		
+			<nombre>¿Te da miedo estar con la gente?</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=0</respuesta>			
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>
+			<categoria>4</categoria>	
+		</pregunta>	
+		<pregunta>
+			<id>p91</id>
+			<clave>p91emocional</clave>		
+			<nombre>¿Qué tan satisfecho (a) estás con la manera en que te sientes emocionalmente?</nombre>
+			<respuesta>Nada satisfecho=1</respuesta>
+			<respuesta>Poco satisfecho=2</respuesta>
+			<respuesta>Regularmente satisfecho=3</respuesta>
+			<respuesta>Muy satisfecho=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>
+			<categoria>4</categoria>	
+		</pregunta>		
+
+		<pregunta>
+			<id>p92</id>
+			<clave>p92exitantes</clave>		
+			<nombre>Haces cosas arriesgadas, sólo porque son excitantes</nombre>			
+			<respuesta>Con mucha frecuencia=1</respuesta>
+			<respuesta>Con frecuencia=2</respuesta>
+			<respuesta>A veces=3</respuesta>
+			<respuesta>Casi nunca=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>
+			<categoria>4</categoria>				
+			<subtitulo>Qué tan seguido:</subtitulo>
+		</pregunta>		
+		<pregunta>
+			<id>p93</id>
+			<clave>p93impulsiva</clave>		
+			<nombre>Haces cosas impulsivamente</nombre>
+			<respuesta>Con mucha frecuencia=1</respuesta>
+			<respuesta>Con frecuencia=2</respuesta>
+			<respuesta>A veces=3</respuesta>
+			<respuesta>Casi nunca=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>
+			<categoria>4</categoria>				
+		</pregunta>		
+		<pregunta>
+			<id>p94</id>
+			<clave>p94riesgos</clave>		
+			<nombre>Corres riesgos</nombre>
+			<respuesta>Con mucha frecuencia=1</respuesta>
+			<respuesta>Con frecuencia=2</respuesta>
+			<respuesta>A veces=3</respuesta>
+			<respuesta>Casi nunca=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>
+			<categoria>4</categoria>				
+		</pregunta>		
+		<pregunta>
+			<id>p95</id>
+			<clave>p95cosas</clave>		
+			<nombre>Haces lo que te gusta, sin pensar en las consecuencias</nombre>
+			<respuesta>Con mucha frecuencia=1</respuesta>
+			<respuesta>Con frecuencia=2</respuesta>
+			<respuesta>A veces=3</respuesta>
+			<respuesta>Casi nunca=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>
+			<categoria>4</categoria>				
+		</pregunta>		
+		<pregunta>
+			<id>p96</id>
+			<clave>p96impaciencia</clave>		
+			<nombre>Te impacientas fácilmente con la gente</nombre>
+			<respuesta>Con mucha frecuencia=1</respuesta>
+			<respuesta>Con frecuencia=2</respuesta>
+			<respuesta>A veces=3</respuesta>
+			<respuesta>Casi nunca=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>
+			<categoria>4</categoria>				
+		</pregunta>								
+
+
+		<pregunta>
+			<id>p97</id>
+			<clave>p97manera</clave>				
+			<nombre>Te gusta tu manera de ser</nombre>
+			<respuesta>Total desacuerdo=1</respuesta>
+			<respuesta>En desacuerdo=2</respuesta>
+			<respuesta>De acuerdo=3</respuesta>
+			<respuesta>Total acuerdo=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>			
+			<categoria>5</categoria>
+		</pregunta>	
+		<pregunta>
+			<id>p98</id>
+			<clave>p98apariencia</clave>	
+			<nombre>Estas a gusto con tu apariencia física</nombre>
+			<respuesta>Total desacuerdo=1</respuesta>
+			<respuesta>En desacuerdo=2</respuesta>
+			<respuesta>De acuerdo=3</respuesta>
+			<respuesta>Total acuerdo=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>			
+			<categoria>5</categoria>
+		</pregunta>	
+
+		<pregunta>
+			<id>p99</id>
+			<clave>p99capaz</clave>	
+			<nombre>Te sientes capaz en lo que haces</nombre>
+			<respuesta>Total desacuerdo=1</respuesta>
+			<respuesta>En desacuerdo=2</respuesta>
+			<respuesta>De acuerdo=3</respuesta>
+			<respuesta>Total acuerdo=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>			
+			<categoria>5</categoria>
+		</pregunta>	
+
+		<pregunta>
+			<id>p100</id>
+			<clave>p100aceptadao</clave>	
+			<nombre>Te sientes aceptado por los demás</nombre>
+			<respuesta>Total desacuerdo=1</respuesta>
+			<respuesta>En desacuerdo=2</respuesta>
+			<respuesta>De acuerdo=3</respuesta>
+			<respuesta>Total acuerdo=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>			
+			<categoria>5</categoria>
+		</pregunta>	
+
+		<pregunta>
+			<id>p101</id>
+			<clave>p101peso</clave>	
+			<nombre>Estas a gusto con tu peso</nombre>
+			<respuesta>Total desacuerdo=1</respuesta>
+			<respuesta>En desacuerdo=2</respuesta>
+			<respuesta>De acuerdo=3</respuesta>
+			<respuesta>Total acuerdo=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>			
+			<categoria>5</categoria>
+		</pregunta>	
+
+
+		<pregunta>
+			<id>p102</id>
+			<clave>p102vale</clave>	
+			<nombre>Sientes que eres una persona que vale, al menos igual que los demás</nombre>
+			<respuesta>Total desacuerdo=1</respuesta>
+			<respuesta>En desacuerdo=2</respuesta>
+			<respuesta>De acuerdo=3</respuesta>
+			<respuesta>Total acuerdo=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>			
+			<categoria>5</categoria>
+		</pregunta>	
+
+		<pregunta>
+			<id>p103</id>
+			<clave>p103gente</clave>	
+			<nombre>Confías en la gente</nombre>
+			<respuesta>Total desacuerdo=1</respuesta>
+			<respuesta>En desacuerdo=2</respuesta>
+			<respuesta>De acuerdo=3</respuesta>
+			<respuesta>Total acuerdo=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>			
+			<categoria>5</categoria>
+		</pregunta>	
+
+		<pregunta>
+			<id>p104</id>
+			<clave>p104fracaso</clave>	
+			<nombre>En general te inclinas a pensar que eres un fracaso</nombre>
+			<respuesta>Total desacuerdo=4</respuesta>
+			<respuesta>En desacuerdo=3</respuesta>
+			<respuesta>De acuerdo=2</respuesta>
+			<respuesta>Total acuerdo=1</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>			
+			<categoria>5</categoria>
+		</pregunta>	
+
+		<pregunta>
+			<id>p105</id>
+			<clave>p105orgulloso</clave>	
+			<nombre>Sientes que no tienes mucho de que estar orgulloso (a)</nombre>
+			<respuesta>Total desacuerdo=4</respuesta>
+			<respuesta>En desacuerdo=3</respuesta>
+			<respuesta>De acuerdo=2</respuesta>
+			<respuesta>Total acuerdo=1</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>				
+			<categoria>5</categoria>	
+		</pregunta>	
+
+		<pregunta>
+			<id>p106</id>
+			<clave>p106inutil</clave>	
+			<nombre>A veces te sientes inútil</nombre>
+			<respuesta>Total desacuerdo=4</respuesta>
+			<respuesta>En desacuerdo=3</respuesta>
+			<respuesta>De acuerdo=2</respuesta>
+			<respuesta>Total acuerdo=1</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>				
+			<categoria>5</categoria>	
+
+		</pregunta>	
+
+		<pregunta>
+			<id>p107</id>
+			<clave>p107criticado</clave>	
+			<nombre>Te sientes criticado (a) con frecuencia</nombre>
+			<respuesta>Total desacuerdo=4</respuesta>
+			<respuesta>En desacuerdo=3</respuesta>
+			<respuesta>De acuerdo=2</respuesta>
+			<respuesta>Total acuerdo=1</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>				
+			<categoria>5</categoria>	
+
+		</pregunta>	
+
+		<pregunta>
+			<id>p108</id>
+			<clave>p108celoso</clave>	
+			<nombre>Eres muy celoso (a)</nombre>
+			<respuesta>Total desacuerdo=4</respuesta>
+			<respuesta>En desacuerdo=3</respuesta>
+			<respuesta>De acuerdo=2</respuesta>
+			<respuesta>Total acuerdo=1</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>				
+			<categoria>5</categoria>	
+
+		</pregunta>	
+
+		<pregunta>
+			<id>p109</id>
+			<clave>p109culpable</clave>	
+			<nombre>Te sientes culpable fácilmente</nombre>
+			<respuesta>Total desacuerdo=4</respuesta>
+			<respuesta>En desacuerdo=3</respuesta>
+			<respuesta>De acuerdo=2</respuesta>
+			<respuesta>Total acuerdo=1</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>				
+			<categoria>5</categoria>	
+
+		</pregunta>	
+
+
+
+		<pregunta>
+			<id>p110</id>
+			<clave>p110satisfecho</clave>	
+			<nombre>¿Qué tan satisfecho (a) estás contigo mismo (a)?</nombre>
+			<respuesta>Nada satisfecho=1</respuesta>
+			<respuesta>Poco satisfecho=2</respuesta>
+			<respuesta>Regularmente satisfecho=3</respuesta>
+			<respuesta>Muy satisfecho=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>				
+			<categoria>5</categoria>
+		</pregunta>			
+
+		<pregunta>
+			<id>p111</id>
+			<clave>p111adelante</clave>	
+			<nombre>No podía "seguir adelante"</nombre>
+			<respuesta>0 días=0</respuesta>
+			<respuesta>1-2 días=1</respuesta>
+			<respuesta>3-4 días=2</respuesta>
+			<respuesta>5-7 días=3</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>				
+			<categoria>5</categoria>			
+			<subtitulo>Ahora nos interesa saber acerca de algunas experiencias que te pudieron haber ocurrido durante la semana pasada. Por favor, lee cada afirmación e indica el número de días (de 0 a 7) en que te sentiste así la semana pasada:</subtitulo>
+		</pregunta>			
+		<pregunta>
+			<id>p112</id>
+			<clave>p112muerte</clave>	
+			<nombre>Tenía pensamientos sobre la muerte</nombre>
+			<respuesta>0 días=0</respuesta>
+			<respuesta>1-2 días=1</respuesta>
+			<respuesta>3-4 días=2</respuesta>
+			<respuesta>5-7 días=3</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>				
+			<categoria>5</categoria>	
+		</pregunta>	
+		<pregunta>
+			<id>p113</id>
+			<clave>p113muerto</clave>	
+			<nombre>Sentía que mi familia estaría mejor, si yo estuviera muerto (a)</nombre>
+			<respuesta>0 días=0</respuesta>
+			<respuesta>1-2 días=1</respuesta>
+			<respuesta>3-4 días=2</respuesta>
+			<respuesta>5-7 días=3</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>				
+			<categoria>5</categoria>	
+		</pregunta>	
+		<pregunta>
+			<id>p114</id>
+			<clave>p114matarme</clave>	
+			<nombre>Pensé en matarme</nombre>
+			<respuesta>0 días=0</respuesta>
+			<respuesta>1-2 días=1</respuesta>
+			<respuesta>3-4 días=2</respuesta>
+			<respuesta>5-7 días=3</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>				
+			<categoria>5</categoria>	
+		</pregunta>					
+				
+
+	
+		<pregunta>
+			<id>p115</id>
+			<clave>p115deseos</clave>			
+			<nombre>Puedo expresar adecuadamente mis deseos y necesidades</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>	
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>			
+			<categoria>6</categoria>	
+		</pregunta>	
+			<pregunta>
+			<id>p116</id>
+			<clave>p116emociones</clave>	
+			<nombre>Puedo expresar adecuadamente mis emociones</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>	
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>			
+			<categoria>6</categoria>	
+
+		</pregunta>	
+		<pregunta>
+			<id>p117</id>
+			<clave>p117pensa</clave>	
+			<nombre>Puedo expresar adecuadamente mis ideas y pensamientos</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>	
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>			
+			<categoria>6</categoria>	
+		</pregunta>	
+		<pregunta>
+			<id>p118</id>
+			<clave>p118decirno</clave>	
+			<nombre>Sé decir NO ante situaciones que puedan hacerme daño a pesar de que otros las hagan</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>	
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>			
+			<categoria>6</categoria>
+		</pregunta>	
+		<pregunta>
+			<id>p119</id>
+			<clave>p119verdad</clave>	
+			<nombre>Puedo decir la verdad</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>	
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>					
+			<eval>req</eval>			
+			<categoria>6</categoria>
+		</pregunta>			
+
+
+
+
+		<pregunta>
+			<id>p120</id>
+			<clave>p120con</clave>	
+			<nombre>Elige la opción que mejor refleje cómo son las reglas en tu casa</nombre>
+			<respuesta>Muy confusas=1</respuesta>
+			<respuesta>Confusas=2</respuesta>
+			<respuesta>Claras=3</respuesta>
+			<respuesta>Muy claras=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>7</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		
+		<pregunta>
+			<id>p121</id>
+			<clave>p121congruentes</clave>	
+			<nombre>Elige la opción que mejor refleje cómo son las reglas en tu casa</nombre>
+			<respuesta>Muy incongruentes=1</respuesta>
+			<respuesta>Incongruentes=2</respuesta>
+			<respuesta>Congruentes=3</respuesta>
+			<respuesta>Muy congruentes=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>7</categoria>
+			<eval>req</eval>	
+		</pregunta>		
+		
+										
+		<pregunta>
+			<id>p122</id>
+			<clave>p122rigidas</clave>	
+			<nombre>Elige la opción que mejor refleje cómo son las reglas en tu casa</nombre>
+			<respuesta>Muy rígidas=1</respuesta>
+			<respuesta>Muy flexibles=2</respuesta>
+			<respuesta>Rígidas=3</respuesta>
+			<respuesta>Flexibles=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>7</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+
+		<pregunta>
+			<id>p123</id>
+			<clave>p123reglas</clave>	
+			<nombre>Las reglas de casa fueron puestas por:</nombre>
+			<respuesta>No hay=1</respuesta>
+			<respuesta>Ti=2</respuesta>
+			<respuesta>Padre=3</respuesta>
+			<respuesta>Madre=4</respuesta>
+			<respuesta>Padre y/o madre=5</respuesta>
+			<respuesta>Padre y madre e hijo (s)=6</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>7</categoria>
+			<eval>req</eval>	
+		</pregunta>
+		<pregunta>
+			<id>p124</id>
+			<clave>p124disciplina</clave>	
+			<nombre>La disciplina en casa es</nombre>
+			<respuesta>Muy estricta=1</respuesta>
+			<respuesta>Muy flexible=2</respuesta>
+			<respuesta>Equilibrada=3</respuesta>
+			<respuesta>Estricta=4</respuesta>
+			<respuesta>Flexible=5</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>7</categoria>
+			<eval>req</eval>	
+		</pregunta>		
+
+
+
+
+		<pregunta>
+			<id>p125</id>
+			<clave>p125acuerdo</clave>	
+			<nombre>Estás de acuerdo con las reglas de casa</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>7</categoria>
+			<eval>req</eval>	
+		</pregunta>
+		<pregunta>
+			<id>p126</id>
+			<clave>p126cumple</clave>	
+			<nombre>Cumples las reglas de casa</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>7</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		<pregunta>
+			<id>p127</id>
+			<clave>p127reglasesc</clave>	
+			<nombre>Estás de acuerdo con las reglas de la escuela</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>7</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		<pregunta>
+			<id>p128</id>
+			<clave>p128cumpregesc</clave>	
+			<nombre>Cumples las reglas de la escuela</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>7</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		<pregunta>
+			<id>p129</id>
+			<clave>p129atencion</clave>	
+			<nombre>La atención que tienes en casa es de:</nombre>
+			<respuesta>Indiferencia=1</respuesta>
+			<respuesta>Sobreprotección=2</respuesta>
+			<respuesta>Protección=3</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>7</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+
+		<pregunta>
+			<id>p130</id>
+			<clave>p130trato</clave>	
+			<nombre>El trato que recibes en casa es:</nombre>
+			<respuesta>Maltrato o Agresión=1</respuesta>
+			<respuesta>Amable=2</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>7</categoria>
+			<eval>req</eval>	
+		</pregunta>			
+
+	
+
+		<pregunta>
+			<id>p131</id>
+			<clave>p131adolesc</clave>	
+			<nombre>Tu adolescencia te ha sido</nombre>
+			<respuesta>Muy difícil=1</respuesta>
+			<respuesta>Difícil=2</respuesta>
+			<respuesta>Fácil=3</respuesta>
+			<respuesta>Muy fácil=4</respuesta>		
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>8</categoria>
+			<eval>req</eval>	
+		</pregunta>
+		<pregunta>
+			<id>p132</id>
+			<clave>p132escuela</clave>	
+			<nombre>El cambio de escuela te ha sido</nombre>
+			<respuesta>Muy difícil=1</respuesta>
+			<respuesta>Difícil=2</respuesta>
+			<respuesta>Fácil=3</respuesta>
+			<respuesta>Muy fácil=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>8</categoria>
+			<eval>req</eval>
+		</pregunta>
+		<pregunta>
+			<id>p133</id>
+			<clave>p133fallecim</clave>	
+			<nombre>En los [bi]últimos 4 años[bf] has perdido por fallecimiento a: [br] (marca las opciones que sean necesarias)</nombre>
+			<respuesta>Papá=1</respuesta>
+			<respuesta>Mamá=2</respuesta>
+			<respuesta>Hermanos=3</respuesta>
+			<respuesta>Abuelos, tíos o familiar cercano=4</respuesta>
+			<respuesta>Pareja=5</respuesta>
+			<respuesta>Amigos=6</respuesta>
+			<respuesta>Nadie=7</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>CB_Array</tipo>
+			<categoria>8</categoria>
+			<eval>req</eval>			
+		</pregunta>
+		<pregunta>
+			<id>p134</id>
+			<clave>p134repuesto</clave>	
+			<nombre>Te has repuesto de estas pérdidas:</nombre>
+			<respuesta>Muy difícil=1</respuesta>
+			<respuesta>Difícil=2</respuesta>
+			<respuesta>Fácil=3</respuesta>
+			<respuesta>Muy fácil=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>8</categoria>
+			<eval>req</eval>		
+		</pregunta>
+		<pregunta>
+			<id>p135</id>
+			<clave>p135hahecho</clave>	
+			<nombre>Ante una separación importante, muerte o pérdida de un ser querido ¿qué has hecho?:</nombre>
+			<respuesta>No he superado el duelo=1</respuesta>
+			<respuesta>Me ha sido indiferente=2</respuesta>
+			<respuesta>He superado el duelo=3</respuesta>
+			<respuesta>Nunca me ha pasado=4</respuesta>				
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>8</categoria>
+			<eval>req</eval>		
+		</pregunta>
+		<pregunta>
+			<id>p136</id>
+			<clave>p136afectado</clave>	
+			<nombre>¿Qué separaciones o cambios sientes que te han afectado recientemente? [br](marca las opciones que sean necesarias)</nombre>
+			<respuesta>Separación de tus padres=1</respuesta>
+			<respuesta>Situación económica=2</respuesta>
+			<respuesta>Escuela=3</respuesta>
+			<respuesta>Casa=4</respuesta>
+			<respuesta>Ciudad=5</respuesta>
+			<respuesta>Pareja=6</respuesta>
+			<respuesta>Amigos=7</respuesta>
+			<respuesta>Ninguno=8</respuesta>
+			<tipo>CB_Array</tipo>
+			<eval>req</eval>			
+			<categoria>8</categoria>
+			<candado>1</candado>		
+							
+		</pregunta>
+		
+
+		<pregunta>
+			<id>p137</id>
+			<clave>p137metas</clave>	
+			<nombre>¿Te fijas o te has fijado alguna meta? </nombre>
+			<respuesta>No=1</respuesta>
+			<respuesta>Sí=2</respuesta>		
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>9</categoria>
+			<eval>req</eval>				
+		</pregunta>
+		<pregunta>
+			<id>p138</id>
+			<clave>p138plazo</clave>	
+			<nombre>Tus metas son</nombre>
+			<respuesta>No pongo plazo=1</respuesta>
+			<respuesta>A corto plazo=2</respuesta>
+			<respuesta>A mediano plazo=3</respuesta>
+			<respuesta>A largo plazo=4</respuesta>			
+			<respuesta>A corto y mediano plazo=5</respuesta>
+			<respuesta>A corto y largo plazo=6</respuesta>
+			<respuesta>A mediano y largo plazo=7</respuesta>
+			<respuesta>A corto, mediano y largo plazo=7</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>9</categoria>
+			<eval>req</eval>			
+		</pregunta>
+		<pregunta>
+			<id>p139</id>
+			<clave>p139logra</clave>	
+			<nombre>¿Logras las metas que te propones?</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Casi siempre=3</respuesta>
+			<respuesta>Siempre=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>9</categoria>
+			<eval>req</eval>					
+		</pregunta>
+		<pregunta>
+			<id>p140</id>
+			<clave>p140</clave>	
+			<nombre>Escribe una meta que lograste:</nombre>	
+			<noRespuesta>999</noRespuesta>		
+			<tipo>AB</tipo>
+			<categoria>9</categoria>
+			<eval>req</eval>	
+			<candadoDepende>136.!1</candadoDepende>					
+		</pregunta>
+		<pregunta>
+			<id>p141</id>
+			<clave>p141</clave>	
+			<nombre>Escribe una meta que NO lograste:</nombre>	
+			<noRespuesta>999</noRespuesta>			
+			<tipo>AB</tipo>
+			<categoria>9</categoria>
+			<eval>req</eval>	
+			<candadoDepende>136.!1</candadoDepende>					
+		</pregunta>		
+		<pregunta>
+			<id>p142</id>
+			<clave>p142desempeño</clave>	
+			<nombre>¿Cómo consideras tu cumplimiento y desempeño en la escuela?</nombre>
+			<respuesta>Malo=1</respuesta>
+			<respuesta>Regular=2</respuesta>
+			<respuesta>Bueno=3</respuesta>
+			<respuesta>Excelente=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>10</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		
+ 
+		<pregunta>
+			<id>p143</id>
+			<clave>p143habitos</clave>	
+			<nombre>¿Consideras que tus hábitos de estudio son?</nombre>
+			<respuesta>Malos=1</respuesta>
+			<respuesta>Regulares=2</respuesta>
+			<respuesta>Buenos=3</respuesta>
+			<respuesta>Excelentes=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>10</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		<pregunta>
+			<id>p144</id>
+			<clave>p144faltas</clave>	
+			<nombre>¿Cuántos días faltaste en el último semestre[br](Si estás en preparatoria se refiere a secundaria y si estás en profesional se refiere al de preparatoria)</nombre>
+			<respuesta>10 días ó más=1</respuesta>
+			<respuesta>6 - 10 días=2</respuesta>
+			<respuesta>1 - 5 días=3</respuesta>
+			<respuesta>Ninguno=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>10</categoria>
+			<eval>req</eval>			
+		</pregunta>	
+		<pregunta>
+			<id>p145</id>
+			<clave>p145interrum</clave>	
+			<nombre>¿Has interrumpido tus estudios por 6 meses o más?</nombre>
+			<respuesta>Sí=1</respuesta>
+			<respuesta>No=2</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>10</categoria>
+			<eval>req</eval>				
+		</pregunta>	
+		<pregunta>
+			<id>p146</id>
+			<clave>p146beca</clave>	
+			<nombre>¿Estas becado?</nombre>
+			<respuesta>No=1</respuesta>
+			<respuesta>Sí=2</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>10</categoria>
+			<eval>req</eval>			
+		</pregunta>	
+		<pregunta>
+			<id>p147</id>
+			<clave>p147satisfecho</clave>	
+			<nombre>¿Estas satisfecho con tu rendimiento académico?</nombre>
+			<respuesta>Nada=1</respuesta>
+			<respuesta>Poco=2</respuesta>
+			<respuesta>Regular=3</respuesta>
+			<respuesta>Mucho=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>10</categoria>
+			<eval>req</eval>		
+		</pregunta>	
+		<pregunta>
+			<id>p148</id>
+			<clave>p148prepa</clave>	
+			<nombre>¿Cuál fue tu promedio global en la secundaria o preparatoria? (emplea tres dígitos, por ejemplo 080)</nombre>			
+			<tipo>AB</tipo>
+			<categoria>10</categoria>
+			<eval>reqnum</eval>			
+		</pregunta>	
+		<pregunta>
+			<id>p149</id>
+			<clave>p149parcial</clave>	
+			<nombre>¿Cuál fue tu promedio en el último parcial? (emplea tres dígitos, por ejemplo 080)</nombre>							
+			<tipo>AB</tipo>
+			<categoria>10</categoria>
+		</pregunta>	
+
+		<pregunta>
+			<id>p150</id>
+			<clave>p150TV</clave>	
+			<nombre>Veo televisión en casa</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>11</categoria>
+			<eval>req</eval>		
+		</pregunta>	
+		<pregunta>
+			<id>p151</id>
+			<clave>p151deporte</clave>	
+			<nombre>Practico algún deporte</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>11</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		
+		<pregunta>
+			<id>p152</id>
+			<clave>p152salir</clave>	
+			<nombre>Salgo con mis amigos</nombre>
+			<respuesta>Nunca=4</respuesta>
+			<respuesta>Casi nunca=3</respuesta>
+			<respuesta>Con frecuencia=2</respuesta>
+			<respuesta>Con mucha frecuencia=1</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>11</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		
+		<pregunta>
+			<id>p153</id>
+			<clave>p153descanso</clave>	
+			<nombre>Descanso</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>11</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		
+		<pregunta>
+			<id>p154</id>
+			<clave>p154casa</clave>	
+			<nombre>Ayudo en labores de la casa</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>11</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		
+		<pregunta>
+			<id>p155</id>
+			<clave>p155tarea</clave>	
+			<nombre>Hago tarea o estudio</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>11</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		    
+		<pregunta>
+			<id>p156</id>
+			<clave>p156nint</clave>	
+			<nombre>Juego nintendo, play station, o juegos de computadora  </nombre>			
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>11</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		
+		<pregunta>
+			<id>p157</id>
+			<clave>p157chatea</clave>	
+			<nombre>Chateo en Internet</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>11</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		
+		<pregunta>
+			<id>p158</id>
+			<clave>p158paseo</clave>	
+			<nombre>Salgo a pasear con mi familia</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>11</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		
+		<pregunta>
+			<id>p159</id>
+			<clave>p159beber</clave>	
+			<nombre>Me voy a beber con mis amigos</nombre>
+			<respuesta>Nunca=4</respuesta>
+			<respuesta>Casi nunca=3</respuesta>
+			<respuesta>Con frecuencia=2</respuesta>
+			<respuesta>Con mucha frecuencia=1</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>11</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		
+		<pregunta>
+			<id>p160</id>
+			<clave>p160musica</clave>	
+			<nombre>Escucho música</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>11</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		
+		<pregunta>
+			<id>p161</id>
+			<clave>p161telef</clave>	
+			<nombre>Hablo por teléfono</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>11</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		
+		<pregunta>
+			<id>p162</id>
+			<clave>p162fiestas</clave>	
+			<nombre>Voy a fiestas o antros</nombre>
+			<respuesta>Nunca=4</respuesta>
+			<respuesta>Casi nunca=3</respuesta>
+			<respuesta>Con frecuencia=2</respuesta>
+			<respuesta>Con mucha frecuencia=1</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>11</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		
+		<pregunta>
+			<id>p163</id>
+			<clave>p163activ</clave>	
+			<nombre>Realizó alguna actividad artística, musical o de baile</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>11</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		
+		<pregunta>
+			<id>p164</id>
+			<clave>p164cine</clave>	
+			<nombre>Voy al cine</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>11</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		
+		<pregunta>
+			<id>p165</id>
+			<clave>p165trabajo</clave>	
+			<nombre>Trabajo</nombre>
+			<respuesta>Nunca=4</respuesta>
+			<respuesta>Casi nunca=3</respuesta>
+			<respuesta>Con frecuencia=2</respuesta>
+			<respuesta>Con mucha frecuencia=1</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>11</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		
+		<pregunta>
+			<id>p166</id>
+			<clave>p166yoga</clave>	
+			<nombre>Medito o hago yoga</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>11</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		
+		<pregunta>
+			<id>p167</id>
+			<clave>p167religiosa</clave>	
+			<nombre>Asisto a alguna actividad religiosa</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>11</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		
+		<pregunta>
+			<id>p168</id>
+			<clave>p168museo</clave>	
+			<nombre>Visito museos o exposiciones</nombre>
+			<respuesta>Nunca=1</respuesta>
+			<respuesta>Casi nunca=2</respuesta>
+			<respuesta>Con frecuencia=3</respuesta>
+			<respuesta>Con mucha frecuencia=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>11</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		
+		<pregunta>
+			<id>p169</id>
+			<clave>p169satisacts</clave>	
+			<nombre>¿Qué tan satisfecho (a) estás con las actividades que haces en tu tiempo libre cuando no estás realizando alguna actividad académica?</nombre>
+			<respuesta>Nada satisfecho=1</respuesta>
+			<respuesta>Poco satisfecho=2</respuesta>
+			<respuesta>Regularmente satisfecho=3</respuesta>
+			<respuesta>Muy satisfecho=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>11</categoria>
+			<eval>req</eval>	
+		</pregunta>			
+		
+
+		
+		<pregunta>
+			<id>p170</id>
+			<clave>p170DrgIAV</clave>	
+			<nombre>¿Alguna vez en tu vida has consumido alguna droga como marihuana, cocaína, inhalables, alucinógenos, heroína, opiáceos, éxtasis o tachas? </nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=2</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>12</categoria>
+			<eval>req</eval>				
+
+		</pregunta>	
+		<pregunta>
+			<id>p171</id>
+			<clave>p171SustAV</clave>	
+			<nombre>¿Alguna vez en tu vida has consumido alguna droga médica como anfetaminas, estimulantes, sedantes, tranquilizantes sin que te las haya recetado un médico o fuera de prescripción? </nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=2</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>12</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		<pregunta>
+			<id>p172</id>
+			<clave>p172drgIUA</clave>	
+			<nombre>En los últimos 12 meses, ¿has consumido alguna droga como marihuana, cocaína, inhalables, alucinógenos, heroína, opiáceos, éxtasis o tachas? </nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=2</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>12</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		<pregunta>
+			<id>p173</id>
+			<clave>p173sustUA</clave>	
+			<nombre>En los últimos 12 meses ¿has consumido alguna droga médica como anfetaminas, estimulantes, sedantes, tranquilizantes sin que te las haya recetado un médico o fuera de prescripción?</nombre>
+			<respuesta>Si=1</respuesta>
+			<respuesta>No=2</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>12</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		<pregunta>
+			<id>p174</id>
+			<clave>p174drgIUM</clave>	
+			<nombre>En los últimos 30 días ¿has consumido alguna droga como marihuana, cocaína, inhalables, alucinógenos, heroína, opiáceos, éxtasis o tachas?</nombre>
+			<respuesta>Diario=1</respuesta>
+			<respuesta>Semanalmente=2</respuesta>
+			<respuesta>Quincenalmente=3</respuesta>
+			<respuesta>Una Vez=4</respuesta>
+			<respuesta>Ninguna=5</respuesta>												
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>12</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		<pregunta>
+			<id>p175</id>
+			<clave>p175sustUM</clave>	
+			<nombre>En los últimos30 días, ¿has consumido alguna droga médica como anfetaminas, estimulantes, sedantes, tranquilizantes sin que te las haya recetado un médico?</nombre>
+			<respuesta>Diario=1</respuesta>
+			<respuesta>Semanalmente=2</respuesta>
+			<respuesta>Quincenalmente=3</respuesta>
+			<respuesta>Una Vez=4</respuesta>
+			<respuesta>Ninguna=5</respuesta>												
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>12</categoria>
+			<eval>req</eval>	
+		</pregunta>	
+		
+		
+		<pregunta>
+			<id>p176</id>
+			<clave>p176presamig</clave>	
+			<nombre>¿Has fumado, bebido o probado alguna droga por sentirte presionado por tu grupo de amigos?</nombre>
+			<respuesta>Sí=1</respuesta>
+			<respuesta>No=2</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>12</categoria>
+			<eval>req</eval>	
+					
+		</pregunta>
+		<pregunta>
+			<id>p177</id>
+			<clave>p177adicto</clave>	
+			<nombre>¿Crees que tienes posibilidades de ser adicto (a) a alguna sustancia (tabaco, alcohol u otra droga)?</nombre>
+			<respuesta>Sí=1</respuesta>
+			<respuesta>No=2</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>12</categoria>
+			<eval>req</eval>	
+		</pregunta>
+		<pregunta>
+			<id>p178</id>
+			<clave>p178probar</clave>	
+			<nombre>¿Te gustaría probar alguna droga (marihuana, cocaína, sedantes, tranquilizantes, tachas, etc.? </nombre>
+			<respuesta>Sí=1</respuesta>
+			<respuesta>No=2</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>12</categoria>
+			<eval>req</eval>			
+		</pregunta>
+		<pregunta>
+			<id>p179</id>
+			<clave>p179exper</clave>	
+			<nombre>¿Te gustaría tener experiencias y sensaciones nuevas y excitantes aunque sean poco convencionales o incluso ilegales?</nombre>
+			<respuesta>Sí=1</respuesta>
+			<respuesta>No=2</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>12</categoria>
+			<eval>req</eval>	
+		</pregunta>
+		<pregunta>
+			<id>p180</id>
+			<clave>p180depext</clave>	
+			<nombre>¿Prácticas deportes extremos?</nombre>
+			<respuesta>Sí=1</respuesta>
+			<respuesta>No=2</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>12</categoria>
+			<eval>req</eval>					
+		</pregunta>		
+		
+		<pregunta>
+			<id>p181</id>
+			<clave>p181amigosUD</clave>	
+			<nombre>Porque es algo que comúnmente hacen mis amigos</nombre>
+			<respuesta>No=1</respuesta>
+			<respuesta>Sí=2</respuesta>			
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>12</categoria>
+			<eval>req</eval>	
+			<subtitulo>Si probaras alguna sustancia (tabaco, alcohol u otra droga) lo harías </subtitulo>			
+		</pregunta>	
+
+		<pregunta>
+			<id>p182</id>
+			<clave>p182demostrar</clave>	
+			<nombre>Por demostrar que no tengo miedo</nombre>
+			<respuesta>No=1</respuesta>
+			<respuesta>Sí=2</respuesta>			
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>12</categoria>
+			<eval>req</eval>				
+		</pregunta>	
+		
+		<pregunta>
+			<id>p183</id>
+			<clave>p183problem</clave>	
+			<nombre>Para huir o desconectarme de mis problemas</nombre>
+			<respuesta>No=1</respuesta>
+			<respuesta>Sí=2</respuesta>			
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>12</categoria>
+			<eval>req</eval>				
+		</pregunta>	
+		
+		<pregunta>
+			<id>p184</id>
+			<clave>p184miedo</clave>	
+			<nombre>Para no sentir miedo o dolor</nombre>
+			<respuesta>No=1</respuesta>
+			<respuesta>Sí=2</respuesta>			
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>12</categoria>
+			<eval>req</eval>				
+		</pregunta>	
+		
+		<pregunta>
+			<id>p185</id>
+			<clave>p185atn</clave>	
+			<nombre>Para obtener atención y ayuda de los demás</nombre>
+			<respuesta>No=1</respuesta>
+			<respuesta>Sí=2</respuesta>			
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>12</categoria>
+			<eval>req</eval>				
+		</pregunta>							
+
+
+		<pregunta>
+			<id>p186</id>
+			<clave>p186engordar</clave>	
+			<nombre>Me ha preocupado engordar</nombre>
+			<respuesta>Con mucha frecuencia (Más de dos veces en una semana)=3</respuesta>
+			<respuesta>Con frecuencia (Dos veces en una semana)=2</respuesta>
+			<respuesta>A veces=1</respuesta>
+			<respuesta>Nunca o casi nunca=0</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>13</categoria>
+			<eval>req</eval>				
+			<subtitulo>En los últimos tres meses:</subtitulo>
+		</pregunta>	
+
+		<pregunta>
+			<id>p187</id>
+			<clave>p187caloria</clave>	
+			<nombre>Cuento las calorías de lo que como</nombre>
+			<respuesta>Con mucha frecuencia (Más de dos veces en una semana)=3</respuesta>
+			<respuesta>Con frecuencia (Dos veces en una semana)=2</respuesta>
+			<respuesta>A veces=1</respuesta>
+			<respuesta>Nunca o casi nunca=0</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>13</categoria>
+			<eval>req</eval>				
+		</pregunta>	
+
+		<pregunta>
+			<id>p188</id>
+			<clave>p188atasco</clave>	
+			<nombre>En ocasiones he comido demasiado, me he atascado de comida</nombre>
+			<respuesta>Con mucha frecuencia (Más de dos veces en una semana)=3</respuesta>
+			<respuesta>Con frecuencia (Dos veces en una semana)=2</respuesta>
+			<respuesta>A veces=1</respuesta>
+			<respuesta>Nunca o casi nunca=0</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>13</categoria>
+			<eval>req</eval>				
+		</pregunta>	
+
+		<pregunta>
+			<id>p189</id>
+			<clave>p189control</clave>	
+			<nombre>He perdido el control sobre lo que como (tengo la sensación de no poder parar de comer)</nombre>
+			<respuesta>Con mucha frecuencia (Más de dos veces en una semana)=3</respuesta>
+			<respuesta>Con frecuencia (Dos veces en una semana)=2</respuesta>
+			<respuesta>A veces=1</respuesta>
+			<respuesta>Nunca o casi nunca=0</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>13</categoria>
+			<eval>req</eval>				
+		</pregunta>			
+		
+		
+
+		<pregunta>
+			<id>p190</id>
+			<clave>p190vomitar</clave>	
+			<nombre>He vomitado después de comer, para tratar de bajar de peso</nombre>
+			<respuesta>Con mucha frecuencia (Más de dos veces en una semana)=3</respuesta>
+			<respuesta>Con frecuencia (Dos veces en una semana)=2</respuesta>
+			<respuesta>A veces=1</respuesta>
+			<respuesta>Nunca o casi nunca=0</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>13</categoria>
+			<eval>req</eval>				
+		</pregunta>
+
+		<pregunta>
+			<id>p191</id>
+			<clave>p191ayuno</clave>	
+			<nombre>He hecho ayunos (dejar de comer por 12 horas o más) para tratar de bajar de peso</nombre>
+			<respuesta>Con mucha frecuencia (Más de dos veces en una semana)=3</respuesta>
+			<respuesta>Con frecuencia (Dos veces en una semana)=2</respuesta>
+			<respuesta>A veces=1</respuesta>
+			<respuesta>Nunca o casi nunca=0</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>13</categoria>
+			<eval>req</eval>				
+		</pregunta>
+		<pregunta>
+			<id>p192</id>
+			<clave>p192pensado</clave>	
+			<nombre>He pensado que estoy gordo (a)</nombre>
+			<respuesta>Con mucha frecuencia (Más de dos veces en una semana)=3</respuesta>
+			<respuesta>Con frecuencia (Dos veces en una semana)=2</respuesta>
+			<respuesta>A veces=1</respuesta>
+			<respuesta>Nunca o casi nunca=0</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>13</categoria>
+			<eval>req</eval>				
+		</pregunta>
+		<pregunta>
+			<id>p193</id>
+			<clave>p193criticado</clave>	
+			<nombre>He criticado mi imagen corporal </nombre>
+			<respuesta>Con mucha frecuencia (Más de dos veces en una semana)=3</respuesta>
+			<respuesta>Con frecuencia (Dos veces en una semana)=2</respuesta>
+			<respuesta>A veces=1</respuesta>
+			<respuesta>Nunca o casi nunca=0</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>13</categoria>
+			<eval>req</eval>				
+		</pregunta>
+		<pregunta>
+			<id>p194</id>
+			<clave>p194ejercicio</clave>	
+			<nombre>He hecho ejercicio para bajar de peso.</nombre>
+			<respuesta>Con mucha frecuencia (Más de dos veces en una semana)=3</respuesta>
+			<respuesta>Con frecuencia (Dos veces en una semana)=2</respuesta>
+			<respuesta>A veces=1</respuesta>
+			<respuesta>Nunca o casi nunca=0</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>13</categoria>
+			<eval>req</eval>				
+		</pregunta>		
+		<pregunta>
+			<id>p195</id>
+			<clave>p195diestas</clave>	
+			<nombre>He hecho dietas para tratar de bajar de peso</nombre>
+			<respuesta>Con mucha frecuencia (Más de dos veces en una semana)=3</respuesta>
+			<respuesta>Con frecuencia (Dos veces en una semana)=2</respuesta>
+			<respuesta>A veces=1</respuesta>
+			<respuesta>Nunca o casi nunca=0</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>13</categoria>
+			<eval>req</eval>				
+		</pregunta>
+		<pregunta>
+			<id>p196</id>
+			<clave>p196pastillas</clave>	
+			<nombre>He usado pastillas para tratar de bajar de peso</nombre>
+			<respuesta>Con mucha frecuencia (Más de dos veces en una semana)=3</respuesta>
+			<respuesta>Con frecuencia (Dos veces en una semana)=2</respuesta>
+			<respuesta>A veces=1</respuesta>
+			<respuesta>Nunca o casi nunca=0</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>13</categoria>
+			<eval>req</eval>				
+		</pregunta>
+		<pregunta>
+			<id>p197</id>
+			<clave>p197diureticos</clave>	
+			<nombre>He tomado diuréticos (sustancia para perder agua) para tratar de bajar de peso</nombre>
+			<respuesta>Con mucha frecuencia (Más de dos veces en una semana)=3</respuesta>
+			<respuesta>Con frecuencia (Dos veces en una semana)=2</respuesta>
+			<respuesta>A veces=1</respuesta>
+			<respuesta>Nunca o casi nunca=0</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>13</categoria>
+			<eval>req</eval>				
+		</pregunta>
+		<pregunta>
+			<id>p198</id>
+			<clave>p198laxantes</clave>	
+			<nombre>He tomado laxantes (sustancia para facilitar la evacuación) para tratar de bajar de peso</nombre>
+			<respuesta>Con mucha frecuencia (Más de dos veces en una semana)=3</respuesta>
+			<respuesta>Con frecuencia (Dos veces en una semana)=2</respuesta>
+			<respuesta>A veces=1</respuesta>
+			<respuesta>Nunca o casi nunca=0</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>13</categoria>
+			<eval>req</eval>				
+		</pregunta>										
+
+		
+		<pregunta>
+			<id>p199</id>
+			<clave>p199maresc</clave>	
+			<nombre>Marihuana</nombre>
+			<respuesta>Muy fácil=1</respuesta>
+			<respuesta>Fácil=2</respuesta>
+			<respuesta>Difícil=3</respuesta>
+			<respuesta>Muy difícil=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>14</categoria>
+			<eval>req</eval>	
+		</pregunta>
+		<pregunta>
+			<id>p200</id>
+			<clave>p200cocaesc</clave>	
+			<nombre>Cocaína</nombre>
+			<respuesta>Muy fácil=1</respuesta>
+			<respuesta>Fácil=2</respuesta>
+			<respuesta>Difícil=3</respuesta>
+			<respuesta>Muy difícil=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>14</categoria>
+			<eval>req</eval>	
+		</pregunta>
+		<pregunta>
+			<id>p201</id>
+			<clave>p201heroesc</clave>	
+			<nombre>Heroína</nombre>
+			<respuesta>Muy fácil=1</respuesta>
+			<respuesta>Fácil=2</respuesta>
+			<respuesta>Difícil=3</respuesta>
+			<respuesta>Muy difícil=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>14</categoria>
+			<eval>req</eval>	
+		</pregunta>
+		<pregunta>
+			<id>p202</id>
+			<clave>p202tranqesc</clave>	
+			<nombre>Tranquilizantes (sin prescripción médica)</nombre>
+			<respuesta>Muy fácil=1</respuesta>
+			<respuesta>Fácil=2</respuesta>
+			<respuesta>Difícil=3</respuesta>
+			<respuesta>Muy difícil=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>14</categoria>
+			<eval>req</eval>	
+		</pregunta>
+		<pregunta>
+			<id>p203</id>
+			<clave>p203anfesc</clave>	
+			<nombre>Anfetaminas (sin prescripción médica)</nombre>
+			<respuesta>Muy fácil=1</respuesta>
+			<respuesta>Fácil=2</respuesta>
+			<respuesta>Difícil=3</respuesta>
+			<respuesta>Muy difícil=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>14</categoria>
+			<eval>req</eval>	
+		</pregunta>
+		<pregunta>
+			<id>p204</id>
+			<clave>p204aluesc</clave>	
+			<nombre>Alucinógenos</nombre>
+			<respuesta>Muy fácil=1</respuesta>
+			<respuesta>Fácil=2</respuesta>
+			<respuesta>Difícil=3</respuesta>
+			<respuesta>Muy difícil=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>14</categoria>
+			<eval>req</eval>	
+		</pregunta>
+		<pregunta>
+			<id>p205</id>
+			<clave>p205tachaesc</clave>	
+			<nombre>Tachas o éxtasis</nombre>
+			<respuesta>Muy fácil=1</respuesta>
+			<respuesta>Fácil=2</respuesta>
+			<respuesta>Difícil=3</respuesta>
+			<respuesta>Muy difícil=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>14</categoria>
+			<eval>req</eval>	
+		</pregunta>						
+						
+					
+		
+		<pregunta>
+			<id>p206</id>
+			<clave></clave>			
+			<nombre>Marihuana</nombre>
+			<subtitulo>En caso de que desearas conseguir drogas CERCA DE TU ESCUELA ¿Qué tan fácil o difícil sería para ti obtenerlas?</subtitulo>
+			<respuesta>Muy fácil=1</respuesta>
+			<respuesta>Fácil=2</respuesta>
+			<respuesta>Difícil=3</respuesta>
+			<respuesta>Muy difícil=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>14</categoria>
+			<eval>req</eval>	
+		</pregunta>
+		<pregunta>
+			<id>p207</id>
+			<clave></clave>	
+			<nombre>Cocaína</nombre>
+			<respuesta>Muy fácil=1</respuesta>
+			<respuesta>Fácil=2</respuesta>
+			<respuesta>Difícil=3</respuesta>
+			<respuesta>Muy difícil=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>14</categoria>
+			<eval>req</eval>	
+		</pregunta>
+		<pregunta>
+			<id>p208</id>
+			<clave></clave>		
+			<nombre>Heroína</nombre>
+			<respuesta>Muy fácil=1</respuesta>
+			<respuesta>Fácil=2</respuesta>
+			<respuesta>Difícil=3</respuesta>
+			<respuesta>Muy difícil=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>14</categoria>
+			<eval>req</eval>	
+		</pregunta>
+		<pregunta>
+			<id>p209</id>
+			<clave></clave>		
+			<nombre>Tranquilizantes (sin prescripción médica)</nombre>
+			<respuesta>Muy fácil=1</respuesta>
+			<respuesta>Fácil=2</respuesta>
+			<respuesta>Difícil=3</respuesta>
+			<respuesta>Muy difícil=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>14</categoria>
+			<eval>req</eval>	
+		</pregunta>
+		<pregunta>
+			<id>p210</id>
+			<clave></clave>		
+			<nombre>Anfetaminas (sin prescripción médica)</nombre>
+			<respuesta>Muy fácil=1</respuesta>
+			<respuesta>Fácil=2</respuesta>
+			<respuesta>Difícil=3</respuesta>
+			<respuesta>Muy difícil=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>14</categoria>
+			<eval>req</eval>	
+		</pregunta>
+		<pregunta>
+		
+			<id>p211</id>
+			<clave></clave>		
+			<nombre>Alucinógenos</nombre>
+			<respuesta>Muy fácil=1</respuesta>
+			<respuesta>Fácil=2</respuesta>
+			<respuesta>Difícil=3</respuesta>
+			<respuesta>Muy difícil=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>14</categoria>
+			<eval>req</eval>	
+		</pregunta>
+		<pregunta>
+			<id>p212</id>
+			<clave></clave>		
+			<nombre>Tachas o éxtasis</nombre>
+			<respuesta>Muy fácil=1</respuesta>
+			<respuesta>Fácil=2</respuesta>
+			<respuesta>Difícil=3</respuesta>
+			<respuesta>Muy difícil=4</respuesta>
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>14</categoria>
+			<eval>req</eval>	
+		</pregunta>						
+							
+		<pregunta>
+			<id>p213</id>
+			<clave></clave>	
+			<nombre>Si tuvieras un problema personal o de abuso de alguna sustancia ¿Pedirías ayuda?</nombre>
+			<respuesta>No=1</respuesta>
+			<respuesta>Sí=2</respuesta>			
+			<categoria>15</categoria>			
+			<noRespuesta>9</noRespuesta>
+			<tipo>OM_Array</tipo>			
+			<eval>req</eval>				
+		</pregunta>	
+		
+		<pregunta>
+			<id>p214</id>
+			<clave></clave>	
+			<nombre>En caso de aceptar ayuda, ésta debería ser:</nombre>
+			<respuesta>Del personal de Asesoría y Prevención del TEC=1</respuesta>
+			<respuesta>De especialistas y grupos fuera del TEC=2</respuesta>
+			<tipo>OM_Array</tipo>
+			<categoria>15</categoria>
+			<eval>req</eval>
+		</pregunta>			
+		
+		<pregunta>
+			<id>p215</id>
+			<clave></clave>	
+			<nombre>La forma de esta ayuda la preferirías:</nombre>
+			<respuesta>Individual=1</respuesta>
+			<respuesta>Grupal=2</respuesta>
+			<respuesta>Internet=3</respuesta>								
+			<respuesta>Otro=4</respuesta>	
+			<tipo>OM_Array</tipo>
+			<categoria>15</categoria>
+			<eval>req</eval>		
+		</pregunta>																		
+	</preguntas>
+
+</cuestionario>

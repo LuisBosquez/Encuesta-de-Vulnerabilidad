@@ -1,0 +1,5 @@
+Style[0]=["black","#bec8d1","","","Verdana",,"black","white","","","Verdana",2,350,,2,"#6699cc",10,24,0.5,0,2,"gray",3,3,,]
+Style[1]=["black","#bec8d1","","","Verdana",,"black","white","","","Verdana",2,,,2,"#6699cc",2,24,0.5,0,2,"gray",,1,,-100]
+Style[2]=["black","#bec8d1","","","Verdana",,"black","white","","","Verdana",2,,,2,"#6699cc",2,24,0.5,0,2,"gray",,,,]
+Style[3]=["black","#bec8d1","","","Verdana",,"black","white","","","Verdana",2,,,2,"#6699cc",2,24,2,0,2,"gray",,,,]
+Style[17]=["","","","","",,"black","#ffffe1","","","",,,,1,"black",2,24,0.3,,2,"gray",1,,-2,19]

@@ -1,0 +1,17 @@
+<div id="main">
+<table class="basica grande">
+<caption>Cuestionarios Asignados por el Usuario</caption>
+    <thead><tr>
+      <th width="%">Cuestionario</th>
+      <th width="150">Grupo</th>
+      <th width="100">Periodo</th>
+	  <th width="180">Aplicación</th>
+	  <th width="80">Tiempo</th>
+      <th width="80">Estado</th>
+      <th width="80">Acciones</th>
+    </tr></thead>
+	{tabla.cuestionarios}
+  </table>
+  <p>&nbsp;</p>
+</div>
+

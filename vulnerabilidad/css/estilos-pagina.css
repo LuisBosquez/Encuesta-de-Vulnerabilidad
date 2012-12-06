@@ -1,0 +1,145 @@
+
+
+A {
+	color: #0001A2;
+	text-decoration: none;
+}
+
+table {
+	
+}
+A:HOVER {
+	color: #6495ED;
+	text-decoration: none;
+}
+
+.note{
+	color: #0001A2;
+	font-size: x-small;	
+}
+.footer{
+	font-size: xx-small;
+	height: 20px;
+	color: White;
+}
+
+
+
+.smallNote{
+	font-size: x-small;	
+}
+
+.error{
+	font-size: x-small;	
+	color: Red;
+}
+.texto{
+	font-size: x-small;	
+	}
+.tabla_a{
+	border: 1px solid Black;
+}
+.tabla_a_top
+{
+		border: 1px solid Black;
+		margin-left: 10px;
+}
+.box
+{
+	margin: 0 0;
+}
+.menu
+{
+	color: #BEC8D1;	
+	font-weight: bolder;
+	margin: 2px 20px 2px;
+	padding: 1px 1px 1px 1px;
+   float: left;
+	font-size: small;
+}
+
+.menu a
+{
+	color: #BEC8D1;	
+}
+.menuR
+{
+	color: #BEC8D1;
+	font-weight: bolder;
+	margin: 2px 20px 2px;
+	padding: 1px 1px 1px 1px;
+   float: right;
+	font-size: small;
+
+}
+.menuR a{
+color: #BEC8D1;
+
+}
+.menuR a:hover {
+  color: WHITE;
+}
+
+
+.title
+{
+font-size: 15px;
+	font-style: normal;
+	font-weight: bolder;
+	padding-bottom: 20px;
+	padding-left: 5px;
+	padding-top: 20px;
+	padding-right: 5px;
+ 	text-align: center;
+}
+
+.pregunta
+{
+font: Arial, Helvetica, sans-serif;
+	margin-bottom: 5px;
+	margin-left: 20px;
+	margin-right: 5px;
+	margin-top: 5px;
+	
+}
+
+.timer{
+	border: 0;
+	border-width: 0;
+	 background:#001C4A;
+	color: Aqua;
+}
+.onHoverTable
+{
+	background:#BEC8D1;
+}
+   
+
+  
+  p {
+            font: normal 11px "Verdana", Arial, Helvetica, sans-serif;
+            color: #000;
+}
+
+a.special:link,a.special:visited {
+            font: bold 11px "Verdana", Arial, Helvetica, sans-serif;
+            color: #00f;
+            text-decoration: underline;
+}
+
+a.special:hover {
+            color: #f00;
+}
+
+#note1 {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            background: #ffc;
+            padding: 10px;
+            border: 1px solid #000;
+            z-index: 1;
+            visibility: hidden;
+            font: bold 11px "Verdana", Arial, Helvetica, sans-serif;
+            color: #000;
+}	

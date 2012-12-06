@@ -1,0 +1,24 @@
+<!-- 2/Ago/2007 -->
+<div id="main">
+<h1>Confirmar Inicio de Cuestionario</h1>
+<table class="basica grande">
+<caption>Datos generales:</caption>
+<thead>
+<tr><th width="28%">Cuestionario:</th><td width="72%">{cuestionario.nombre}</td></tr>
+<tr><th>Descripciï¿½n:</th><td>{cuestionario.descripcion}</td></tr>
+<tr> <th>Grupo:</th><td>{grupo.nombre}</td></tr>
+<tr><th>Periodo:</th><td>{periodo.nombre}</td></tr>
+<tr><th  class="servHD">Cantidad de Prubas:</th><td>5</td></tr>
+<tr><th  class="servHD">Tiempo para contestar:</th><td>{cuestionario.tiempo}</td></tr>
+</thead></table>
+<p class="center">Tiempo actual: <b>{cuestionario.horaActual}</b></p>
+<p class="center"><b>Importante:</b> No utilizar las flechas de regreso o avance que normalmente aparecen en internet en la parte superior izquierda, 
+ni ningún otro botón que esté fuera del cuestionario pues de lo contrario los sacará del sistema de aplicación</p>     
+<form name="form1" method="post" action="{url.examen}">
+<p class="center">{cuestionario.instrucciones}</p><br>
+<p class="center">Una vez iniciado este cuestionario no podrás cancelarlo y el tiempo comenzará a correr.</p>
+<p class="center"><input type="submit" name="Submit" value="Empezar" disabled></p></form>
+
+<p class="center"><br><br><br></p>
+<br>
+</div>

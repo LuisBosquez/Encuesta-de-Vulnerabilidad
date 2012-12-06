@@ -1,0 +1,206 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Talleres</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+@import url("../estilos.css");
+-->
+</style>
+</head>
+
+<body>
+<div class="title">
+  <p>
+    <input type="button" name="Button" value="Cerrar" onClick="javascript:window.close();">
+  </p>
+  <p>OBJETIVO: Que el estudiante construya un plan de vida y carrera para que
+    identifique y dise&ntilde;e sus propias estrategias de &iacute;ndole acad&eacute;mico
+    y personal, que optimicen el alto rendimiento profesional. <br>
+  </p>
+  <p>Si deseas informaci&oacute;n: <a href="www.ccm.itesm.mx/dae/asesoria%20" target="_blank">www.ccm.itesm.mx/dae/asesoria
+    </a><br>
+    Inscripciones:<a href="sie.ccm.itesm.mx%20" target="_blank"> sie.ccm.itesm.mx
+    </a><br>
+    Con Psic. Adriana Figueroa T�llez  (<a href="mailto:mfigueroa@itesm.mx">mfigueroa@itesm.mx</a>)
+  </p>
+  <p align="center"><strong>Talleres de &eacute;xito acad&eacute;mico 200713</strong></p>
+</div>
+<div align="center">
+
+
+
+
+<table width="730"  border="1" cellspacing="0" cellpadding="5" class="usuarios">
+  <tr>
+    <td width="25%" height="30" class="servHD"><div align="center"><strong>Taller </strong><br>
+    </div></td>
+    <td width="25%" class="servHD"><div align="center"><strong>Objetivo</strong> <br>
+    </div></td>
+    <td width="25%" class="servHD"><div align="center"><strong>Eje Tem&aacute;tico</strong> <br>
+    </div></td>
+    <td width="25%" class="servHD"><div align="center"><strong>Fechas</strong><br>
+    </div></td>
+    <td width="25%" class="servHD"><div align="center"><strong>Duraci&oacute;n</strong><br>
+    </div></td>
+  </tr>
+
+  <tr valign="middle">
+    <td bgcolor="#99CCFF"><div align="center"><strong>Administra tu Tiempo</strong><br>
+    </div></td>
+    <td>Que el participante reconozca sus fortalezas,  personales y acad&eacute;micas, para usarlas como herramienta&nbsp;&nbsp; en la administraci&oacute;n de su&nbsp; tiempo par lograr &nbsp;el&nbsp; equilibrio  entre sus &nbsp;intereses y su estilo de vida.</td>
+    <td><p>1. Organizaci&oacute;n de actividades tomando  como base intereses y aptitudes.<br>
+      2. Actitud ante las distintas  actividades a realizar (acad&eacute;micas, sociales, emocionales y f&iacute;sicas).<br>
+      3. Motivaci&oacute;n al cambio.<br>
+      4. Administraci&oacute;n del tiempo.<br>
+</p>      </td>
+    <td><p><strong>Septiembre</strong><br>
+      martes 11<br>
+      15:00 a18:00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+      Sal&oacute;n: por confirmar <br>
+  <br>
+  <strong>Octubre</strong><br>
+      lunes 8<br>
+      15:00 a18:00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+      Sal&oacute;n: por confirmar<strong></strong><br>
+  <strong><br>
+  Noviembre</strong><br>
+      jueves 8<br>
+      15:00 a18:00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+      Sal&oacute;n: por confirmar<br>
+      <br>
+      s&aacute;bado 10<br>
+      9:00 a 12:00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+      Sal&oacute;n: por confirmar<br>
+
+    </p>      </td>
+    <td>3 horas<br>
+      impartidas en una sola sesi&oacute;n<br></td>
+  </tr>
+
+
+
+
+
+  <tr valign="middle">
+    <td bgcolor="#00FF00"><p align="center"><strong>Preparando tus ex&aacute;menes con &eacute;xito.</strong></p></td>
+    <td><p>Proporcionar &nbsp;al participante herramientas &uacute;tiles para la  preparaci&oacute;n f&iacute;sica, mental e intelectual de ex&aacute;menes y proyectos acad&eacute;micos.</p>
+      Combinadas con t&eacute;cnicas sencillas que ayuden a canalizar el estr&eacute;s&nbsp; y &nbsp;mejorar su rendimiento acad&eacute;mico.</td>
+    <td>Taller 100% pr�ctico<br>1. Ejercicios de respiraci�n<br>2. Ejercicios de relajaci�n<br></td>
+    <td><p><strong>Septiembre</strong><br>
+      lunes 10<br>
+      15:00 a18:00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+      Sal&oacute;n: por confirmar <br>
+  <br>
+  <strong>Octubre</strong><br>
+      mi&eacute;rcoles 10<br>
+      15:00 a18:00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+      Sal&oacute;n: por confirmar<strong></strong><br>
+      <br>
+  <strong>Noviembre</strong><br>
+      lunes 5<br>
+      15:00 a18:00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+      Sal&oacute;n: por confirmar</p>
+      s&aacute;bado 10<br>
+9:00 a 12:00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+Sal&oacute;n: por confirmar<br>    </td>
+    <td>3 horas<br>
+      impartidas en una sola sesi&oacute;n<br></td>
+  </tr>
+
+
+  <tr valign="middle">
+    <td bgcolor="#CC99FF"><div align="center"><strong>Estudiante
+      exitoso
+    </strong></div></td>
+    <td><p>Que el participante reflexione respecto a la importancia que  tiene conocer las diferentes estrategias de aprendizaje, as&iacute; como el desarrollo  de habilidades para el estudio eficaz.</p>
+      Que  dise&ntilde;e&nbsp;&nbsp; estrategias personales que  favorezcan el aprendizaje significativo y el &eacute;xito acad&eacute;mico.</td>
+    <td><p>1. &iquest;Qu&eacute; tipo de estudiante eres?<br>
+      2. T&eacute;cnicas para un Aprendizaje&nbsp;&nbsp; <br>
+  &nbsp;significativo.<br>
+      3. Dise&ntilde;o de estrategias <br>
+      personales de&nbsp; estudio.</p>
+      <br></td>
+    <td><p><strong>Septiembre</strong><br>
+      martes 11<br>
+      15:00 a18:00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+      Sal&oacute;n: por confirmar <br>
+  <br>
+  <strong>Octubre</strong><br>
+      martes 9<br>
+      15:00 a18:00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+      Sal&oacute;n: por confirmar<strong></strong></p>
+      <strong>Noviembre</strong><br>
+mi&eacute;rcoles 7<br>
+15:00 a18:00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+Sal&oacute;n: por confirmar</td>
+    <td>3 horas<br>
+      impartidas en una sola sesi&oacute;n<br></td>
+  </tr>
+  <tr valign="middle">
+    <td bgcolor="#FF6699"><div align="center"><strong>&iquest;Por qu&eacute; repruebo &ldquo;mate&rdquo;?</strong></div></td>
+    <td>Que el participante identifique el nivel de sus habilidades matem&aacute;ticas  para poder emprender iniciativas para&nbsp;  mejorar &nbsp;desempe&ntilde;o acad&eacute;mico es  &eacute;sta &aacute;rea.</td>
+    <td><p>1. Presentaci&oacute;n de los participantes y  del taller.<br>
+      2. Un estilo de aprendizaje refleja una  habilidad.<br>
+      3. Habilidades Vs. Intereses.<br>
+      4. Diagn&oacute;stico del estado de la  habilidad matem&aacute;tica.<br>
+      5. Consideraciones y recomendaciones  para el mejoramiento de las habilidades matem&aacute;ticas.</p></td>
+    <td><p><strong>Septiembre</strong><br>
+      mi&eacute;rcoles 12<br>
+      15:00 a18:00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+      Sal&oacute;n: por confirmar <br>
+  <br>
+  <strong>Octubre</strong><br>
+      jueves 11<br>
+      15:00 a18:00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+      Sal&oacute;n: por confirmar<br>
+      <br>
+      s&aacute;bado 13<br>
+      9:00 a 12:00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+      Sal&oacute;n: por confirmar</p>
+      <strong>Noviembre</strong><br>
+mi&eacute;rcoles 7<br>
+15:00 a18:00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+Sal&oacute;n: por confirmar</td>
+    <td>3&nbsp; horas  <br>
+      impartidas en una sola sesi&oacute;n.</td>
+  </tr>
+
+  <tr valign="middle">
+    <td bgcolor="#FFCC00"><div align="center"><strong>Mejorando la memoria</strong></div></td>
+    <td>Proporcionar al participante herramientas para regular  el manejo de la atenci&oacute;n y concentraci&oacute;n identificando distractores y  creando&nbsp; estrategias propias y&nbsp;&nbsp; eficientes para&nbsp; soluci&oacute;n de problemas.</td>
+    <td>1. Emociones<br>2. Atenci�n<br>3.Concentraci�n<br>4. Memoria<br></td>
+    <td><p><strong>Septiembre</strong><br>
+      jueves 13<br>
+      15:00 a18:00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+      Sal&oacute;n: por confirmar <br>
+  <br>
+  <strong>Octubre</strong><br>
+      jueves 11<br>
+      15:00 a18:00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+      Sal&oacute;n: por confirmar<br>
+      <br>
+      s&aacute;bado 13<br>
+      9:00 a 12:00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+      Sal&oacute;n: por confirmar</p>
+      <strong>Noviembre</strong><br>
+martes 6<br>
+15:00 a18:00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+Sal&oacute;n: por confirmar<br>    </td>
+    <td>3 horas<br>
+      impartidas en una sola sesi&oacute;n<br></td>
+  </tr>
+</table>
+  <p>&nbsp;</p>
+
+  <div class="title">
+    <p>RESPONSABLE: Con Psic. Adriana Figueroa T�llez  <br>
+    mfigueroa@itesm.mx
+    </p>
+    <p>&nbsp; </p>
+  </div>
+</div>
+
+</body>
+</html>

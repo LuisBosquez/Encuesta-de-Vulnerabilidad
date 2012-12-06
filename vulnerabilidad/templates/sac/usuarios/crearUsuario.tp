@@ -1,0 +1,50 @@
+<!-- 21 AGOSTO 2007  -->
+<div id="main">
+
+{mensaje.error}{mensaje.nota}
+
+
+<form class="basica" action="{url.usuarios}&alta" method="post" name="forma">
+
+<fieldset>
+<legend>Forma de registro para Alumnos</legend>
+
+<div class="notes"><h4>Usuario</h4><p class="last">Llena todos tus datos para configurar tu cuenta. Todos los datos son necesarios. </p></div>
+
+<div class="required"><label>Usuario</label><input class="inputText" name="matricula" type="text" id="correo" value="{usuario.usuario}"  tabindex="1"  ><small>Nombre de usuario que se usuara para ingresar al sistema.</small></div>
+<div class="required"><label>Correo</label><input class="inputText"name="correo" type="text" id="correo" value="{usuario.correo}"  tabindex="1"  ></div>
+<div class="required"><label>Contraseña</label><input value="{contrasena}" class="inputText" name="contrasena" type="text" id="contrasena" maxlength="15"  tabindex="1" ></div>
+<div class="required"><label>Confirmar Contraseña</label><input value="{contrasena2}" name="contrasena2" type="text" id="contrasena2" maxlength="15"  tabindex="1" ></div>
+<div class="required"><label>Nombre</label><input name="nombre" type="text" id="nombre" value="{usuario.nombre}" maxlength="30"  tabindex="1" ></div>
+<div class="required"><label>Apellido</label><input name="apellido" type="text" id="apellido" value="{usuario.apellido}" maxlength="60"  tabindex="1"></div>
+<div class="required"><label>Tipo Usuario</label>{forma.tipousuario}</div>
+<div class="required"><label>Carrera</label>{forma.carrera}</div>
+</fieldset>
+<fieldset><div class="submit"><div>
+<input onClick="location.href='index.php'" class="inputSubmit" value="Cancelar" type="button">     
+<input class="inputSubmit" value="Enviar »" type="submit"> 
+</div></div></fieldset>   
+</form>
+	<script language="JavaScript" type="text/javascript">
+	//You should create the validator only after the definition of the HTML form
+	  var frmvalidator  = new Validator("forma");
+	
+		frmvalidator.addValidation("matricula","req","Campo requerido");
+		frmvalidator.addValidation("matricula","maxlen=20","Maximo 20 digitos");	
+		frmvalidator.addValidation("correo","len=50","");	
+		frmvalidator.addValidation("correo","req","");		
+			
+		frmvalidator.addValidation("contrasena","req","Campo requerido");
+		frmvalidator.addValidation("contrasena2","req","Campo requerido");
+		frmvalidator.addValidation("contrasena","maxlen=15","El maximo de caracteres es 15");
+		frmvalidator.addValidation("contrasena2","maxlen=15","El maximo de caracteres es 15");
+			
+		frmvalidator.addValidation("nombre","req","Campo requerido");
+		frmvalidator.addValidation("apellido","req","Campo requerido");	
+		frmvalidator.addValidation("nombre","maxlen=30","El maximo de caracteres es 30");
+		frmvalidator.addValidation("apellido","maxlen=60","El maximo de caracteres es 60");
+		
+		frmvalidator.addValidation("tipo","dontselect=0","Campo requerido");	
+	</script>
+
+</div>

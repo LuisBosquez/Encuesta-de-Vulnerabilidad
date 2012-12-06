@@ -1,0 +1,23 @@
+<div id="main">
+
+
+<form class="basica" action="{url.grupos}&altaIntgs&id={grupo.id}" method="post" name="forma">
+<fieldset>
+<legend>Añadir alumnos al grupo</legend>
+
+
+
+<div class="notes"><h4>Usuario</h4><p class="last">Ingrese los correos electronicos de los alumnos, uno por linea. Puede copiar y pegar los datos directamente de una tabla de excel. Pueden ingresarse matriculas de alumnos no dados de alta..</p></div>
+
+<div class="required"><label>Matriculas de Alumnos</label>
+<textarea name="alumnos" cols="50" rows="8"></textarea></div>
+<p>
+</fieldet>
+<fieldset><div class="submit"><div>
+<input onClick="location.href='usuario.php?grupos&id={grupo.id}'" class="inputSubmit" value="Cancelar" type="button">     
+<input class="inputSubmit" value="Enviar »" type="submit"> 
+</div></div></fieldset> 	
+</form>
+
+
+</div>

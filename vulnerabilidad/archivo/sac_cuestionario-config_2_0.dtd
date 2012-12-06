@@ -1,0 +1,114 @@
+<!--
+     DTD para el archivo de cuestionario  del sac
+
+	<!DOCTYPE sac-cuestionario PUBLIC
+	          "-//ITESM CCM//DTD SAC 2.0//EN"
+	           "sac_cuestionario-config_2_0.dtd">
+-->
+<!ELEMENT cuestionario 
+	(nombre,modo,numeracion,tipoidentificador,titulos,calificar,textos,multiplicador?,
+	reglas?,categorias?,preguntas?,acciones?) >
+
+ 
+<!ELEMENT categorias (catego+) >
+<!ELEMENT preguntas (pregunta+) >
+<!ELEMENT textos (instrucciones?,final?) >
+	<!ELEMENT instrucciones (#PCDATA) >
+	<!ELEMENT final (#PCDATA) >
+
+<!-- El nombre del cuestionarios -->
+<!ELEMENT nombre (#PCDATA) >
+<!-- Modo en que se muestra el cuestionario
+	1. Muestra las preguntas por pagina
+	2. Muestra una categoria de preguntas por pagina
+-->
+<!ELEMENT modo (#PCDATA) >
+<!-- Modo en que se califica el cuestionario
+	1. Califica usando las reglas por categoria
+	2. Almacena todo en la bd. Este es el modo predeterminado. 
+-->
+<!ELEMENT numeracion (#PCDATA) >
+<!-- Modo en que se numerara el ejercicio
+	1. Sin numeracion, ie ya viene con la pregunta
+	2. Numerar en base a la pagina
+-->
+<!ELEMENT tipoidentificador (#PCDATA) >
+<!-- Como maneja el nombre o el id de las preguntas, pensado por que con los valores numericos no se puede usar la validacion. Probar si se puede el che con esto sin problemas
+	1. numeros
+	2. agrega un prefijo llamado p_
+-->
+<!ELEMENT calificar (#PCDATA) >
+
+<!-- Representa una categoria o pagina dentro del cuestionario.
+	id: id de la categoria empezando en 0
+	nombre: nombre identificador de la categoria
+	color: Color representativo de la categoria
+	title: Titulo de la categoria a usar
+	data: Descripcion de la categoria
+-->
+
+<!ELEMENT catego (nombre, color?, title?, data? , keyPregunta?)>
+
+	<!ATTLIST catego id CDATA #REQUIRED>
+
+<!--	<!ELEMENT nombre (#PCDATA) >-->
+	<!ELEMENT color (#PCDATA) >
+	<!ELEMENT title (#PCDATA) >
+	<!ELEMENT data (#PCDATA) >
+	
+	<!ELEMENT keyPregunta (#PCDATA)>
+	
+
+<!-- Regla es una serie de expresiones que definen como calificar.-->
+<!ELEMENT reglas (regla+)>
+	<!ELEMENT regla (#PCDATA) >
+
+<!-- Representa una preguna 
+	nombre: Texto de la pregunta
+	tipo: Tipo de la pregunta
+	valor: Valor para calcular el resultado
+	categoria: Categoria a la que pertenece la pregunta
+	imagen: imagen si es que la lleva
+	subtitulo: Imprime un subtitulo para un bloque de preguntas
+	
+	acciones- Liga a coleccion de javascriptses
+	
+	candado: Indica el tipo de proteccion a las preguntas	
+		1. De que la respuesta es necesaria
+		2. de que la respuesta es necesaria PERO depende de otra respuesta
+	candadoDepende: para ser usado con candado
+	peso: no sirve
+	
+--> 
+<!ELEMENT pregunta (nombre,imagen?,respuesta*,subtitulo?,tipo,accionesReglas?,valor?,categoria,candado?,candadoDepende?) >
+	<!ATTLIST pregunta id CDATA #IMPLIED>
+	<!--<!ELEMENT nombre (#PCDATA) >-->
+	<!ELEMENT respuesta (#PCDATA) >	
+	<!ELEMENT imagen (#PCDATA) >	
+	<!ELEMENT tipo (#PCDATA) >	
+	<!ELEMENT valor (#PCDATA) >
+	<!ELEMENT subtitulo (#PCDATA) >
+	<!ELEMENT categoria (#PCDATA) >
+	<!ELEMENT candado (#PCDATA) >	
+	<!ELEMENT candadoDepende (#PCDATA) >	
+	
+ 
+	
+<!ELEMENT acciones (accion*) >
+	<!ELEMENT accion (#PCDATA) >	
+<!--
+ El candado define reglas para las preguntas
+ 1. Que tenga algun valor (Textfield y radio)
+ 2. Que tenga algun valor (Textfield y radio) y tenga una dependecia en la pagina
+-->
+
+<!-- Multiplicador para calcular resultados-->
+<!ELEMENT multiplicador (#PCDATA) >
+<!-- Imperime el titulo de la categoria-->
+<!ELEMENT titulos (#PCDATA) >
+<!--
+
+1 - Sin titulo -- DEFAULR
+2 - Nombre Categoria 
+-->
+

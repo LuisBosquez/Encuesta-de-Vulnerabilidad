@@ -1,0 +1,450 @@
+<!-- 24 Marzo 11 -->
+
+<script language="JavaScript" type="text/javascript">	
+ 
+
+ 
+ 	function obtenerRadioSelected(grupo){
+  		var cnt = -1;
+   		for (var i=grupo.length-1; i > -1; i--){
+   		 	if (grupo[i].checked){
+   		 		cnt = grupo[i].value; 
+   		 		break;
+   		 	}   		 
+   		 }
+   		 return cnt;
+	}
+	
+	
+ 	function deshabilitarRadioSelected(grupo){			
+  		var cnt = -1;
+   		for (var i=grupo.length-1; i > -1; i--){
+			grupo[i].checked=false; 
+			grupo[i].disabled=true; 
+   		 	 
+   		 }
+	}	
+	
+ 	function isHabilitadoRadio(grupo){			
+  		
+  		if(grupo[0].disabled==false) return true;
+  		else return false;
+	}		
+ 	
+ 	function validaTextoRequerido(texto,nombre){
+
+		if(texto.value.length == 0){
+			alert("La pregunta "+nombre+" requiere que este contestada");
+		    texto.focus();	
+		
+			return false; 
+		}
+		else return true;
+	}
+
+ 	function deshabilitarTextInput(ti){
+	 	ti.disabled=true; 
+	 	ti.value = '';
+ 	} 	
+ 	
+ 	function habilitarTextInput(ti){
+	 	ti.disabled=false;  	
+ 	}
+ 
+ 	function habilitarRadioSelected(grupo){
+  		var cnt = -1;
+   		for (var i=grupo.length-1; i > -1; i--){
+			grupo[i].disabled=false; 
+   		 	 
+   		 }
+	}	 
+
+
+
+
+	function cleanRadio(inicio){
+		
+		
+			var buttons = $('forma').getInputs('radio', 'p'+inicio);
+			buttons.each(function(item){				
+				item.checked = false;
+				item.disabled = false;
+			});
+		
+	}
+
+
+	function disableRadioItem(item, index){			
+			var buttons = $('forma').getInputs('radio', 'p'+item);			
+				buttons[index].disable();
+				buttons[index].checked = false;			
+		
+	}
+	function enableRadioItem(item, index){			
+			var buttons = $('forma').getInputs('radio', 'p'+item);			
+				buttons[index].enable();			
+		
+	}	
+
+	function disableText(inicio, fin){		
+		for(var i = inicio; i<=fin;i++){$('p'+i).disable();$('p'+i).value = '';};
+	}	
+	function enableText(inicio, fin){		
+		for(var i = inicio; i<=fin;i++)$('p'+i).enable();
+	}	
+		
+	function disableRadio(inicio, fin){
+		
+		for(var i = inicio; i<=fin;i++){
+			var buttons = $('forma').getInputs('radio', 'p'+i);
+			buttons.each(function(item){
+				item.disable();
+				item.checked = false;
+			});
+		}
+	}
+	function enableRadio(inicio, fin){
+		
+		for(var i = inicio; i<=fin;i++){
+			var buttons = $('forma').getInputs('radio', 'p'+i);
+			buttons.invoke('enable');
+			
+			
+		}
+	}	
+ 
+</script>
+
+<div id="main">
+<p>{examen.inicio}</p>
+<h1>{examen.titulo}</h1>
+
+
+<form method="Post" action="{url.examen}" class="examen" name="forma" id="forma">
+<input type="hidden" name="resolviendo">
+
+<fieldset class="preguntas">
+{examen.preguntas}
+</fieldset>
+
+<fieldset class="botones">
+{examen.anterior}
+{examen.siguiente}
+{examen.submit}
+</fieldset>
+
+</form>
+
+</div>
+
+<script language="JavaScript" type="text/javascript">	
+
+	var frmvalidator  = new Validator("forma");
+		{validacion.reglas}
+	
+	function DoCustomValidation(){
+		{validacion.reglas.adicional}
+		return true;
+	}
+	
+	frmvalidator.setAddnlValidationFunction("DoCustomValidation");	
+
+	Event.observe(window, 'load', function() {
+	
+	//Seccion 1
+
+	if($('p4')!=null){
+		var buttons = $('forma').getInputs('radio', 'p4');
+		Event.observe(buttons[0], 'click',function(event){deshabilitarRadioSelected(document.forma.p5)});
+		Event.observe(buttons[1], 'click',function(event){habilitarRadioSelected(document.forma.p5)});
+		
+		
+		
+	}if($('p7')!=null){
+		var buttons = $('forma').getInputs('radio', 'p7');
+		Event.observe(buttons[0], 'click',function(event){
+			//Si es no se inhabilita
+			cleanRadio(9);disableRadioItem(9,0);disableRadioItem(9,2);disableRadioItem(9,1);
+			cleanRadio(10);disableRadioItem(10,0);disableRadioItem(10,2);disableRadioItem(10,1);disableRadioItem(10,4);disableRadioItem(10,3);
+		
+		});	
+		Event.observe(buttons[1], 'click',function(event){	
+		
+			if(obtenerRadioSelected(document.forma.p8)==2){
+				cleanRadio(9);disableRadioItem(9,3);
+				cleanRadio(10);disableRadioItem(10,5);			
+			}					
+		});			
+	}if($('p8')!=null){
+		var buttons = $('forma').getInputs('radio', 'p8');
+		Event.observe(buttons[0], 'click',function(event){
+			
+				cleanRadio(9);disableRadioItem(9,0);disableRadioItem(9,2);disableRadioItem(9,1);
+				cleanRadio(10);disableRadioItem(10,0);disableRadioItem(10,2);disableRadioItem(10,1);disableRadioItem(10,4);disableRadioItem(10,3);
+			
+		});	
+		Event.observe(buttons[1], 'click',function(event){			
+			if(obtenerRadioSelected(document.forma.p7)==2){
+			
+			
+				cleanRadio(9);disableRadioItem(9,3);
+				cleanRadio(10);disableRadioItem(10,5);		
+			}
+				
+									
+		});			
+	}if($('p12')!=null){
+		var buttons = $('forma').getInputs('radio', 'p12');
+		Event.observe(buttons[0], 'click',function(event){enableRadio(13,28)});
+		Event.observe(buttons[1], 'click',function(event){enableRadio(13,28)});
+		Event.observe(buttons[2], 'click',function(event){enableRadio(13,28)});
+		Event.observe(buttons[3], 'click',function(event){enableRadio(13,28)});
+		Event.observe(buttons[4], 'click',function(event){enableRadio(13,28)});	
+		Event.observe(buttons[5], 'click',function(event){disableRadio(13,28)});
+	}if($('p29')!=null){
+		var buttons = $('forma').getInputs('radio', 'p29');
+		Event.observe(buttons[0], 'click',function(event){enableRadio(30,45)});
+		Event.observe(buttons[1], 'click',function(event){enableRadio(30,45)});
+		Event.observe(buttons[2], 'click',function(event){enableRadio(30,45)});
+		Event.observe(buttons[3], 'click',function(event){enableRadio(30,45)});
+		Event.observe(buttons[4], 'click',function(event){enableRadio(30,45)});	
+		Event.observe(buttons[5], 'click',function(event){disableRadio(30,45)});
+	}
+	//Seccion 2	
+	if($('p48')!=null){
+		var buttons = $('forma').getInputs('radio', 'p48');
+		Event.observe(buttons[0], 'click',function(event){enableRadio(49,54)});	
+		Event.observe(buttons[1], 'click',function(event){disableRadio(49,54)});	
+	}if($('p49')!=null){
+		var buttons = $('forma').getInputs('radio', 'p48');
+		Event.observe(buttons[0], 'click',function(event){enableRadio(50,54)});	
+		Event.observe(buttons[1], 'click',function(event){disableRadio(50,54)});	
+
+		Event.observe(buttons[0], 'click',function(event){
+				if(obtenerRadioSelected(document.forma.p48)==2){
+					alert("Error: No puede seleccionar 'sí' cuando la respuesta anterior es 'no'");
+					cleanRadio(49);					
+				}
+		});			
+	}if($('p50')!=null){		
+		var buttons = $('forma').getInputs('radio', 'p50');
+		Event.observe(buttons[0], 'click',function(event){enableRadio(51,54)});	
+		Event.observe(buttons[1], 'click',function(event){enableRadio(51,54)});
+		Event.observe(buttons[2], 'click',function(event){enableRadio(51,54);disableRadio(51,52)});
+		Event.observe(buttons[3], 'click',function(event){enableRadio(51,54);disableRadio(51,52)});
+		Event.observe(buttons[4], 'click',function(event){enableRadio(51,54);disableRadio(51,52)});
+		Event.observe(buttons[5], 'click',function(event){enableRadio(51,54);disableRadio(51,53)});		
+	}if($('p57')!=null){		
+		var buttons = $('forma').getInputs('radio', 'p57');		
+		Event.observe(buttons[0], 'click',function(event){enableRadio(58,62)});	
+		Event.observe(buttons[1], 'click',function(event){disableRadio(58,62)});			
+		Event.observe(buttons[0], 'click',function(event){
+				if(obtenerRadioSelected(document.forma.p58)==1){
+					alert("Error: No puede seleccionar 'no' cuando la respuesta siguiente es 'si'");
+					cleanRadio(57);					
+				}
+		});
+			
+	}if($('p58')!=null){		
+		var buttons = $('forma').getInputs('radio', 'p58');			
+		Event.observe(buttons[0], 'click',function(event){
+			//enableRadio(59,62);
+				if(obtenerRadioSelected(document.forma.p57)==2){
+					alert("Error: No puede seleccionar 'sí' cuando la respuesta anterior es 'no'");
+					cleanRadio(58);					
+				}
+				enableRadio(59,62);
+				disableRadioItem(62,5);				
+		});
+		Event.observe(buttons[1], 'click',function(event){
+			//if(obtenerRadioSelected(document.forma.p58)==2)disableRadio(59,62);
+			enableRadioItem(62,5);
+			disableRadio(59,62);
+			});
+	}if($('p59')!=null){		
+		var buttons = $('forma').getInputs('radio', 'p59');			
+		Event.observe(buttons[0], 'click',function(event){enableRadio(60,62);});
+		Event.observe(buttons[1], 'click',function(event){enableRadio(60,62);});
+		Event.observe(buttons[2], 'click',function(event){enableRadio(60,62);});
+		Event.observe(buttons[3], 'click',function(event){enableRadio(60,62);});
+		Event.observe(buttons[4], 'click',function(event){
+			if(obtenerRadioSelected(document.forma.p57)==1 && obtenerRadioSelected(document.forma.p58)==1){
+			alert("Error: No puedes contestar Nunca si la pregunta 57 y 58 es si.");
+			cleanRadio(59);		
+			}else disableRadio(60,62);
+		});
+	}		
+	
+	//Seccion 3	
+	if($('p67')!=null){
+		var buttons = $('forma').getInputs('radio', 'p67');		
+		Event.observe(buttons[0], 'click',function(event){enableRadio(68,68)});	
+		Event.observe(buttons[1], 'click',function(event){enableRadio(68,68)});
+		Event.observe(buttons[2], 'click',function(event){enableRadio(68,68)});
+		Event.observe(buttons[3], 'click',function(event){enableRadio(68,68)});
+		Event.observe(buttons[4], 'click',function(event){disableRadio(68,68)});
+	}	
+	//Seccion 4	
+
+	if($('p75')!=null){
+		var buttons = $('forma').getInputs('radio', 'p75');		
+		Event.observe(buttons[0], 'click',function(event){enableRadio(76,76)});	
+		Event.observe(buttons[1], 'click',function(event){disableRadio(76,76)});
+	}	
+	if($('p77')!=null){
+		var buttons = $('forma').getInputs('radio', 'p77');
+		Event.observe(buttons[0], 'click',function(event){enableRadioItem(78,4);});
+		Event.observe(buttons[1], 'click',function(event){enableRadioItem(78,4);});
+		Event.observe(buttons[2], 'click',function(event){enableRadioItem(78,4);});
+		Event.observe(buttons[3], 'click',function(event){enableRadioItem(78,4);});
+		Event.observe(buttons[4], 'click',function(event){enableRadioItem(78,4);});
+		Event.observe(buttons[5], 'click',function(event){enableRadioItem(78,4);});
+		Event.observe(buttons[6], 'click',function(event){enableRadioItem(78,4);});
+		Event.observe(buttons[7], 'click',function(event){enableRadioItem(78,4);});
+		Event.observe(buttons[8], 'click',function(event){disableRadioItem(78,4);});
+	}		
+	if($('p78')!=null){		
+		var buttons = $('forma').getInputs('radio', 'p78');			
+		Event.observe(buttons[4], 'click',function(event){
+				if(obtenerRadioSelected(document.forma.p77)!=8){
+					alert("Error: No puede seleccionar 'No he tenido' cuando la respuesta anterior no es 'No he tenido'");
+					cleanRadio(78);					
+				}
+				
+				
+		});
+
+	}		
+	//Seccion 9		
+
+	
+
+	if($('p133[]')!=null){
+		var buttons = $('forma').getInputs('checkbox', 'p133[]');		
+	
+			Event.observe(buttons[0], 'click',function(event){
+				
+				enableRadio(134,134);disableRadioItem(135,3);
+			});	
+			Event.observe(buttons[1], 'click',function(event){enableRadio(134,134);disableRadioItem(135,3);});
+			Event.observe(buttons[2], 'click',function(event){enableRadio(134,134);disableRadioItem(135,3);});
+			Event.observe(buttons[3], 'click',function(event){enableRadio(134,134);disableRadioItem(135,3);});
+			Event.observe(buttons[4], 'click',function(event){enableRadio(134,134);disableRadioItem(135,3);});
+			Event.observe(buttons[5], 'click',function(event){enableRadio(134,134);disableRadioItem(135,3);});
+			Event.observe(buttons[6], 'click',function(event){
+
+				var cbs = $('forma').getInputs('checkbox','p133[]');
+		   		for (var i=cbs.length-2; i > -1; i--){   				  			 
+   					if (cbs[i].checked){
+ 						alert("Error: No puede seleccionar 'Nadie'. Ya tiene otra opci?n seleccionada");
+   		 				cbs[6].checked = false;	   		 			
+	   		 			return;
+   		 			} 
+		   		 }
+		   		 
+		   		 if(cbs[6].checked==true){
+		   		 	for (var i=cbs.length-2; i > -1; i--){   
+		   		 	cbs[i].disabled = true;	   		
+		   		 	}
+		   		 	disableRadio(134,134);enableRadioItem(135,3);
+		   		 }
+		   		 else{
+		   		 	for (var i=cbs.length-2; i > -1; i--){   
+		   		 	cbs[i].disabled = false;	 
+		   		 	
+		   		 	}
+		   		 	enableRadio(134,134);
+		   		 }
+		   		 
+		   		 
+		   		  
+				
+			});
+			Event.observe(buttons[7], 'click',function(event){disableRadioItem(134,134);});							
+	}
+	
+	//Seccion 10		
+	if($('p137')!=null){
+		var buttons = $('forma').getInputs('radio', 'p137');
+			Event.observe(buttons[0], 'click',function(event){disableRadio(138,139);disableText(140,141);});	
+			Event.observe(buttons[1], 'click',function(event){enableRadio(138,139);enableText(140,141);});		
+	}
+	
+	if($('p139')!=null){
+		var buttons = $('forma').getInputs('radio', 'p139');
+			Event.observe(buttons[0], 'click',function(event){disableText(140,140);});	
+			Event.observe(buttons[1], 'click',function(event){enableText(140,140);});
+			Event.observe(buttons[2], 'click',function(event){enableText(140,140);});
+			Event.observe(buttons[3], 'click',function(event){enableText(140,140);});		
+	}
+	
+	//Seccion 
+	if($('p170')!=null){
+		var buttons = $('forma').getInputs('radio', 'p170');
+		Event.observe(buttons[0], 'click',function(event){enableRadio(172,172);enableRadio(174,174)});
+		Event.observe(buttons[1], 'click',function(event){disableRadio(172,172);disableRadio(174,174)});
+		
+		Event.observe(buttons[1], 'click',function(event){
+			if(obtenerRadioSelected(document.forma.p172)==1){
+				alert("Error: No puede seleccionar 'No'. Corrija la respuesta 172. ");
+				cleanRadio(170);		
+			}					
+		});				
+	}
+	if($('p171')!=null){
+		var buttons = $('forma').getInputs('radio', 'p171');
+		Event.observe(buttons[0], 'click',function(event){enableRadio(173,173);enableRadio(175,175)});
+		Event.observe(buttons[1], 'click',function(event){disableRadio(173,173);disableRadio(175,175)});
+		
+		Event.observe(buttons[1], 'click',function(event){
+			if(obtenerRadioSelected(document.forma.p173)==1){
+				alert("Error: No puede seleccionar 'No'. Corrija la respuesta 173. ");
+				cleanRadio(171);		
+			}					
+		});				
+	}		
+	if($('p172')!=null){
+		var buttons = $('forma').getInputs('radio', 'p172');
+		
+		Event.observe(buttons[0], 'click',function(event){
+			if(obtenerRadioSelected(document.forma.p170)==2){
+				alert("Error: No puede seleccionar 'si'. Corrija la respuesta 170. ");
+				cleanRadio(172);		
+			}		
+			enableRadio(174,174);	
+		});
+		Event.observe(buttons[1], 'click',function(event){
+			disableRadio(174,174);		
+		});
+		
+	}
+	
+	
+	if($('p173')!=null){
+		var buttons = $('forma').getInputs('radio', 'p173');
+		
+		Event.observe(buttons[0], 'click',function(event){
+			
+			if(obtenerRadioSelected(document.forma.p171)==2){
+				alert("Error: No puede seleccionar 'si'. Corrija la respuesta 171. ");
+				cleanRadio(173);		
+			}			
+			enableRadio(175,175);
+		});
+		Event.observe(buttons[1], 'click',function(event){
+			disableRadio(175,175);
+			
+		});
+	}
+	
+	
+		
+	
+			
+
+});
+	
+	
+	
+
+</script>

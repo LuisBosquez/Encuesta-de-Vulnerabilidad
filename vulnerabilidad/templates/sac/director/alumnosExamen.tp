@@ -1,0 +1,31 @@
+<!-- ok -->
+<div id="main">
+<h1>{pagina.carrera}</h1>
+{mensaje.error}
+
+
+
+ <table class="basica">
+ <caption>Alumnos asignados al CHE</caption>
+   <thead> <tr>      
+    <th width="%">Matrícula</th>
+    <th width="%">Nombre</th>      
+    <th width="%">Grupo</th>       
+    <th width="%">Resultados</th>
+	</tr></thead>
+	<tbody>{tabla.alumnosche}</tbody>
+</table>
+
+
+ <table class="basica">
+ <caption>Alumnos asignados a Vulnerabilidad</caption>
+   <thead> <tr>      
+    <th width="%">Matrícula</th>
+    <th width="%">Nombre</th>      
+    <th width="%">Grupo</th>       
+    <th width="%">Resultados</th>
+	</tr></thead>
+	<tbody>{tabla.alumnosvulnerabilidad}</tbody>
+</table>
+
+</div>

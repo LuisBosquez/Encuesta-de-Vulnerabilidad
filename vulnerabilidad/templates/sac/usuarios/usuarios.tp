@@ -1,0 +1,37 @@
+<!-- OK  -->
+<div id="main">
+
+<div id="submenu">
+<div id="elemento">
+<h1>Filtrar por Usuario</h1>
+<p><a href="#">Solo Alumnos</a></p>
+<p><a href="#">Solo Maestros</a></p>
+<p><a href="#">Solo Administradpres</a></p>
+
+</div>
+</div>
+
+<div id="submenu">
+<div id="elemento">
+<h1>Opciones</h1>
+<p><a href="{url.usuarios}&alta">Crear Usuario</a></p>
+</div>
+</div>
+
+<table class="basica">
+<caption>Usuarios Activos</caption>
+<thead>
+<tr>
+	<th>Usuario</th>        
+	<th>Nombre</th>
+	<th>Correo</th>
+	<th>Fecha Nac.</th>
+	<th>Carrera</th>		
+
+</tr>
+</thead>
+<tbody>
+    {tabla.usuarios}
+</tbody>    
+</table>       
+</div>    

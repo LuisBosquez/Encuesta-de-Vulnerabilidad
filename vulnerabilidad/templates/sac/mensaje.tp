@@ -1,0 +1,13 @@
+<!-- OK  -->
+<div id="main">
+
+<div class="info">
+<h1>{mensaje.titulo}</h1>
+
+<p>{mensaje.mensaje}</p>
+
+</div>
+
+</div>
+
+   

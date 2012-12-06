@@ -1,0 +1,11 @@
+<div id="head">
+<h1>Cuestionario de Vulnerabilidad</h1>
+</div>
+<div id="menu">
+<p class="location">
+.: {menu.location}
+</p>
+<p class="menuoptions">
+{template.menuoptions}
+</p>
+</div>
