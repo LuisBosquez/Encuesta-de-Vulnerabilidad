@@ -57,12 +57,13 @@ static function bbcode_format($var) {
 					$datos_res = explode("=",$item);
 					$selected = '';
 					if($value==$datos_res[1]) $selected = 'CHECKED';
-					$data.= "<input class=\"required\" type=\"radio\" name=\"".$ID_PREGUNTA."\" id=\"".$ID_PREGUNTA."\" value=\"".$datos_res[1]."\" ".$selected."><label for=\"".$ID_PREGUNTA."\">&nbsp;".str_replace(' ','&nbsp;',$datos_res[0])."&nbsp;</label>";
+					$data.="<label>";
+					$data.= "<input class=\"required\" type=\"radio\" name=\"".$ID_PREGUNTA."\" id=\"".$ID_PREGUNTA."\" value=\"".$datos_res[1]."\" ".$selected.">&nbsp;".str_replace(' ','&nbsp;',$datos_res[0])."&nbsp;</label>";
 				}
 				$data .= "</p>";
 				break;
 			case 'OM_Array':
-				$data.= "<p>";
+//				$data.= "<p>";
 				foreach($cuest->obtenerRespuestas($id) as $item){
 					$c = "";
 					$arr_resp = explode("=",$item);
@@ -70,9 +71,11 @@ static function bbcode_format($var) {
 						$c="CHECKED";
 						$flag = true;
 					}
-					$data.= " <div class='opcion'><input type=\"radio\" name=\"".$ID_PREGUNTA."\" id=\"".$ID_PREGUNTA."\" value=\"".$arr_resp[1]."\" $c><label> ".$arr_resp[0]." </label></div>";
+					$data.="<div class='opcion'>";
+					$data.="<label>";
+					$data.= "<input type=\"radio\" name=\"".$ID_PREGUNTA."\" id=\"".$ID_PREGUNTA."\" value=\"".$arr_resp[1]."\" $c> ".$arr_resp[0]." </label></div>";
 				}
-				$data.= "</p>";
+//				$data.= "</p>";
 				break;
 
 			case 'AB':
@@ -83,16 +86,16 @@ static function bbcode_format($var) {
 				break;
 			case 'CB_Array':  // Respuestas multiples
 				$c = "";
-				$data .= "<p>";
+//				$data .= "<p>";
 				foreach($cuest->obtenerRespuestas($id) as $item){
 					$c = "";
 					$arr_resp = explode("=",$item);
 					if(is_array($value))if(in_array($arr_resp[1],$value))$c="CHECKED";
 					$accion = "";
 					if(isset($reglas[$arr_resp[1]])) $accion = $arr_resp[1];
-					$data.=  "<div class='opcion'><input ".$accion." type=\"checkbox\" name=\"".$ID_PREGUNTA."[]\" id=\"".$ID_PREGUNTA."[]\" value=\"".$arr_resp[1]."\" $c><label>".($arr_resp[0])."</label></div>";
+					$data.=  "<div class='opcion'><label><input ".$accion." type=\"checkbox\" name=\"".$ID_PREGUNTA."[]\" id=\"".$ID_PREGUNTA."[]\" value=\"".$arr_resp[1]."\" $c>".($arr_resp[0])."</label></div>";
 				}
-				$data.=  "</p>";
+//				$data.=  "</p>";
 
 				break;
 			case 'ESPECIFICA': //La ultima opcion permite especificar

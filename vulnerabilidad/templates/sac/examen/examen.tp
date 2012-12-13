@@ -94,7 +94,10 @@
 			var buttons = $('forma').getInputs('radio', 'p'+i);
 			buttons.invoke('enable');						
 		}
-	}	
+	}
+	
+	
+		
  
 </script>
 
@@ -129,45 +132,134 @@
 		return true;
 	}
 	
+	//custom
+	
+	function activarOpcionesProgramas(tipo, carreras){
+		if(tipo)
+			for(var i = 0; i<carreras.length; i++){
+					if(i<3)
+						disableRadioItem(6,i);
+					else
+						enableRadioItem(6,i);
+			}
+		else
+			for(var i = 0; i<carreras.length; i++){
+					if(i<3)
+						enableRadioItem(6,i);
+		
+					else
+						disableRadioItem(6,i);					
+			}
+		enableRadioItem(6,53);
+	}
+	
+	function activarOpcionesViviendaPadres(padre, madre, opciones){
+	
+		if(padre && madre || (padre == undefined || madre==undefined))
+			for(var i = 0; i<opciones.length; i++){	
+				enableRadioItem(11,i);										
+			}
+		else
+			for(var i = 0; i<opciones.length; i++){
+					if(i<4)
+						disableRadioItem(11,i);
+					if(i == 5 || i == 6 || i == 14){
+						if(madre)
+							enableRadioItem(11,i);
+						else
+							disableRadioItem(11,i);
+					}								
+					if(i == 7 || i == 8 || i == 15){
+						if(padre)
+							enableRadioItem(11,i);
+						else
+							disableRadioItem(11,i);
+					}
+					if(!(madre||padre)&&(i == 9))
+						disableRadioItem(11,i);
+			}
+	}
+	
 	frmvalidator.setAddnlValidationFunction("DoCustomValidation");	
-
+	
+	
+	
+	
 	Event.observe(window, 'load', function() {
 	
 	//Seccion 1
 
 	if($('p4')!=null){
 		var buttons = $('forma').getInputs('radio', 'p4');
-		Event.observe(buttons[0], 'click',function(event){deshabilitarRadioSelected(document.forma.p5)});
-		Event.observe(buttons[1], 'click',function(event){habilitarRadioSelected(document.forma.p5)});
+		var carreras = $('forma').getInputs('radio', 'p6');
+		Event.observe(buttons[0], 'click',function(event){
+			deshabilitarRadioSelected(document.forma.p5);
+			activarOpcionesProgramas(false, carreras);
+		});
+		Event.observe(buttons[1], 'click',function(event){
+			habilitarRadioSelected(document.forma.p5);
+			activarOpcionesProgramas(true, carreras);				
+		});
 	}
 	
 	if($('p7')!=null){
 		var buttons = $('forma').getInputs('radio', 'p7');
+		var opciones = $('forma').getInputs('radio', 'p11');
+		
+		var padre = true;
+		var madre = true;
+		
 		Event.observe(buttons[0], 'click',function(event){
 			//Si es no se inhabilita
 			cleanRadio(9);disableRadioItem(9,0);disableRadioItem(9,2);disableRadioItem(9,1);
-			cleanRadio(10);disableRadioItem(10,0);disableRadioItem(10,2);disableRadioItem(10,1);disableRadioItem(10,4);disableRadioItem(10,3);		
+			cleanRadio(10);disableRadioItem(10,0);disableRadioItem(10,2);disableRadioItem(10,1);disableRadioItem(10,4);disableRadioItem(10,3);	
+			
+			if(obtenerRadioSelected(document.forma.p8)==2)
+				madre = true;
+			else
+				madre = false;
+			
+			padre = false;
+			activarOpcionesViviendaPadres(padre, madre, opciones);
 		});	
 		Event.observe(buttons[1], 'click',function(event){	
-		
+			padre = true;
 			if(obtenerRadioSelected(document.forma.p8)==2){
 				cleanRadio(9);disableRadioItem(9,3);
-				cleanRadio(10);disableRadioItem(10,5);			
-			}					
+				cleanRadio(10);disableRadioItem(10,5);	
+				madre = true;
+			}	else{
+				madre = false;
+			}
+			activarOpcionesViviendaPadres(padre, madre, opciones);
 		});			
 	}
 	
 	if($('p8')!=null){
 		var buttons = $('forma').getInputs('radio', 'p8');
+		var opciones = $('forma').getInputs('radio', 'p11');
 		Event.observe(buttons[0], 'click',function(event){			
-				cleanRadio(9);disableRadioItem(9,0);disableRadioItem(9,2);disableRadioItem(9,1);
-				cleanRadio(10);disableRadioItem(10,0);disableRadioItem(10,2);disableRadioItem(10,1);disableRadioItem(10,4);disableRadioItem(10,3);			
+			cleanRadio(9);disableRadioItem(9,0);disableRadioItem(9,2);disableRadioItem(9,1);
+			cleanRadio(10);disableRadioItem(10,0);disableRadioItem(10,2);disableRadioItem(10,1);disableRadioItem(10,4);disableRadioItem(10,3);			
+				
+			if(obtenerRadioSelected(document.forma.p7)==2)
+				padre = true;
+			else
+				padre = false;
+			
+			madre = false;
+			activarOpcionesViviendaPadres(padre, madre, opciones);
 		});	
 		Event.observe(buttons[1], 'click',function(event){			
+			madre = true;
 			if(obtenerRadioSelected(document.forma.p7)==2){
 				cleanRadio(9);disableRadioItem(9,3);
 				cleanRadio(10);disableRadioItem(10,5);		
-			}									
+				padre = true;
+			}	else{
+				padre = false;
+			}
+			activarOpcionesViviendaPadres(padre, madre, opciones);	
 		});			
 	}
 	
@@ -298,15 +390,23 @@
 	
 	if($('p77')!=null){
 		var buttons = $('forma').getInputs('radio', 'p77');
-		Event.observe(buttons[0], 'click',function(event){enableRadioItem(78,4);});
-		Event.observe(buttons[1], 'click',function(event){enableRadioItem(78,4);});
-		Event.observe(buttons[2], 'click',function(event){enableRadioItem(78,4);});
-		Event.observe(buttons[3], 'click',function(event){enableRadioItem(78,4);});
-		Event.observe(buttons[4], 'click',function(event){enableRadioItem(78,4);});
-		Event.observe(buttons[5], 'click',function(event){enableRadioItem(78,4);});
-		Event.observe(buttons[6], 'click',function(event){enableRadioItem(78,4);});
-		Event.observe(buttons[7], 'click',function(event){enableRadioItem(78,4);});
-		Event.observe(buttons[8], 'click',function(event){disableRadioItem(78,4);});
+		Event.observe(buttons[0], 'click',function(event){enableRadio(78,78);});
+		Event.observe(buttons[1], 'click',function(event){enableRadio(78,78);});
+		Event.observe(buttons[2], 'click',function(event){enableRadio(78,78);});
+		Event.observe(buttons[3], 'click',function(event){enableRadio(78,78);});
+		Event.observe(buttons[4], 'click',function(event){enableRadio(78,78);});
+		Event.observe(buttons[5], 'click',function(event){enableRadio(78,78);});
+		Event.observe(buttons[6], 'click',function(event){enableRadio(78,78);});
+		
+		Event.observe(buttons[7], 'click',function(event){
+			disableRadioItem(78,0);
+			disableRadioItem(78,1);			
+			disableRadioItem(78,2);
+			disableRadioItem(78,3);
+			enableRadioItem(78,4);
+		});
+		
+//		Event.observe(buttons[8], 'click',function(event){disableRadioItem(78,4);});
 	}		
 	
 	if($('p78')!=null){		
@@ -356,7 +456,36 @@
 		   		 	enableRadio(134,134);
 		   		 }
 			});
-			Event.observe(buttons[7], 'click',function(event){disableRadioItem(134,134);});							
+			//No existe opcion 7
+			//Event.observe(buttons[7], 'click',function(event){disableRadioItem(134,134);});							
+	}
+	
+	//
+	
+	if($('p136[]')!=null){
+		var buttons = $('forma').getInputs('checkbox', 'p136[]');
+		
+		Event.observe(buttons[7], 'click',function(event){
+			var cbs = $('forma').getInputs('checkbox','p136[]');
+		   		for (var i=cbs.length-2; i > -1; i--){   				  			 
+   					if (cbs[i].checked){
+ 						alert("Error: No puede seleccionar 'Ninguno'. Ya tiene otra opci?n seleccionada");
+   		 				cbs[7].checked = false;	   		 			
+	   		 			return;
+   		 			} 
+		   		 }
+		   		 
+		   		if(cbs[7].checked==true){
+		   		 	for (var i=cbs.length-2; i > -1; i--){   
+		   			 	cbs[i].disabled = true;	   		
+		   		 	}
+				}
+				else{
+		   		 	for (var i=cbs.length-2; i > -1; i--){   
+			   		 	cbs[i].disabled = false;	 
+		   		 	}
+		   		 }
+		});	
 	}
 	
 	//Seccion 10		
