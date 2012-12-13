@@ -123,6 +123,7 @@
 			else if($cuestionario->obtenerFormaNumeracion()==3) $preguntas.=($i+1).".- ";
 			$preguntas.=preguntaHTML::bbcode_format($cuestionario->obtenerDescripcionPregunta($i));
 			//$preguntas.="<i>".$PREGUNTA_ID."</i></label>";
+			$preguntas.="</label>";
 
 			if(isset($preguntaActual['id']))	$preguntas.=(preguntaHTML::obtenerPRegunta($i,$PREGUNTA_TIPO,$respuestas[$preguntaActual['id']]));
 			else $preguntas.=(preguntaHTML::obtenerPRegunta($i,$PREGUNTA_TIPO,$respuestas[$i]));
