@@ -47,20 +47,29 @@ static function bbcode_format($var) {
 		switch ($tipo) {
 
 			case 'OM':
-				$data .= "<p>";
+				if($ID_PREGUNTA == "p6")
+					$data .= "<ul>";	
 
 				$respuesta =  $cuest->obtenerRespuesta($id);
 
 				$arr_resp = explode("|",$respuesta);
 				array_pop($arr_resp);
+				
 				foreach($arr_resp as $item){
 					$datos_res = explode("=",$item);
 					$selected = '';
 					if($value==$datos_res[1]) $selected = 'CHECKED';
+					if($ID_PREGUNTA == "p6") $data .= "<li>";
+					
 					$data.="<label>";
 					$data.= "<input class=\"required\" type=\"radio\" name=\"".$ID_PREGUNTA."\" id=\"".$ID_PREGUNTA."\" value=\"".$datos_res[1]."\" ".$selected.">&nbsp;".str_replace(' ','&nbsp;',$datos_res[0])."&nbsp;</label>";
+					
+					if($ID_PREGUNTA == "p6") $data .= "</li>";
 				}
-				$data .= "</p>";
+				
+				if($ID_PREGUNTA == "p6")
+					$data .= "</ul>";	
+				
 				break;
 			case 'OM_Array':
 //				$data.= "<p>";

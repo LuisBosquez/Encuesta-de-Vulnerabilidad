@@ -324,3 +324,11 @@ border: 1px #6699CC solid;
 padding: 3px;
 }
 
+li{
+	list-style:none;
+}
+
+#main .respuestas ul{
+	margin-left:0px;
+	padding:0px;
+}
