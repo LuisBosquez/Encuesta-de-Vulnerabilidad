@@ -391,12 +391,6 @@ form.examen fieldset.preguntas div.pregunta .respuestas p.opcion{
 	display: block;	
 }
 
-.respuestas ul{
-	margin-left: 0px;
-	padding: 0px 2px;
-	display: inline-block;
-}
 
-.respuestas li{
-	list-style:none;
-}
+
+

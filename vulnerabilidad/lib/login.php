@@ -39,7 +39,7 @@ class login
 				$_SESSION['loged'] = true;			
 				return true;
 			}
-			return false;                                  
+			return false;                                   
 	}
 
 	function logout()

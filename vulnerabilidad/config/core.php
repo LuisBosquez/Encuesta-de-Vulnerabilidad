@@ -13,15 +13,13 @@ class core {
 		$settings['MAIL']['SMTP_USERNAME'] = 'SAC';
 
 		//	Sys vars
+		
 		if($_SERVER['HTTP_HOST']=='dte.ccm.itesm.mx')
 			$settings['siteDir'] = 'http://dte.ccm.itesm.mx/vulnerabilidad/';
 		else if($_SERVER['HTTP_HOST']=='127.0.0.1'){
 			$settings['siteDir'] = 'http://127.0.0.1/vulnerabilidad/web/';	
 		}
-		
-		//temp		
-		//$settings['siteDir'] = 'http://127.0.0.1/vulnerabilidad/web';	
-		
+
 		//DB vars
 		$settings['DB']['dbhost'] = 'dte.ccm.itesm.mx';
 		$settings['DB']['dbusername'] = 'sac';

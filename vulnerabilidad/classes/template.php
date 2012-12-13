@@ -28,8 +28,8 @@
                         else if($tag=='mensaje.demo' && $data!="")$this->output=str_replace('{'.$tag.'}','<p class="info">'.$data.'</p>',$this->output);
                         else $this->output=str_replace('{'.$tag.'}',$data,$this->output);
 
-
                    }
+
               }
 
               else {

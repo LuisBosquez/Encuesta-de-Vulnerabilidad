@@ -47,10 +47,8 @@ static function bbcode_format($var) {
 		switch ($tipo) {
 
 			case 'OM':
-			
-				//$data .= "<p>";
-				$data .= "<ul>";
-				
+				$data .= "<p>";
+
 				$respuesta =  $cuest->obtenerRespuesta($id);
 
 				$arr_resp = explode("|",$respuesta);
@@ -59,16 +57,9 @@ static function bbcode_format($var) {
 					$datos_res = explode("=",$item);
 					$selected = '';
 					if($value==$datos_res[1]) $selected = 'CHECKED';
-					
-					//List items
-					$data.= "<li>";
 					$data.= "<input class=\"required\" type=\"radio\" name=\"".$ID_PREGUNTA."\" id=\"".$ID_PREGUNTA."\" value=\"".$datos_res[1]."\" ".$selected."><label for=\"".$ID_PREGUNTA."\">&nbsp;".str_replace(' ','&nbsp;',$datos_res[0])."&nbsp;</label>";
-					$data.= "</li>";
 				}
-				
-				//$data .= "</p>";
-				$data .= "</ul>";
-				
+				$data .= "</p>";
 				break;
 			case 'OM_Array':
 				$data.= "<p>";
